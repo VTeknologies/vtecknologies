@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "5140000000004001",
+      "name": "vtecksite",
+      "domain": {
+        "id": "50015711453",
+        "name": "vtecksite-60024018492.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "60024018492",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}
