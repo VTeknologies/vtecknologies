@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>V Tecknology</title>
+    <link rel="icon" href="assets/img/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body class="w-full">
+    <header class="max-w-screen-xl mx-auto mb-8">
+      <nav
+        class="px-4 sm:px-5 py-12 flex items-center justify-between space-x-12"
+      >
+        <div class="flex items-center space-x-8">
+          <div id="logo" class="flex items-center space-x-2">
+            <a href="/" class="flex items-center space-x-2">
+              <img
+                src="assets/img/logo.png"
+                class="w-8 h-8"
+                alt="VTecknology Logo"
+              />
+              <h5 class="text-xl font-bold text-[#094067]">VTecknologies</h5>
+            </a>
+          </div>
+          <!-- <div
+            class="hidden px-5 py-3 w-[550px] border-2 border-[#094067] rounded-md lg:flex space-x-2 focus-within:ring-2 focus-within:ring-[#D687EB] ring-offset-2 transition duration-300"
+          > -->
+          <!-- <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-search"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <circle cx="10" cy="10" r="7"></circle>
+              <line x1="21" y1="21" x2="15" y2="15"></line>
+            </svg> -->
+          <!-- <input
+              class="w-full border-none outline-none focus:outline-none"
+              type="text"
+              placeholder="Cari tempat liburan, hotel, tiket pesawat, dll"
+            /> -->
+          <!-- </div> -->
+        </div>
+        <div class="lg:hidden">
+          <button>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-7 h-7"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <line x1="4" y1="6" x2="20" y2="6"></line>
+              <line x1="4" y1="12" x2="20" y2="12"></line>
+              <line x1="4" y1="18" x2="20" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+        <div class="hidden lg:flex items-center space-x-5">
+          <a
+            href="/"
+            class="px-5 py-3 rounded-md text-[#094067] font-semibold hover:text-[#094067]/75 transition duration-300"
+          >
+            Home
+          </a>
+          <button
+            class="px-5 py-3 rounded-md text-[#094067] font-semibold hover:text-[#094067]/75 transition duration-300"
+          >
+            About Us
+          </button>
+          <a
+            class="px-5 py-3 rounded-md text-[#094067] font-semibold hover:text-[#094067]/75 transition duration-300"
+            href="/#contactme"
+          >
+            Contact Us
+          </a>
+          <a
+            href="/#myproduct"
+            class="px-5 py-3 text-white bg-[#D687EB] rounded-md shadow-[0_6px_30px_rgba(214,135,235,0.6)] font-semibold hover:bg-[#D687EB] transition-colors duration-300"
+          >
+            Our Products
+          </a>
+          <!-- <button
+            class="px-5 py-3 flex items-center space-x-1 font-semibold text-[#094067] hover:text-[#094067]/75 transition duration-300"
+          >
+            <span>ID</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-4 h-4"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button> -->
+        </div>
+      </nav>
+    </header>
+    <main class="max-w-screen-xl mx-auto overflow-x-hidden px-4 sm:px-5">
+      <!-- Hero Section -->
+      <section
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        class="grid grid-flow-row auto-rows-max grid-cols-12 lg:grid-cols-12 mb-20 text-center flex justify-center items-center"
+      >
+        <div class="col-span-12 text-center lg:text-left mt-8">
+          <h3
+            class="text-5xl sm:text-6xl md:text-7xl mb-4 font-extrabold text-[#094067] leading-tight pt-8 text-center"
+          >
+            About Us
+          </h3>
+          <div
+            class="mb-6 text-base md:text-lg tracking-wide leading-8 font-medium text-[#5F6C7B] pr-0 md:pr-4 xl:pr-32"
+          >
+            <div class="mb-4 text-center">
+              VTecknologies an Indian company based in Chennai, but our physical
+              location is now less relevant in today's remote-centric landscape.
+              Our primary focus revolves around the realm of software
+              development—a discipline we take very seriously. Our overarching
+              mission is to craft, design, and execute straightforward yet
+              powerful applications that enhance collaboration, transparency,
+              and productivity within your preferred SaaS tools.
+            </div>
+            <img src="./assets/img/about.jpg" alt="" />
+            <div class="mb-4">
+              Our team brings a wealth of experience, with more than a decade
+              dedicated to orchestrating large-scale product planning, defect
+              management, and development processes, all firmly rooted in Lean
+              and Agile principles.
+            </div>
+            <div class="mb-4">
+              Our mastery extends to programming and process engineering
+              platforms as well. At our core, efficiency and innovation are the
+              guiding principles of our philosophy. We firmly believe in
+              simplifying complexities to create a profound impact. Our suite of
+              commercial applications, designed for various companies,
+              seamlessly aligns with our vision. These applications offer
+              inventive and robust tools custom-tailored for highly efficient
+              teams.
+            </div>
+          </div>
+          <div
+            class="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6 justify-center lg:justify-start"
+          ></div>
+        </div>
+        <!-- <div class="col-span-6 pl-24 hidden lg:block">
+          <img src="assets/img/hero-image.jpg" alt="" />
+        </div> -->
+      </section>
+
+      <!-- CTA Section -->
+      <div id="contactme"></div>
+      <section
+        data-aos="zoom-in"
+        data-aos-delay="50"
+        data-aos-duration="500"
+        class="relative w-full bg-[#D8EEFE] py-12 rounded-xl shadow-[0_6px_30px_rgba(9,64,103,0.13)] mb-24 overflow-hidden"
+      >
+        <div class="relative z-10 flex flex-col items-center px-4 sm:px-8">
+          <h3
+            class="text-2xl sm:text-3xl lg:text-4xl text-[#094067] text-center font-bold leading-tight px-0 lg:px-24 xl:px-48 mb-2"
+          >
+            DO YOU HAVE ANY APP IDEAS?
+            <h5 class="mb-9">
+              We would love to hear from you on what you think we should build
+              next
+            </h5>
+          </h3>
+          <div
+            class="w-full flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-4"
+          >
+            <a
+              class="w-full sm:w-fit bg-[#EF4565] px-6 py-4 text-white font-bold shadow-md shadow-[rgba(239,69,101,0.25)] rounded-md hover:bg-[#d03753] transition-colors duration-300"
+              href="https://vteck.freshdesk.com/support/tickets/new"
+              target="_blank"
+            >
+              Write to Us
+            </a>
+          </div>
+        </div>
+        <div
+          class="absolute top-[-140%] left-[-27%] w-[500px] h-[680px] border-8 border-[rgba(255,255,255,0.75)] rounded-full"
+        ></div>
+        <div
+          class="absolute bottom-[-190%] left-[-25%] w-[500px] h-[680px] rotate-45 border-8 border-[rgba(255,255,255,0.75)] rounded-full"
+        ></div>
+        <div
+          class="absolute top-[-140%] right-[-27%] w-[500px] h-[680px] border-8 border-[rgba(255,255,255,0.75)] rounded-full"
+        ></div>
+        <div
+          class="absolute bottom-[-190%] right-[-16%] w-[500px] h-[680px] rotate-45 border-8 border-[rgba(255,255,255,0.75)] rounded-full"
+        ></div>
+      </section>
+      <!-- Footer Section -->
+      <section data-aos="fade-down">
+        <div
+          class="py-12 grid grid-cols-6 lg:grid-cols-12 gap-y-8 lg:gap-y-0 lg:gap-x-8"
+        >
+          <div class="col-span-9 space-y-4">
+            <img src="assets/img/logo.png" class="w-9 h-9" alt="" />
+            <h5 class="text-xl font-bold text-[#094067]">VTecknologies</h5>
+            <!-- <p class="text-[#5F6C7B] tracking-wide leading-relaxed pr-8">
+              company that develop custom apps for your market places.
+            </p> -->
+          </div>
+
+          <div class="col-span-3 sm:col-span-2">
+            <h6
+              class="text-[#094067] text-sm font-bold uppercase tracking-wide mb-5"
+            >
+              Contact
+            </h6>
+            <ul class="space-y-2">
+              <li>
+                <a
+                  href="mailto:support@vtecknologies.com"
+                  class="text-[#5F6C7B] hover:text-[#33393f] transition duration-300"
+                  >support@vtecknologies.com</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- <div class="col-span-6 sm:col-span-2">
+            <h6
+              class="text-[#094067] text-sm font-bold uppercase tracking-wide mb-5"
+            >
+              Clients
+            </h6>
+            <ul class="space-y-2">
+              <li>
+                <a
+                  href="#"
+                  class="text-[#5F6C7B] hover:text-[#33393f] transition duration-300"
+                  >FreshDesk</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-[#5F6C7B] hover:text-[#33393f] transition duration-300"
+                  >Freshwork</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-[#5F6C7B] hover:text-[#33393f] transition duration-300"
+                  >Zoho</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-[#5F6C7B] hover:text-[#33393f] transition duration-300"
+                  >360t</a
+                >
+              </li>
+            </ul>
+          </div> -->
+          <!-- <div class="col-span-6 sm:col-span-2">
+            <h6
+              class="text-[#094067] text-sm font-bold uppercase tracking-wide mb-5"
+            >
+              Apps
+            </h6>
+            <ul class="space-y-2">
+              <li>
+                <a
+                  href="#"
+                  class="text-[#5F6C7B] hover:text-[#33393f] transition duration-300"
+                  >Todo</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-[#5F6C7B] hover:text-[#33393f] transition duration-300"
+                  >Scheduler</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-[#5F6C7B] hover:text-[#33393f] transition duration-300"
+                  >Galeri</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-[#5F6C7B] hover:text-[#33393f] transition duration-300"
+                  >Bantuan</a
+                >
+              </li>
+            </ul>
+          </div> -->
+          <!-- <div class="col-span-6 sm:col-span-2">
+            <h6
+              class="text-[#094067] text-sm font-bold uppercase tracking-wide mb-5"
+            >
+              Social Media
+            </h6>
+            <ul class="space-y-2">
+              <li>
+                <a
+                  href="#"
+                  class="text-[#5F6C7B] hover:text-[#33393f] transition duration-300"
+                  >Twitter</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-[#5F6C7B] hover:text-[#33393f] transition duration-300"
+                  >Facebook</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-[#5F6C7B] hover:text-[#33393f] transition duration-300"
+                  >Instagram</a
+                >
+              </li>
+            </ul>
+          </div> -->
+        </div>
+        <div
+          class="py-12 border-t border-[rgba(144,180,206,0.25)] text-center text-sm font-bold tracking-wide uppercase text-[#5F6C7B]"
+        >
+          COPYRIGHT @VTecknologies
+        </div>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+      const swiper = new Swiper(".comment-slider", {
+        // Optional parameters
+        loop: true,
+        slidesPerView: 1,
+        spaceBetween: 30,
+        breakpoints: {
+          768: {
+            slidesPerView: 2,
+          },
+          // when window width is >= 1024px
+          1024: {
+            slidesPerView: 3,
+          },
+        },
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
