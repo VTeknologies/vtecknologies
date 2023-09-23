@@ -10,11 +10,11 @@
   "projects": [
     {
       "idx": 1,
-      "id": "5140000000004073",
-      "name": "vtecksite-react",
+      "id": "5140000000004001",
+      "name": "vtecksite",
       "domain": {
-        "id": "50015745590",
-        "name": "vtecksite-react-60024018492.development"
+        "id": "50015711453",
+        "name": "vtecksite-60024018492.development"
       },
       "timezone": "Asia/Kolkata",
       "env": [

@@ -1,13 +1,12 @@
 {
   "functions": {
     "targets": [
-      "vtecksite_react_function"
+      "vtecksite_function"
     ],
     "ignore": [],
     "source": "functions"
   },
   "client": {
-    "source": "react-app",
-    "plugin": "zcatalyst-cli-plugin-react"
+    "source": "client"
   }
 }
