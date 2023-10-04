@@ -38,7 +38,7 @@ const Header = () => {
             </svg>
           </button>
         </div>
-        <div class="hidden lg:flex items-center space-x-5">
+        <div className="hidden lg:flex items-center space-x-5">
           <a
             href="/"
             className="px-5 py-3 rounded-md text-[#094067] font-semibold hover:text-[#094067]/75 transition duration-300"
