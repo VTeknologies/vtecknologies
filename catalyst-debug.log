@@ -585,3 +585,303 @@ Search for the keywords to learn more about each warning.
 [debug] [2023-09-30T18:34:55.718Z] : <<<< HTTP RESPONSE : 200
 Response Headers: {"server":"ZGS","date":"Sat, 30 Sep 2023 18:34:51 GMT","content-length":"0","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=925be676-c1fd-4930-81b8-cb87da61a30e;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=925be676-c1fd-4930-81b8-cb87da61a30e;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
 
+[debug] [2023-10-10T17:31:14.981Z] : 
+[debug] [2023-10-10T17:31:14.984Z] : ----------------------------------------------------------------------
+[debug] [2023-10-10T17:31:14.984Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\progr\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2023-10-10T17:31:14.985Z] : CLI Version:  1.16.0
+[debug] [2023-10-10T17:31:14.987Z] : Platform:     win32
+[debug] [2023-10-10T17:31:14.987Z] : Node Version: v18.16.0
+[debug] [2023-10-10T17:31:14.994Z] : Time:         Tue Oct 10 2023 23:01:14 GMT+0530 (India Standard Time)
+[debug] [2023-10-10T17:31:14.995Z] : ----------------------------------------------------------------------
+[debug] [2023-10-10T17:31:14.995Z] : 
+[debug] [2023-10-10T17:31:21.862Z] : > authorizing via signed-in user option
+[debug] [2023-10-10T17:31:21.863Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-10-10T17:31:21.919Z] : > refreshing access token <
+[debug] [2023-10-10T17:31:21.923Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2023-10-10T17:31:23.319Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 10 Oct 2023 17:31:21 GMT","content-type":"application/json;charset=UTF-8","content-length":"1883","connection":"close","set-cookie":["6e73717622=3bcf233c3836eb7934b6f3edc257f951; Path=/","iamcsr=f1d3c97f-2201-427e-8cdb-8a06c1fbb972;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=f1d3c97f-2201-427e-8cdb-8a06c1fbb972;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-xss-protection":"1","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-10-10T17:31:23.345Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5140000000004073 
+
+[debug] [2023-10-10T17:31:24.723Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 10 Oct 2023 17:31:23 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=d6b600a6-91cc-4e7b-9370-b45f4ab7bb99;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=d6b600a6-91cc-4e7b-9370-b45f4ab7bb99;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-10-10T17:31:24.731Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5140000000004073/environment 
+
+[debug] [2023-10-10T17:31:24.903Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 10 Oct 2023 17:31:23 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=e95f5b41-3995-44d9-8180-ed17cb6a7bc8;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=e95f5b41-3995-44d9-8180-ed17cb6a7bc8;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-10-10T17:31:26.478Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5140000000004073/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2023-10-10T17:31:27.524Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 10 Oct 2023 17:31:25 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=e61612c8-87ab-4109-b867-a256d3ec6a2d;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=e61612c8-87ab-4109-b867-a256d3ec6a2d;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-10-10T17:31:27.537Z] : unknown eol undefined hence skipping check
+[info] [2023-10-10T17:31:42.899Z] : [react-plugin]: Starting the development server...
+
+[info] [2023-10-10T17:31:42.903Z] : 
+[info] [2023-10-10T17:31:42.904Z] : i Client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2023-10-10T17:31:42.905Z] : 
+[info] [2023-10-10T17:31:49.565Z] : 
+[info] [2023-10-10T17:31:49.566Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2023-10-10T17:31:49.566Z] : i vtecksite_react_function: http://localhost:3000/server/vtecksite_react_function/
+[info] [2023-10-10T17:31:49.567Z] : 
+[info] [2023-10-10T17:31:49.567Z] : 
+[info] [2023-10-10T17:31:49.567Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2023-10-10T17:31:49.568Z] : i client[react-app]: http://localhost:3000/app/
+[info] [2023-10-10T17:31:49.568Z] : 
+[info] [2023-10-10T17:32:10.631Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-10T17:32:10.633Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+[info] [2023-10-10T17:32:10.633Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-10T17:32:10.634Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-10T17:38:43.324Z] : [react-plugin]: Compiling...
+[info] [2023-10-10T17:38:44.150Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-10T17:38:44.151Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+[info] [2023-10-10T17:38:44.152Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-10T17:38:44.152Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-10T17:39:30.486Z] : [react-plugin]: Compiling...
+[info] [2023-10-10T17:39:30.933Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-10T17:39:30.933Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+[info] [2023-10-10T17:39:30.934Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-10T17:39:30.934Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-10T17:47:10.628Z] : [react-plugin]: Compiling...
+[info] [2023-10-10T17:47:11.103Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-10T17:47:11.104Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+[info] [2023-10-10T17:47:11.104Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-10T17:47:11.104Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-10T17:48:08.916Z] : [react-plugin]: Compiling...
+[info] [2023-10-10T17:48:10.607Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-10T17:48:10.608Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+[info] [2023-10-10T17:48:10.608Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-10T17:48:10.608Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-10T17:48:16.659Z] : [react-plugin]: Compiling...
+[info] [2023-10-10T17:48:17.203Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-10T17:48:17.204Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+[info] [2023-10-10T17:48:17.207Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-10T17:48:17.207Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-10T17:49:46.930Z] : [react-plugin]: Compiling...
+[info] [2023-10-10T17:49:47.579Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-10T17:49:47.580Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Wrapper\index.js
+  Line 1:8:  'Header' is defined but never used  no-unused-vars
+[info] [2023-10-10T17:49:47.581Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-10T17:49:47.582Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-10T17:49:54.740Z] : [react-plugin]: Compiling...
+[info] [2023-10-10T17:49:55.236Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-10T17:49:55.237Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+[info] [2023-10-10T17:49:55.237Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-10T17:49:55.237Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-10T17:50:13.492Z] : [react-plugin]: Compiling...
+[info] [2023-10-10T17:50:13.947Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-10-10T17:50:13.947Z] : [react-plugin]: Module not found: Error: Can't resolve './components/Footer/index' in 'C:\Sstudio\code\vtecknologies\react-app\src\components\Wrapper'
+[info] [2023-10-10T17:51:17.717Z] : [react-plugin]: Compiling...
+[info] [2023-10-10T17:51:18.080Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-10T17:51:18.081Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Wrapper\index.js
+  Line 2:8:  'Footer' is defined but never used   no-unused-vars
+  Line 3:8:  'Contact' is defined but never used  no-unused-vars
+[info] [2023-10-10T17:51:18.081Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-10T17:51:18.082Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-10T17:51:26.376Z] : [react-plugin]: Compiling...
+[info] [2023-10-10T17:51:26.709Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-10T17:51:26.710Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Wrapper\index.js
+  Line 3:8:  'Contact' is defined but never used  no-unused-vars
+[info] [2023-10-10T17:51:26.710Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-10T17:51:26.711Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-10T17:53:50.073Z] : [react-plugin]: Compiling...
+[info] [2023-10-10T17:53:50.488Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-10T17:53:50.489Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Hero\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 3:8:  'Contact' is defined but never used  no-unused-vars
+[info] [2023-10-10T17:53:50.490Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-10T17:53:50.490Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-10T17:54:13.171Z] : [react-plugin]: Compiling...
+[info] [2023-10-10T17:54:13.522Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-10T17:54:13.523Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Wrapper\index.js
+  Line 3:8:  'Contact' is defined but never used  no-unused-vars
+[info] [2023-10-10T17:54:13.523Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-10T17:54:13.524Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-10T18:08:05.005Z] : [react-plugin]: Compiling...
+[info] [2023-10-10T18:08:05.691Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-10T18:08:05.692Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Wrapper\index.js
+  Line 3:8:  'Contact' is defined but never used  no-unused-vars
+[info] [2023-10-10T18:08:05.693Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-10T18:08:05.693Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-10T18:15:01.398Z] : Shutting down server
+[info] [2023-10-10T18:15:01.464Z] : 
+[info] [2023-10-10T18:15:01.465Z] : √ Shutdown complete
+[debug] [2023-10-10T18:15:01.466Z] : NO ERRORS REGISTERED
+[debug] [2023-10-10T18:15:01.467Z] : EXEC ENDED with event: serve, message: success
+[debug] [2023-10-10T18:15:01.467Z] : TOTAL DURATION OF COMMAND EXEC : 2619679
+[debug] [2023-10-10T18:15:01.495Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.in/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2023-10-10T18:15:02.163Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 10 Oct 2023 18:15:00 GMT","content-length":"0","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=69c0d342-03b5-4c58-8760-36af2ff63496;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=69c0d342-03b5-4c58-8760-36af2ff63496;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+

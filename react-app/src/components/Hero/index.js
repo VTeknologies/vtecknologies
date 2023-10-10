@@ -1,5 +1,8 @@
+import Wrapper from '../Wrapper/index';
+
 const Hero = () => {
 	return (
+    <Wrapper>
 <main class="max-w-screen-xl mx-auto overflow-x-hidden px-4 sm:px-5">
       <section
         data-aos="fade-up"
@@ -27,7 +30,9 @@ const Hero = () => {
         </div>
       </section>
       </main>
+      </Wrapper>
 		);
+
 }
 
 export default Hero;

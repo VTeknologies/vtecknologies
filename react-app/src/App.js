@@ -5,14 +5,12 @@ import Footer from './components/Footer/index'
 import Contact from './components/Contact/index'
 import Privacy from './components/Privacy/index'
 import Hero from './components/Hero/index'
+import Wrapper from './components/Wrapper/index'
 
 function App() {
   return ( 
     <>
-    <Header />
-    <Hero />
-    <Contact />
-    <Footer/>
+    <Wrapper />
 
 </>
   );
