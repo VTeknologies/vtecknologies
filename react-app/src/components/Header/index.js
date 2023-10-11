@@ -1,11 +1,9 @@
-import React from 'react';
+import React from "react";
 
 const Header = () => {
   return (
-<header className="max-w-screen-xl mx-auto mb-8">
-      <nav
-        className="px-4 sm:px-5 py-12 flex items-center justify-between space-x-12"
-      >
+    <header className="max-w-screen-xl mx-auto mb-8">
+      <nav className="px-4 sm:px-5 py-12 flex items-center justify-between space-x-12">
         <div className="flex items-center space-x-8">
           <div id="logo" className="flex items-center space-x-2">
             <a href="/" className="flex items-center space-x-2">
@@ -14,10 +12,11 @@ const Header = () => {
                 className="w-8 h-8"
                 alt="VTecknology Logo"
               />
-              <h5 className="text-xl font-bold text-[#094067]">VTecknologies</h5>
+              <h5 className="text-xl font-bold text-[#094067]">
+                VTecknologies
+              </h5>
             </a>
           </div>
-         
         </div>
         <div className="lg:hidden">
           <button>
@@ -63,12 +62,10 @@ const Header = () => {
           >
             Our Products
           </a>
-          
         </div>
       </nav>
     </header>
-    )
-}
-
+  );
+};
 
 export default Header;

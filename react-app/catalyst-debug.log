@@ -1,0 +1,1241 @@
+[debug] [2023-10-11T16:24:00.606Z] : 
+[debug] [2023-10-11T16:24:00.607Z] : ----------------------------------------------------------------------
+[debug] [2023-10-11T16:24:00.607Z] : Command:      D:\Program Files\nodejs\node.exe C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2023-10-11T16:24:00.607Z] : CLI Version:  1.16.0
+[debug] [2023-10-11T16:24:00.608Z] : Platform:     win32
+[debug] [2023-10-11T16:24:00.608Z] : Node Version: v18.18.0
+[debug] [2023-10-11T16:24:00.609Z] : Time:         Wed Oct 11 2023 21:54:00 GMT+0530 (India Standard Time)
+[debug] [2023-10-11T16:24:00.609Z] : ----------------------------------------------------------------------
+[debug] [2023-10-11T16:24:00.610Z] : 
+[debug] [2023-10-11T16:24:13.992Z] : > authorizing via signed-in user option
+[debug] [2023-10-11T16:24:13.992Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-10-11T16:24:14.046Z] : > refreshing access token <
+[debug] [2023-10-11T16:24:14.047Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2023-10-11T16:24:14.345Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 11 Oct 2023 16:24:15 GMT","content-type":"application/json;charset=UTF-8","content-length":"1883","connection":"close","set-cookie":["6e73717622=3bcf233c3836eb7934b6f3edc257f951; Path=/","iamcsr=b85f65d0-06f8-4511-b841-fe39582eb589;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=b85f65d0-06f8-4511-b841-fe39582eb589;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-xss-protection":"1","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-10-11T16:24:14.356Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5140000000004073 
+
+[debug] [2023-10-11T16:24:14.626Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 11 Oct 2023 16:24:15 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=f8dc682d-4b99-4100-bc0d-79987e557f11;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=f8dc682d-4b99-4100-bc0d-79987e557f11;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-10-11T16:24:14.628Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5140000000004073/environment 
+
+[debug] [2023-10-11T16:24:14.780Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 11 Oct 2023 16:24:15 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=790f44ce-d6e8-445a-adef-60bebd302243;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=790f44ce-d6e8-445a-adef-60bebd302243;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-10-11T16:24:19.026Z] : No basic functions to add
+[info] [2023-10-11T16:24:45.372Z] : [react-plugin]: Starting the development server...
+
+[info] [2023-10-11T16:24:45.374Z] : 
+[info] [2023-10-11T16:24:45.374Z] : i Client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2023-10-11T16:24:45.374Z] : 
+[info] [2023-10-11T16:24:57.493Z] : 
+[info] [2023-10-11T16:24:57.493Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2023-10-11T16:24:57.494Z] : i client[react-app]: http://localhost:3000/app/
+[info] [2023-10-11T16:24:57.494Z] : 
+[info] [2023-10-11T16:25:31.106Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:25:31.107Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Wrapper\index.js
+  Line 3:8:  'Contact' is defined but never used  no-unused-vars
+[info] [2023-10-11T16:25:31.107Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:25:31.107Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:26:42.251Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:26:44.719Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:26:44.726Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Wrapper\index.js
+  Line 3:8:  'Contact' is defined but never used  no-unused-vars
+[info] [2023-10-11T16:26:44.746Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:26:44.746Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:26:44.834Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:26:45.346Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:26:45.347Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Wrapper\index.js
+  Line 3:8:  'Contact' is defined but never used  no-unused-vars
+[info] [2023-10-11T16:26:45.347Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:26:45.347Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:27:11.227Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:27:11.507Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:27:11.507Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Wrapper\index.js
+  Line 3:8:  'Contact' is defined but never used  no-unused-vars
+[info] [2023-10-11T16:27:11.507Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:27:11.508Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:28:41.473Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:28:41.993Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:28:41.993Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Wrapper\index.js
+  Line 3:8:  'Contact' is defined but never used  no-unused-vars
+[info] [2023-10-11T16:28:41.994Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:28:41.994Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:29:19.809Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:29:19.921Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:29:19.922Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Wrapper\index.js
+  Line 3:8:  'Contact' is defined but never used  no-unused-vars
+[info] [2023-10-11T16:29:19.922Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:29:19.922Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:29:23.796Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:29:23.923Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:29:23.924Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Wrapper\index.js
+  Line 3:8:  'Contact' is defined but never used  no-unused-vars
+[info] [2023-10-11T16:29:23.924Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:29:23.924Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:29:52.504Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:29:52.653Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:29:52.654Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Wrapper\index.js
+  Line 3:8:  'Contact' is defined but never used  no-unused-vars
+[info] [2023-10-11T16:29:52.654Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:29:52.654Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:30:04.069Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:30:04.187Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:30:04.188Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Wrapper\index.js
+  Line 3:8:  'Contact' is defined but never used  no-unused-vars
+[info] [2023-10-11T16:30:04.188Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:30:04.189Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:30:43.114Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:30:43.733Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:30:43.733Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+  Line 9:8:  'Home' is defined but never used     no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Wrapper\index.js
+  Line 3:8:  'Contact' is defined but never used  no-unused-vars
+[info] [2023-10-11T16:30:43.734Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:30:43.734Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:30:46.736Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:30:47.015Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:30:47.016Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Wrapper\index.js
+  Line 3:8:  'Contact' is defined but never used  no-unused-vars
+[info] [2023-10-11T16:30:47.016Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:30:47.016Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:31:01.950Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:31:02.506Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:31:02.506Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Wrapper\index.js
+  Line 3:8:  'Contact' is defined but never used  no-unused-vars
+[info] [2023-10-11T16:31:02.506Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:31:02.506Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:31:02.523Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:31:02.695Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:31:02.695Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Wrapper\index.js
+  Line 3:8:  'Contact' is defined but never used  no-unused-vars
+[info] [2023-10-11T16:31:02.696Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:31:02.696Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:31:16.505Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:31:16.894Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:31:16.895Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Wrapper\index.js
+  Line 3:8:  'Contact' is defined but never used  no-unused-vars
+[info] [2023-10-11T16:31:16.895Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:31:16.895Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:31:27.101Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:31:27.360Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:31:27.361Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Hero\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 3:8:  'Contact' is defined but never used  no-unused-vars
+[info] [2023-10-11T16:31:27.361Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:31:27.361Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:31:53.554Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:31:54.122Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:31:54.122Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Hero\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 3:8:  'Contact' is defined but never used  no-unused-vars
+[info] [2023-10-11T16:31:54.123Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:31:54.123Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:32:05.272Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:32:05.596Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:32:05.597Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Hero\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 3:8:  'Contact' is defined but never used  no-unused-vars
+[info] [2023-10-11T16:32:05.597Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:32:05.597Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:32:08.103Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:32:08.428Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:32:08.429Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Wrapper\index.js
+  Line 3:8:  'Contact' is defined but never used  no-unused-vars
+[info] [2023-10-11T16:32:08.429Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:32:08.429Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:32:31.438Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:32:31.998Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:32:31.998Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Wrapper\index.js
+  Line 3:8:  'Contact' is defined but never used  no-unused-vars
+[info] [2023-10-11T16:32:31.999Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:32:31.999Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:35:06.219Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:35:06.716Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:35:06.716Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+[info] [2023-10-11T16:35:06.716Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:35:06.717Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:36:48.106Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:36:48.200Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:36:48.201Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+[info] [2023-10-11T16:36:48.201Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:36:48.201Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:36:53.195Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:36:53.294Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:36:53.295Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+[info] [2023-10-11T16:36:53.295Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:36:53.295Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:37:09.959Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:37:10.186Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:37:10.186Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+[info] [2023-10-11T16:37:10.187Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:37:10.187Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:37:10.301Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:37:10.410Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:37:10.410Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+[info] [2023-10-11T16:37:10.410Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:37:10.410Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:37:17.298Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:37:17.402Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:37:17.402Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+[info] [2023-10-11T16:37:17.402Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:37:17.402Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:37:23.183Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:37:23.356Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:37:23.356Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+[info] [2023-10-11T16:37:23.357Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:37:23.357Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:38:05.408Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:38:05.510Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:38:05.510Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+[info] [2023-10-11T16:38:05.510Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:38:05.511Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:38:26.368Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:38:27.076Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:38:27.077Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Products\index.js
+  Line 15:11:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 27:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 37:11:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 49:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 59:11:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 71:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+[info] [2023-10-11T16:38:27.077Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:38:27.077Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:38:59.987Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:39:00.568Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:39:00.569Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Products\index.js
+  Line 15:11:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 27:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 37:11:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 49:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 59:11:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 71:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+[info] [2023-10-11T16:39:00.569Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:39:00.569Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:39:00.584Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:39:00.742Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:39:00.743Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Products\index.js
+  Line 15:11:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 27:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 37:11:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 49:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 59:11:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 71:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+[info] [2023-10-11T16:39:00.743Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:39:00.743Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:39:09.958Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:39:10.341Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:39:10.341Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Products\index.js
+  Line 15:11:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 27:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 37:11:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 49:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 59:11:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 71:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+[info] [2023-10-11T16:39:10.342Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:39:10.342Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:39:10.354Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:39:10.452Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:39:10.452Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Products\index.js
+  Line 15:11:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 27:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 37:11:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 49:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 59:11:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 71:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+[info] [2023-10-11T16:39:10.453Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:39:10.453Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:39:17.698Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:39:18.016Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:39:18.017Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Products\index.js
+  Line 15:11:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 27:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 37:11:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 49:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 59:11:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 71:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+[info] [2023-10-11T16:39:18.017Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:39:18.017Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:40:28.956Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:40:29.474Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:40:29.474Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+[info] [2023-10-11T16:40:29.475Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:40:29.475Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:41:04.379Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:41:04.940Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:41:04.941Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+[info] [2023-10-11T16:41:04.942Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:41:04.942Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:46:39.323Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:46:39.558Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:46:39.559Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+[info] [2023-10-11T16:46:39.559Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:46:39.559Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:50:02.224Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:50:03.842Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:50:03.843Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+[info] [2023-10-11T16:50:03.843Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:50:03.843Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:51:28.827Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:51:29.470Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:51:29.471Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+[info] [2023-10-11T16:51:29.471Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:51:29.472Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:52:14.371Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:52:15.043Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:52:15.044Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+[info] [2023-10-11T16:52:15.044Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:52:15.044Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:52:16.596Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:52:16.946Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:52:16.946Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+[info] [2023-10-11T16:52:16.947Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:52:16.947Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:52:33.521Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:52:34.143Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:52:34.144Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+
+src\index.js
+  Line 7:7:  'router' is assigned a value but never used  no-unused-vars
+[info] [2023-10-11T16:52:34.144Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:52:34.145Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:53:01.020Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:53:01.633Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:53:01.634Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+
+src\index.js
+  Line 7:3:   'createRoutesFromElements' is defined but never used  no-unused-vars
+  Line 10:7:  'router' is assigned a value but never used           no-unused-vars
+[info] [2023-10-11T16:53:01.634Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:53:01.634Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:53:19.754Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:53:20.349Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:53:20.350Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+
+src\index.js
+  Line 10:7:  'router' is assigned a value but never used  no-unused-vars
+[info] [2023-10-11T16:53:20.350Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:53:20.351Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:53:20.368Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:53:20.573Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:53:20.574Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+
+src\index.js
+  Line 10:7:  'router' is assigned a value but never used  no-unused-vars
+[info] [2023-10-11T16:53:20.574Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:53:20.575Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:54:21.504Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:54:28.330Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-10-11T16:54:28.331Z] : [react-plugin]: SyntaxError: F:\S Studio\Clients\V Tecknologies\vtecknologies\react-app\src\index.js: JSX attributes must only be assigned a non-empty expression. (12:31)
+  10 |
+  11 | const router = createBrowserRouter(createRoutesFromElements(
+> 12 |   <Route path="/terms" element={}></Route>
+     |                                ^
+  13 | ));
+  14 |
+  15 | ReactDOM.createRoot(document.getElementById("root")).render(
+[info] [2023-10-11T16:55:19.803Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:55:20.225Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-10-11T16:55:20.226Z] : [react-plugin]: SyntaxError: F:\S Studio\Clients\V Tecknologies\vtecknologies\react-app\src\index.js: JSX attributes must only be assigned a non-empty expression. (14:31)
+  12 |
+  13 | const router = createBrowserRouter(createRoutesFromElements(
+> 14 |   <Route path="/terms" element={}></Route>
+     |                                ^
+  15 | ));
+  16 |
+  17 | ReactDOM.createRoot(document.getElementById("root")).render(
+[info] [2023-10-11T16:55:20.242Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:55:20.328Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-10-11T16:55:20.328Z] : [react-plugin]: SyntaxError: F:\S Studio\Clients\V Tecknologies\vtecknologies\react-app\src\index.js: JSX attributes must only be assigned a non-empty expression. (14:31)
+  12 |
+  13 | const router = createBrowserRouter(createRoutesFromElements(
+> 14 |   <Route path="/terms" element={}></Route>
+     |                                ^
+  15 | ));
+  16 |
+  17 | ReactDOM.createRoot(document.getElementById("root")).render(
+[info] [2023-10-11T16:55:30.645Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:55:31.205Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:55:31.216Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+
+src\index.js
+  Line 13:7:  'router' is assigned a value but never used  no-unused-vars
+[info] [2023-10-11T16:55:31.218Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:55:31.219Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:56:10.911Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:56:11.569Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:56:11.570Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+
+src\index.js
+  Line 4:8:  'App' is defined but never used  no-unused-vars
+[info] [2023-10-11T16:56:11.570Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:56:11.570Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-11T16:58:08.694Z] : [react-plugin]: Compiling...
+[info] [2023-10-11T16:58:09.088Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-11T16:58:09.090Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:8:  'logo' is defined but never used     no-unused-vars
+  Line 3:8:  'Header' is defined but never used   no-unused-vars
+  Line 4:8:  'Footer' is defined but never used   no-unused-vars
+  Line 5:8:  'Contact' is defined but never used  no-unused-vars
+  Line 6:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 7:8:  'Hero' is defined but never used     no-unused-vars
+  Line 8:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 24:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+
+src\index.js
+  Line 4:8:  'App' is defined but never used  no-unused-vars
+[info] [2023-10-11T16:58:09.090Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-11T16:58:09.091Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
