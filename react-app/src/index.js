@@ -8,11 +8,17 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
 } from "react-router-dom";
-
+import Privacy from "./components/Privacy";
 import Terms from "./components/Terms/index";
 
 const router = createBrowserRouter(
-  createRoutesFromElements(<Route path="/terms" element={<Terms />}></Route>)
+  createRoutesFromElements(
+    <Route path="/app/" element={<App />}>
+      <Route path="" element={<Terms />} />
+      <Route path="terms" element={<Terms />} />
+      <Route path="privacy" element={<Privacy />} />
+    </Route>
+  )
 );
 
 ReactDOM.createRoot(document.getElementById("root")).render(

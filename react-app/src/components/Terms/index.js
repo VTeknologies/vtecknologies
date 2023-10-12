@@ -1,17 +1,17 @@
 const Terms = () => {
   return (
-    <main class="max-w-screen-xl mx-auto overflow-x-hidden px-4 sm:px-5">
+    <main className="max-w-screen-xl mx-auto overflow-x-hidden px-4 sm:px-5">
       <section
         data-aos="fade-up"
         data-aos-duration="1000"
-        class="grid grid-flow-row auto-rows-max grid-cols-12 lg:grid-cols-12 mb-20 text-center flex justify-center items-center"
+        className="grid grid-flow-row auto-rows-max grid-cols-12 lg:grid-cols-12 mb-20 text-center flex justify-center items-center"
       >
-        <div class="col-span-12 text-center lg:text-left mt-8">
-          <h3 class="text-5xl sm:text-6xl md:text-7xl mb-9 font-extrabold text-[#094067] leading-tight pt-8 text-center">
+        <div className="col-span-12 text-center lg:text-left mt-8">
+          <h3 className="text-5xl sm:text-6xl md:text-7xl mb-9 font-extrabold text-[#094067] leading-tight pt-8 text-center">
             Terms of Service
           </h3>
-          <div class="mb-6 text-base md:text-lg tracking-wide leading-8 font-medium text-[#5F6C7B] pr-0 md:pr-4 xl:pr-32 justify-content-center">
-            <div class="mb-4">
+          <div className="mb-6 text-base md:text-lg tracking-wide leading-8 font-medium text-[#5F6C7B] pr-0 md:pr-4 xl:pr-32 justify-content-center">
+            <div className="mb-4">
               Please read these Terms of Service ("Terms", "Terms of Service")
               carefully before using the https://www.vtecknologies.com website
               (the "Service") operated by VTecknologies ("us", "we", or "our").
@@ -22,8 +22,8 @@ const Terms = () => {
               Terms. If you disagree with any part of the terms then you may not
               access the Service.
             </div>
-            <div class="mb-4">
-              <p class="mb-3 font-bold">Accounts</p>
+            <div className="mb-4">
+              <p className="mb-3 font-bold">Accounts</p>
               When you create an account with us, you must provide us
               information that is accurate, complete, and current at all times.
               Failure to do so constitutes a breach of the Terms, which may
@@ -37,8 +37,8 @@ const Terms = () => {
               account.
             </div>
 
-            <div class="mb-4">
-              <p class="mb-3 font-bold">Links To Other Web Sites</p>
+            <div className="mb-4">
+              <p className="mb-3 font-bold">Links To Other Web Sites</p>
               Our Service may contain links to third-party web sites or services
               that are not owned or controlled by Vtecknologies. Vtecknologies
               has no control over, and assumes no responsibility for, the
@@ -53,8 +53,8 @@ const Terms = () => {
               you visit.
             </div>
 
-            <div class="mb-4">
-              <p class="mb-3 font-bold">Termination</p>
+            <div className="mb-4">
+              <p className="mb-3 font-bold">Termination</p>
               We may terminate or suspend access to our Service immediately,
               without prior notice or liability, for any reason whatsoever,
               including without limitation if you breach the Terms. All
@@ -72,8 +72,8 @@ const Terms = () => {
               warranty disclaimers, indemnity and limitations of liability.
             </div>
 
-            <div class="mb-4">
-              <p class="mb-3 font-bold">Governing Law</p>
+            <div className="mb-4">
+              <p className="mb-3 font-bold">Governing Law</p>
               These Terms shall be governed and construed in accordance with the
               laws of Tamil Nadu, India, without regard to its conflict of law
               provisions. Our failure to enforce any right or provision of these
@@ -85,8 +85,8 @@ const Terms = () => {
               agreements we might have between us regarding the Service.
             </div>
 
-            <div class="mb-4">
-              <p class="mb-3 font-bold">Changes</p>
+            <div className="mb-4">
+              <p className="mb-3 font-bold">Changes</p>
               We reserve the right, at our sole discretion, to modify or replace
               these Terms at any time. If a revision is material we will try to
               provide at least 15 days notice prior to any new terms taking
@@ -97,12 +97,12 @@ const Terms = () => {
               stop using the Service.
             </div>
 
-            <div class="mb-4">
-              <p class="mb-3 font-bold">Contact Us</p>
+            <div className="mb-4">
+              <p className="mb-3 font-bold">Contact Us</p>
               If you have any questions about these Terms, please contact us.
             </div>
           </div>
-          <div class="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6 justify-center lg:justify-start"></div>
+          <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6 justify-center lg:justify-start"></div>
         </div>
       </section>
     </main>

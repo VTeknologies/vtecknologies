@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <section data-aos="fade-down" className="container max-w-screen-xl mx-auto">
@@ -23,13 +25,12 @@ const Footer = () => {
         </div>
       </div>
       <div className="py-12 border-t border-[rgba(144,180,206,0.25)] text-center text-sm font-bold tracking-wide uppercase text-[#5F6C7B]">
-        <a href="terms.html" target="_blank">
-          Terms of Use
-        </a>{" "}
-        &nbsp; | &nbsp;{" "}
-        <a href="privacy.html" target="_blank">
-          Privacy Policy
-        </a>
+        <div className="flex justify-center gap-x-6">
+          <Link to="/app/terms" target="_blank">
+            Terms of Use
+          </Link>
+          <Link to="/app/privacy">Privacy Policy</Link>
+        </div>
       </div>
       <div className="py-12 border-t border-[rgba(144,180,206,0.25)] text-center text-sm font-bold tracking-wide uppercase text-[#5F6C7B]">
         COPYRIGHT @VTecknologies
