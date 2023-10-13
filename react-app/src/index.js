@@ -13,10 +13,10 @@ import Terms from "./components/Terms/index";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/app/" element={<App />}>
-      <Route path="" element={<Terms />} />
+    <Route path="/app" element={<App />}>
+      {/* <Route path="app" element={<App />} />
       <Route path="terms" element={<Terms />} />
-      <Route path="privacy" element={<Privacy />} />
+      <Route path="privacy" element={<Privacy />} /> */}
     </Route>
   )
 );

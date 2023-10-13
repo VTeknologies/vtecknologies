@@ -6,14 +6,14 @@ import Clients from "../Clients";
 
 const Wrapper = ({ children }) => {
   return (
-    <main className="max-w-screen-xl mx-auto overflow-x-hidden px-4 sm:px-5">
+    <>
       <Header />
       {children}
       {/* {Outlet} */}
       <Clients />
       <Contact />
       <Footer />
-    </main>
+    </>
   );
 };
 

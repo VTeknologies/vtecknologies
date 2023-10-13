@@ -885,3 +885,1528 @@ Search for the keywords to learn more about each warning.
 [debug] [2023-10-10T18:15:02.163Z] : <<<< HTTP RESPONSE : 200
 Response Headers: {"server":"ZGS","date":"Tue, 10 Oct 2023 18:15:00 GMT","content-length":"0","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=69c0d342-03b5-4c58-8760-36af2ff63496;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=69c0d342-03b5-4c58-8760-36af2ff63496;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
 
+[debug] [2023-10-13T04:17:52.617Z] : 
+[debug] [2023-10-13T04:17:52.618Z] : ----------------------------------------------------------------------
+[debug] [2023-10-13T04:17:52.618Z] : Command:      D:\Program Files\nodejs\node.exe C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2023-10-13T04:17:52.618Z] : CLI Version:  1.16.0
+[debug] [2023-10-13T04:17:52.618Z] : Platform:     win32
+[debug] [2023-10-13T04:17:52.618Z] : Node Version: v18.18.0
+[debug] [2023-10-13T04:17:52.620Z] : Time:         Fri Oct 13 2023 09:47:52 GMT+0530 (India Standard Time)
+[debug] [2023-10-13T04:17:52.620Z] : ----------------------------------------------------------------------
+[debug] [2023-10-13T04:17:52.620Z] : 
+[debug] [2023-10-13T04:17:53.734Z] : > authorizing via signed-in user option
+[debug] [2023-10-13T04:17:53.734Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-10-13T04:17:53.747Z] : > refreshing access token <
+[debug] [2023-10-13T04:17:53.748Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2023-10-13T04:17:53.990Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 13 Oct 2023 04:17:54 GMT","content-type":"application/json;charset=UTF-8","content-length":"1883","connection":"close","set-cookie":["6e73717622=94da0c17b67b4320ada519c299270f95; Path=/","iamcsr=c143d430-8cd7-4a4c-bd38-cb013c6c50aa;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=c143d430-8cd7-4a4c-bd38-cb013c6c50aa;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-xss-protection":"1","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-10-13T04:17:54.011Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5140000000004073 
+
+[debug] [2023-10-13T04:17:54.317Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 13 Oct 2023 04:17:54 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=417be1b9-f13c-4039-8c34-fa197b346cd2;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=417be1b9-f13c-4039-8c34-fa197b346cd2;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-10-13T04:17:54.320Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5140000000004073/environment 
+
+[debug] [2023-10-13T04:17:54.444Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 13 Oct 2023 04:17:54 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=ba08adf7-ce6d-4f4e-a140-65f5bc1f4ad8;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=ba08adf7-ce6d-4f4e-a140-65f5bc1f4ad8;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-10-13T04:17:54.806Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5140000000004073/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2023-10-13T04:17:57.887Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 13 Oct 2023 04:17:58 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=2b58d0b1-50f3-45a7-9de4-4b0fc4fcedfb;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=2b58d0b1-50f3-45a7-9de4-4b0fc4fcedfb;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-10-13T04:17:57.892Z] : unknown eol undefined hence skipping check
+[info] [2023-10-13T04:18:50.196Z] : [react-plugin]: Starting the development server...
+
+[info] [2023-10-13T04:18:50.199Z] : 
+[info] [2023-10-13T04:18:50.200Z] : i Client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2023-10-13T04:18:50.200Z] : 
+[info] [2023-10-13T04:19:10.584Z] : 
+[info] [2023-10-13T04:19:10.584Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2023-10-13T04:19:10.585Z] : i vtecksite_react_function: http://localhost:3000/server/vtecksite_react_function/
+[info] [2023-10-13T04:19:10.585Z] : 
+[info] [2023-10-13T04:19:10.586Z] : 
+[info] [2023-10-13T04:19:10.586Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2023-10-13T04:19:10.586Z] : i client[react-app]: http://localhost:3000/app/
+[info] [2023-10-13T04:19:10.587Z] : 
+[info] [2023-10-13T04:19:59.749Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-13T04:19:59.751Z] : [react-plugin]: [eslint] 
+src\components\Contact\index.js
+  Line 20:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+[info] [2023-10-13T04:19:59.752Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-13T04:19:59.753Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-13T04:26:47.028Z] : [react-plugin]: Compiling...
+[info] [2023-10-13T04:26:47.858Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-13T04:26:47.861Z] : [react-plugin]: [eslint] 
+src\components\Contact\index.js
+  Line 20:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+[info] [2023-10-13T04:26:47.864Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-13T04:26:47.869Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[debug] [2023-10-13T09:53:34.388Z] : > refreshing access token <
+[debug] [2023-10-13T09:53:34.425Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[warn] [2023-10-13T09:53:34.466Z] : ‼ ENOTFOUND has occured while communicating remote server. Kindly be patient while the cli retries this request.
+[debug] [2023-10-13T09:53:34.467Z] : API Error while firing request : getaddrinfo ENOTFOUND accounts.zoho.in
+
+[debug] [2023-10-13T09:53:34.467Z] : >>>> RETRYING
+
+[warn] [2023-10-13T09:53:34.474Z] : ‼ ENOTFOUND has occured while communicating remote server. Kindly be patient while the cli retries this request.
+[debug] [2023-10-13T09:53:34.475Z] : API Error while firing request : getaddrinfo ENOTFOUND accounts.zoho.in
+
+[debug] [2023-10-13T09:53:34.475Z] : >>>> RETRYING
+
+[warn] [2023-10-13T09:53:34.481Z] : ‼ ENOTFOUND has occured while communicating remote server. Kindly be patient while the cli retries this request.
+[debug] [2023-10-13T09:53:34.481Z] : API Error while firing request : getaddrinfo ENOTFOUND accounts.zoho.in
+
+[debug] [2023-10-13T09:53:34.481Z] : >>>> RETRYING
+
+[warn] [2023-10-13T09:53:34.489Z] : ‼ ENOTFOUND has occured while communicating remote server. Kindly be patient while the cli retries this request.
+[error] [2023-10-13T09:53:34.512Z] : × API Error after retrying : getaddrinfo ENOTFOUND accounts.zoho.in
+[debug] [2023-10-13T09:53:34.512Z] : Error Stack: CatalystError: API Error after retrying : getaddrinfo ENOTFOUND accounts.zoho.in
+    at API.<anonymous> (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:159:23)
+    at Generator.next (<anonymous>)
+    at C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:27:12)
+    at API._retry (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:157:16)
+    at API.<anonymous> (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:202:56)
+    at Generator.next (<anonymous>)
+    at C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:27:12)
+    at Request._callback (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:191:67)
+    at self.callback (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\request\request.js:185:22)
+    at Request.emit (node:events:517:28)
+    at Request.onRequestError (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+[debug] [2023-10-13T09:53:34.512Z] : Original Error: Error: getaddrinfo ENOTFOUND accounts.zoho.in
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+[debug] [2023-10-13T09:53:34.512Z] : Error Status: 500
+[info] [2023-10-13T09:53:34.512Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[error] [2023-10-13T09:53:34.513Z] : × API Error: getaddrinfo ENOTFOUND accounts.zoho.in
+[debug] [2023-10-13T09:53:34.513Z] : Error Stack: CatalystError: API Error: getaddrinfo ENOTFOUND accounts.zoho.in
+    at API.<anonymous> (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:211:32)
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:29:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [2023-10-13T09:53:34.513Z] : Original Error: Error: getaddrinfo ENOTFOUND accounts.zoho.in
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+[debug] [2023-10-13T09:53:34.513Z] : Error Status: 500
+[info] [2023-10-13T09:53:34.513Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[error] [2023-10-13T09:53:34.513Z] : × API Error: getaddrinfo ENOTFOUND accounts.zoho.in
+[debug] [2023-10-13T09:53:34.513Z] : Error Stack: CatalystError: API Error: getaddrinfo ENOTFOUND accounts.zoho.in
+    at API.<anonymous> (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:211:32)
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:29:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [2023-10-13T09:53:34.514Z] : Original Error: Error: getaddrinfo ENOTFOUND accounts.zoho.in
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+[debug] [2023-10-13T09:53:34.514Z] : Error Status: 500
+[info] [2023-10-13T09:53:34.514Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[error] [2023-10-13T09:53:34.525Z] : × Error when refreshing the access token
+[debug] [2023-10-13T09:53:34.525Z] : Error Stack: CatalystError: Error when refreshing the access token
+    at C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\credential.js:139:23
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [2023-10-13T09:53:34.525Z] : Original Error: CatalystError: API Error after retrying : getaddrinfo ENOTFOUND accounts.zoho.in
+    at API.<anonymous> (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:159:23)
+    at Generator.next (<anonymous>)
+    at C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:27:12)
+    at API._retry (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:157:16)
+    at API.<anonymous> (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:202:56)
+    at Generator.next (<anonymous>)
+    at C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:27:12)
+    at Request._callback (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:191:67)
+    at self.callback (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\request\request.js:185:22)
+    at Request.emit (node:events:517:28)
+    at Request.onRequestError (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+[debug] [2023-10-13T09:53:34.526Z] : Error Status: 500
+[info] [2023-10-13T09:53:34.527Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[error] [2023-10-13T09:53:34.528Z] : × An unexpected error has occurred.
+[debug] [2023-10-13T09:53:34.528Z] : Error Stack: CatalystError: An unexpected error has occurred.
+    at exports.default (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\errorOut.js:12:17)
+    at process.<anonymous> (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js:90:28)
+    at process.emit (node:events:517:28)
+    at process.processEmit [as emit] (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\signal-exit\index.js:199:34)
+    at emit (node:internal/process/promises:149:20)
+    at processPromiseRejections (node:internal/process/promises:283:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:32)
+[debug] [2023-10-13T09:53:34.528Z] : Original Error: Error: CatalystError: Error when refreshing the access token
+    at C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\credential.js:139:23
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 500,
+  exit: 2,
+  original: CatalystError: API Error after retrying : getaddrinfo ENOTFOUND accounts.zoho.in
+      at API.<anonymous> (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:159:23)
+      at Generator.next (<anonymous>)
+      at C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:31:71
+      at new Promise (<anonymous>)
+      at __awaiter (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:27:12)
+      at API._retry (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:157:16)
+      at API.<anonymous> (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:202:56)
+      at Generator.next (<anonymous>)
+      at C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:31:71
+      at new Promise (<anonymous>)
+      at __awaiter (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:27:12)
+      at Request._callback (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:191:67)
+      at self.callback (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\request\request.js:185:22)
+      at Request.emit (node:events:517:28)
+      at Request.onRequestError (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\request\request.js:877:8)
+      at ClientRequest.emit (node:events:517:28)
+      at TLSSocket.socketErrorListener (node:_http_client:501:9)
+      at TLSSocket.emit (node:events:517:28)
+      at emitErrorNT (node:internal/streams/destroy:151:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+    status: 500,
+    exit: 2,
+    original: Error: getaddrinfo ENOTFOUND accounts.zoho.in
+        at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'accounts.zoho.in'
+    },
+    context: undefined,
+    errorId: undefined,
+    arg: undefined,
+    skipHelp: false,
+    fileName: 'C:\\Users\\DELL-XEON\\AppData\\Roaming\\npm\\node_modules\\zcatalyst-cli\\lib\\internal\\api'
+  },
+  context: undefined,
+  errorId: undefined,
+  arg: undefined,
+  skipHelp: false,
+  fileName: 'C:\\Users\\DELL-XEON\\AppData\\Roaming\\npm\\node_modules\\zcatalyst-cli\\lib\\internal\\credential'
+}
+    at exports.default (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\errorOut.js:14:23)
+    at process.<anonymous> (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js:90:28)
+    at process.emit (node:events:517:28)
+    at process.processEmit [as emit] (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\signal-exit\index.js:199:34)
+    at emit (node:internal/process/promises:149:20)
+    at processPromiseRejections (node:internal/process/promises:283:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:32)
+[debug] [2023-10-13T09:53:34.528Z] : Error Status: 500
+[info] [2023-10-13T09:53:34.528Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[debug] [2023-10-13T09:53:43.133Z] : > refreshing access token <
+[debug] [2023-10-13T09:53:43.135Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[warn] [2023-10-13T09:53:43.144Z] : ‼ ENOTFOUND has occured while communicating remote server. Kindly be patient while the cli retries this request.
+[debug] [2023-10-13T09:53:43.144Z] : API Error while firing request : getaddrinfo ENOTFOUND accounts.zoho.in
+
+[debug] [2023-10-13T09:53:43.144Z] : >>>> RETRYING
+
+[warn] [2023-10-13T09:53:43.152Z] : ‼ ENOTFOUND has occured while communicating remote server. Kindly be patient while the cli retries this request.
+[debug] [2023-10-13T09:53:43.153Z] : API Error while firing request : getaddrinfo ENOTFOUND accounts.zoho.in
+
+[debug] [2023-10-13T09:53:43.153Z] : >>>> RETRYING
+
+[warn] [2023-10-13T09:53:43.161Z] : ‼ ENOTFOUND has occured while communicating remote server. Kindly be patient while the cli retries this request.
+[debug] [2023-10-13T09:53:43.161Z] : API Error while firing request : getaddrinfo ENOTFOUND accounts.zoho.in
+
+[debug] [2023-10-13T09:53:43.161Z] : >>>> RETRYING
+
+[warn] [2023-10-13T09:53:43.168Z] : ‼ ENOTFOUND has occured while communicating remote server. Kindly be patient while the cli retries this request.
+[error] [2023-10-13T09:53:43.171Z] : × API Error: getaddrinfo ENOTFOUND accounts.zoho.in
+[debug] [2023-10-13T09:53:43.171Z] : Error Stack: CatalystError: API Error: getaddrinfo ENOTFOUND accounts.zoho.in
+    at API.<anonymous> (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:211:32)
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:29:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [2023-10-13T09:53:43.171Z] : Original Error: Error: getaddrinfo ENOTFOUND accounts.zoho.in
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+[debug] [2023-10-13T09:53:43.171Z] : Error Status: 500
+[info] [2023-10-13T09:53:43.172Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[error] [2023-10-13T09:53:43.172Z] : × API Error after retrying : getaddrinfo ENOTFOUND accounts.zoho.in
+[debug] [2023-10-13T09:53:43.172Z] : Error Stack: CatalystError: API Error after retrying : getaddrinfo ENOTFOUND accounts.zoho.in
+    at API.<anonymous> (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:159:23)
+    at Generator.next (<anonymous>)
+    at C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:27:12)
+    at API._retry (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:157:16)
+    at API.<anonymous> (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:202:56)
+    at Generator.next (<anonymous>)
+    at C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:27:12)
+    at Request._callback (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:191:67)
+    at self.callback (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\request\request.js:185:22)
+    at Request.emit (node:events:517:28)
+    at Request.onRequestError (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+[debug] [2023-10-13T09:53:43.172Z] : Original Error: Error: getaddrinfo ENOTFOUND accounts.zoho.in
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+[debug] [2023-10-13T09:53:43.172Z] : Error Status: 500
+[info] [2023-10-13T09:53:43.173Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[error] [2023-10-13T09:53:43.173Z] : × API Error: getaddrinfo ENOTFOUND accounts.zoho.in
+[debug] [2023-10-13T09:53:43.173Z] : Error Stack: CatalystError: API Error: getaddrinfo ENOTFOUND accounts.zoho.in
+    at API.<anonymous> (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:211:32)
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:29:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [2023-10-13T09:53:43.173Z] : Original Error: Error: getaddrinfo ENOTFOUND accounts.zoho.in
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+[debug] [2023-10-13T09:53:43.173Z] : Error Status: 500
+[info] [2023-10-13T09:53:43.174Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[error] [2023-10-13T09:53:43.174Z] : × API Error: getaddrinfo ENOTFOUND accounts.zoho.in
+[debug] [2023-10-13T09:53:43.174Z] : Error Stack: CatalystError: API Error: getaddrinfo ENOTFOUND accounts.zoho.in
+    at API.<anonymous> (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:211:32)
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:29:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [2023-10-13T09:53:43.174Z] : Original Error: Error: getaddrinfo ENOTFOUND accounts.zoho.in
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+[debug] [2023-10-13T09:53:43.174Z] : Error Status: 500
+[info] [2023-10-13T09:53:43.175Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[error] [2023-10-13T09:53:43.178Z] : × Error when refreshing the access token
+[debug] [2023-10-13T09:53:43.179Z] : Error Stack: CatalystError: Error when refreshing the access token
+    at C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\credential.js:139:23
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [2023-10-13T09:53:43.179Z] : Original Error: CatalystError: API Error after retrying : getaddrinfo ENOTFOUND accounts.zoho.in
+    at API.<anonymous> (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:159:23)
+    at Generator.next (<anonymous>)
+    at C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:27:12)
+    at API._retry (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:157:16)
+    at API.<anonymous> (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:202:56)
+    at Generator.next (<anonymous>)
+    at C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:27:12)
+    at Request._callback (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:191:67)
+    at self.callback (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\request\request.js:185:22)
+    at Request.emit (node:events:517:28)
+    at Request.onRequestError (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+[debug] [2023-10-13T09:53:43.179Z] : Error Status: 500
+[info] [2023-10-13T09:53:43.179Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[error] [2023-10-13T09:53:43.180Z] : × An unexpected error has occurred.
+[debug] [2023-10-13T09:53:43.180Z] : Error Stack: CatalystError: An unexpected error has occurred.
+    at exports.default (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\errorOut.js:12:17)
+    at process.<anonymous> (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js:90:28)
+    at process.emit (node:events:517:28)
+    at process.processEmit [as emit] (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\signal-exit\index.js:199:34)
+    at emit (node:internal/process/promises:149:20)
+    at processPromiseRejections (node:internal/process/promises:283:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:32)
+[debug] [2023-10-13T09:53:43.182Z] : Original Error: Error: CatalystError: Error when refreshing the access token
+    at C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\credential.js:139:23
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 500,
+  exit: 2,
+  original: CatalystError: API Error after retrying : getaddrinfo ENOTFOUND accounts.zoho.in
+      at API.<anonymous> (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:159:23)
+      at Generator.next (<anonymous>)
+      at C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:31:71
+      at new Promise (<anonymous>)
+      at __awaiter (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:27:12)
+      at API._retry (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:157:16)
+      at API.<anonymous> (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:202:56)
+      at Generator.next (<anonymous>)
+      at C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:31:71
+      at new Promise (<anonymous>)
+      at __awaiter (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:27:12)
+      at Request._callback (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:191:67)
+      at self.callback (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\request\request.js:185:22)
+      at Request.emit (node:events:517:28)
+      at Request.onRequestError (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\request\request.js:877:8)
+      at ClientRequest.emit (node:events:517:28)
+      at TLSSocket.socketErrorListener (node:_http_client:501:9)
+      at TLSSocket.emit (node:events:517:28)
+      at emitErrorNT (node:internal/streams/destroy:151:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+    status: 500,
+    exit: 2,
+    original: Error: getaddrinfo ENOTFOUND accounts.zoho.in
+        at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'accounts.zoho.in'
+    },
+    context: undefined,
+    errorId: undefined,
+    arg: undefined,
+    skipHelp: false,
+    fileName: 'C:\\Users\\DELL-XEON\\AppData\\Roaming\\npm\\node_modules\\zcatalyst-cli\\lib\\internal\\api'
+  },
+  context: undefined,
+  errorId: undefined,
+  arg: undefined,
+  skipHelp: false,
+  fileName: 'C:\\Users\\DELL-XEON\\AppData\\Roaming\\npm\\node_modules\\zcatalyst-cli\\lib\\internal\\credential'
+}
+    at exports.default (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\errorOut.js:14:23)
+    at process.<anonymous> (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js:90:28)
+    at process.emit (node:events:517:28)
+    at process.processEmit [as emit] (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\signal-exit\index.js:199:34)
+    at emit (node:internal/process/promises:149:20)
+    at processPromiseRejections (node:internal/process/promises:283:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:32)
+[debug] [2023-10-13T09:53:43.182Z] : Error Status: 500
+[info] [2023-10-13T09:53:43.182Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[info] [2023-10-13T09:53:43.612Z] : Shutting down server
+[info] [2023-10-13T09:53:55.713Z] : 
+[info] [2023-10-13T09:53:55.713Z] : √ Shutdown complete
+[error] [2023-10-13T09:53:55.714Z] : × API Error: getaddrinfo ENOTFOUND accounts.zoho.in
+[debug] [2023-10-13T09:53:55.714Z] : Error Stack: CatalystError: API Error: getaddrinfo ENOTFOUND accounts.zoho.in
+    at API.<anonymous> (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:211:32)
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:29:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [2023-10-13T09:53:55.715Z] : Original Error: Error: getaddrinfo ENOTFOUND accounts.zoho.in
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+[debug] [2023-10-13T09:53:55.715Z] : Error Status: 500
+[info] [2023-10-13T09:53:55.715Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[error] [2023-10-13T09:53:55.715Z] : × API Error: getaddrinfo ENOTFOUND accounts.zoho.in
+[debug] [2023-10-13T09:53:55.715Z] : Error Stack: CatalystError: API Error: getaddrinfo ENOTFOUND accounts.zoho.in
+    at API.<anonymous> (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:211:32)
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:29:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [2023-10-13T09:53:55.715Z] : Original Error: Error: getaddrinfo ENOTFOUND accounts.zoho.in
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+[debug] [2023-10-13T09:53:55.716Z] : Error Status: 500
+[info] [2023-10-13T09:53:55.716Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[debug] [2023-10-13T09:53:55.717Z] : EXEC ENDED with event: serve, message: success
+[debug] [2023-10-13T09:53:55.717Z] : TOTAL DURATION OF COMMAND EXEC : 20162006
+[debug] [2023-10-13T09:58:43.249Z] : 
+[debug] [2023-10-13T09:58:43.250Z] : ----------------------------------------------------------------------
+[debug] [2023-10-13T09:58:43.251Z] : Command:      D:\Program Files\nodejs\node.exe C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2023-10-13T09:58:43.251Z] : CLI Version:  1.16.0
+[debug] [2023-10-13T09:58:43.251Z] : Platform:     win32
+[debug] [2023-10-13T09:58:43.251Z] : Node Version: v18.18.0
+[debug] [2023-10-13T09:58:43.252Z] : Time:         Fri Oct 13 2023 15:28:43 GMT+0530 (India Standard Time)
+[debug] [2023-10-13T09:58:43.253Z] : ----------------------------------------------------------------------
+[debug] [2023-10-13T09:58:43.253Z] : 
+[debug] [2023-10-13T09:58:57.985Z] : > authorizing via signed-in user option
+[debug] [2023-10-13T09:58:57.986Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-10-13T09:58:58.043Z] : > refreshing access token <
+[debug] [2023-10-13T09:58:58.045Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[warn] [2023-10-13T09:58:58.125Z] : ‼ ENOTFOUND has occured while communicating remote server. Kindly be patient while the cli retries this request.
+[debug] [2023-10-13T09:58:58.125Z] : API Error while firing request : getaddrinfo ENOTFOUND accounts.zoho.in
+
+[debug] [2023-10-13T09:58:58.125Z] : >>>> RETRYING
+
+[warn] [2023-10-13T09:58:58.132Z] : ‼ ENOTFOUND has occured while communicating remote server. Kindly be patient while the cli retries this request.
+[debug] [2023-10-13T09:58:58.132Z] : API Error while firing request : getaddrinfo ENOTFOUND accounts.zoho.in
+
+[debug] [2023-10-13T09:58:58.132Z] : >>>> RETRYING
+
+[warn] [2023-10-13T09:58:58.139Z] : ‼ ENOTFOUND has occured while communicating remote server. Kindly be patient while the cli retries this request.
+[debug] [2023-10-13T09:58:58.139Z] : API Error while firing request : getaddrinfo ENOTFOUND accounts.zoho.in
+
+[debug] [2023-10-13T09:58:58.139Z] : >>>> RETRYING
+
+[warn] [2023-10-13T09:58:58.146Z] : ‼ ENOTFOUND has occured while communicating remote server. Kindly be patient while the cli retries this request.
+[error] [2023-10-13T09:58:58.153Z] : × API Error after retrying : getaddrinfo ENOTFOUND accounts.zoho.in
+[debug] [2023-10-13T09:58:58.153Z] : Error Stack: CatalystError: API Error after retrying : getaddrinfo ENOTFOUND accounts.zoho.in
+    at API.<anonymous> (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:159:23)
+    at Generator.next (<anonymous>)
+    at C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:27:12)
+    at API._retry (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:157:16)
+    at API.<anonymous> (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:202:56)
+    at Generator.next (<anonymous>)
+    at C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:31:71
+    at new Promise (<anonymous>)
+[debug] [2023-10-13T09:58:58.153Z] : Original Error: Error: getaddrinfo ENOTFOUND accounts.zoho.in
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+[debug] [2023-10-13T09:58:58.153Z] : Error Status: 500
+[info] [2023-10-13T09:58:58.154Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[error] [2023-10-13T09:58:58.154Z] : × API Error: getaddrinfo ENOTFOUND accounts.zoho.in
+[debug] [2023-10-13T09:58:58.154Z] : Error Stack: CatalystError: API Error: getaddrinfo ENOTFOUND accounts.zoho.in
+    at API.<anonymous> (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:211:32)
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:29:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [2023-10-13T09:58:58.154Z] : Original Error: Error: getaddrinfo ENOTFOUND accounts.zoho.in
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+[debug] [2023-10-13T09:58:58.154Z] : Error Status: 500
+[info] [2023-10-13T09:58:58.155Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[error] [2023-10-13T09:58:58.156Z] : × API Error: getaddrinfo ENOTFOUND accounts.zoho.in
+[debug] [2023-10-13T09:58:58.156Z] : Error Stack: CatalystError: API Error: getaddrinfo ENOTFOUND accounts.zoho.in
+    at API.<anonymous> (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:211:32)
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:29:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [2023-10-13T09:58:58.156Z] : Original Error: Error: getaddrinfo ENOTFOUND accounts.zoho.in
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+[debug] [2023-10-13T09:58:58.156Z] : Error Status: 500
+[info] [2023-10-13T09:58:58.156Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[error] [2023-10-13T09:58:58.161Z] : × Error when refreshing the access token
+[debug] [2023-10-13T09:58:58.161Z] : Error Stack: CatalystError: Error when refreshing the access token
+    at C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\credential.js:139:23
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [2023-10-13T09:58:58.161Z] : Original Error: CatalystError: API Error after retrying : getaddrinfo ENOTFOUND accounts.zoho.in
+    at API.<anonymous> (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:159:23)
+    at Generator.next (<anonymous>)
+    at C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:27:12)
+    at API._retry (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:157:16)
+    at API.<anonymous> (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:202:56)
+    at Generator.next (<anonymous>)
+    at C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:31:71
+    at new Promise (<anonymous>)
+[debug] [2023-10-13T09:58:58.161Z] : Error Status: 500
+[info] [2023-10-13T09:58:58.162Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[debug] [2023-10-13T09:58:58.162Z] : EXEC ENDED with event: Error (Unexpected), message: Error when refreshing the access token
+[debug] [2023-10-13T09:58:58.162Z] : TOTAL DURATION OF COMMAND EXEC : 281
+[debug] [2023-10-13T10:34:36.313Z] : 
+[debug] [2023-10-13T10:34:36.314Z] : ----------------------------------------------------------------------
+[debug] [2023-10-13T10:34:36.314Z] : Command:      D:\Program Files\nodejs\node.exe C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2023-10-13T10:34:36.315Z] : CLI Version:  1.16.0
+[debug] [2023-10-13T10:34:36.315Z] : Platform:     win32
+[debug] [2023-10-13T10:34:36.315Z] : Node Version: v18.18.0
+[debug] [2023-10-13T10:34:36.316Z] : Time:         Fri Oct 13 2023 16:04:36 GMT+0530 (India Standard Time)
+[debug] [2023-10-13T10:34:36.316Z] : ----------------------------------------------------------------------
+[debug] [2023-10-13T10:34:36.317Z] : 
+[debug] [2023-10-13T10:34:37.093Z] : > authorizing via signed-in user option
+[debug] [2023-10-13T10:34:37.093Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-10-13T10:34:37.106Z] : > refreshing access token <
+[debug] [2023-10-13T10:34:37.108Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2023-10-13T10:34:37.389Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 13 Oct 2023 10:34:37 GMT","content-type":"application/json;charset=UTF-8","content-length":"1883","connection":"close","set-cookie":["6e73717622=4440853cd702ab2a51402c119608ee85; Path=/","iamcsr=d9d99623-34e4-4553-80ea-6468e6d20cea;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=d9d99623-34e4-4553-80ea-6468e6d20cea;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-xss-protection":"1","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-10-13T10:34:37.400Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5140000000004073 
+
+[debug] [2023-10-13T10:34:37.663Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 13 Oct 2023 10:34:38 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=c72d4c43-1587-4e46-ba2d-35794843f770;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=c72d4c43-1587-4e46-ba2d-35794843f770;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-10-13T10:34:37.664Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5140000000004073/environment 
+
+[debug] [2023-10-13T10:34:37.771Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 13 Oct 2023 10:34:38 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=02cfdb02-b547-418e-a04b-849417023a6b;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=02cfdb02-b547-418e-a04b-849417023a6b;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-10-13T10:34:40.649Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5140000000004073/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2023-10-13T10:34:41.045Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 13 Oct 2023 10:34:41 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=26578af4-8d27-4849-9972-f2a198b9ded5;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=26578af4-8d27-4849-9972-f2a198b9ded5;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-10-13T10:34:41.052Z] : unknown eol undefined hence skipping check
+[info] [2023-10-13T10:34:47.442Z] : [react-plugin]: Starting the development server...
+
+[info] [2023-10-13T10:34:47.444Z] : 
+[info] [2023-10-13T10:34:47.445Z] : i Client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2023-10-13T10:34:47.446Z] : 
+[info] [2023-10-13T10:34:49.228Z] : 
+[info] [2023-10-13T10:34:49.228Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2023-10-13T10:34:49.229Z] : i vtecksite_react_function: http://localhost:3000/server/vtecksite_react_function/
+[info] [2023-10-13T10:34:49.229Z] : 
+[info] [2023-10-13T10:34:49.230Z] : 
+[info] [2023-10-13T10:34:49.230Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2023-10-13T10:34:49.231Z] : i client[react-app]: http://localhost:3000/app/
+[info] [2023-10-13T10:34:49.231Z] : 
+[info] [2023-10-13T10:34:53.766Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-13T10:34:53.768Z] : [react-plugin]: [eslint] 
+src\components\Contact\index.js
+  Line 20:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+[info] [2023-10-13T10:34:53.769Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-13T10:34:53.769Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-13T10:35:42.023Z] : [react-plugin]: Compiling...
+[info] [2023-10-13T10:35:42.898Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-13T10:35:42.901Z] : [react-plugin]: [eslint] 
+src\components\Contact\index.js
+  Line 20:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+[info] [2023-10-13T10:35:42.903Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-13T10:35:42.904Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-13T10:35:47.758Z] : Shutting down server
+[info] [2023-10-13T10:35:48.240Z] : 
+[info] [2023-10-13T10:35:48.241Z] : √ Shutdown complete
+[debug] [2023-10-13T10:35:48.242Z] : NO ERRORS REGISTERED
+[debug] [2023-10-13T10:35:48.242Z] : EXEC ENDED with event: serve, message: success
+[debug] [2023-10-13T10:35:48.242Z] : TOTAL DURATION OF COMMAND EXEC : 71164
+[debug] [2023-10-13T17:00:36.804Z] : 
+[debug] [2023-10-13T17:00:36.806Z] : ----------------------------------------------------------------------
+[debug] [2023-10-13T17:00:36.806Z] : Command:      D:\Program Files\nodejs\node.exe C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2023-10-13T17:00:36.807Z] : CLI Version:  1.16.0
+[debug] [2023-10-13T17:00:36.807Z] : Platform:     win32
+[debug] [2023-10-13T17:00:36.807Z] : Node Version: v18.18.0
+[debug] [2023-10-13T17:00:36.810Z] : Time:         Fri Oct 13 2023 22:30:36 GMT+0530 (India Standard Time)
+[debug] [2023-10-13T17:00:36.810Z] : ----------------------------------------------------------------------
+[debug] [2023-10-13T17:00:36.811Z] : 
+[debug] [2023-10-13T17:00:38.627Z] : > authorizing via signed-in user option
+[debug] [2023-10-13T17:00:38.629Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-10-13T17:00:38.656Z] : > refreshing access token <
+[debug] [2023-10-13T17:00:38.658Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2023-10-13T17:00:38.923Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 13 Oct 2023 17:00:39 GMT","content-type":"application/json;charset=UTF-8","content-length":"1883","connection":"close","set-cookie":["6e73717622=94da0c17b67b4320ada519c299270f95; Path=/","iamcsr=0fb96abb-389d-4405-be2f-a04293f8f3b4;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=0fb96abb-389d-4405-be2f-a04293f8f3b4;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-xss-protection":"1","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-10-13T17:00:38.938Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5140000000004073 
+
+[debug] [2023-10-13T17:00:39.209Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 13 Oct 2023 17:00:39 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=c64f16af-3acf-4792-977c-d0aed159a19b;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=c64f16af-3acf-4792-977c-d0aed159a19b;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-10-13T17:00:39.214Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5140000000004073/environment 
+
+[debug] [2023-10-13T17:00:39.389Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 13 Oct 2023 17:00:39 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=c1791b66-d391-4099-81e2-d590f6bcaa5a;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=c1791b66-d391-4099-81e2-d590f6bcaa5a;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-10-13T17:00:39.762Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5140000000004073/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2023-10-13T17:00:42.699Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 13 Oct 2023 17:00:43 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=4dc3221c-5f0d-449c-8eff-9045d04ec016;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=4dc3221c-5f0d-449c-8eff-9045d04ec016;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-10-13T17:00:42.702Z] : unknown eol undefined hence skipping check
+[info] [2023-10-13T17:01:34.677Z] : [react-plugin]: Starting the development server...
+
+[info] [2023-10-13T17:01:34.679Z] : 
+[info] [2023-10-13T17:01:34.680Z] : i Client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2023-10-13T17:01:34.680Z] : 
+[info] [2023-10-13T17:01:57.347Z] : 
+[info] [2023-10-13T17:01:57.348Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2023-10-13T17:01:57.349Z] : i vtecksite_react_function: http://localhost:3000/server/vtecksite_react_function/
+[info] [2023-10-13T17:01:57.349Z] : 
+[info] [2023-10-13T17:01:57.350Z] : 
+[info] [2023-10-13T17:01:57.350Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2023-10-13T17:01:57.351Z] : i client[react-app]: http://localhost:3000/app/
+[info] [2023-10-13T17:01:57.351Z] : 
+[info] [2023-10-13T17:02:44.805Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-13T17:02:44.809Z] : [react-plugin]: [eslint] 
+src\components\Contact\index.js
+  Line 20:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+[info] [2023-10-13T17:02:44.809Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-13T17:02:44.810Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-13T17:02:44.970Z] : [react-plugin]: Compiling...
+[info] [2023-10-13T17:02:45.549Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-13T17:02:45.551Z] : [react-plugin]: [eslint] 
+src\components\Contact\index.js
+  Line 20:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+[info] [2023-10-13T17:02:45.551Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-13T17:02:45.551Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-13T17:02:58.919Z] : [react-plugin]: Compiling...
+[info] [2023-10-13T17:02:59.582Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-13T17:02:59.585Z] : [react-plugin]: [eslint] 
+src\components\Contact\index.js
+  Line 20:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+[info] [2023-10-13T17:02:59.585Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-13T17:02:59.586Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-13T17:03:20.772Z] : [react-plugin]: Compiling...
+[info] [2023-10-13T17:03:21.448Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-13T17:03:21.451Z] : [react-plugin]: [eslint] 
+src\components\Contact\index.js
+  Line 20:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\index.js
+  Line 4:8:   'App' is defined but never used      no-unused-vars
+  Line 6:3:   'Route' is defined but never used    no-unused-vars
+  Line 11:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 12:8:  'Terms' is defined but never used    no-unused-vars
+[info] [2023-10-13T17:03:21.452Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-13T17:03:21.453Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-13T17:04:15.834Z] : [react-plugin]: Compiling...
+[info] [2023-10-13T17:04:16.504Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-13T17:04:16.506Z] : [react-plugin]: [eslint] 
+src\components\Contact\index.js
+  Line 20:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+[info] [2023-10-13T17:04:16.507Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-13T17:04:16.508Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-13T17:04:16.551Z] : [react-plugin]: Compiling...
+[info] [2023-10-13T17:04:16.895Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-13T17:04:16.897Z] : [react-plugin]: [eslint] 
+src\components\Contact\index.js
+  Line 20:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+[info] [2023-10-13T17:04:16.898Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-13T17:04:16.899Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-13T17:05:38.337Z] : [react-plugin]: Compiling...
+[info] [2023-10-13T17:05:38.890Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-13T17:05:38.891Z] : [react-plugin]: [eslint] 
+src\components\Contact\index.js
+  Line 20:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+[info] [2023-10-13T17:05:38.892Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-13T17:05:38.892Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-13T17:05:45.658Z] : [react-plugin]: Compiling...
+[info] [2023-10-13T17:05:46.287Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-13T17:05:46.288Z] : [react-plugin]: [eslint] 
+src\components\Contact\index.js
+  Line 20:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+[info] [2023-10-13T17:05:46.289Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-13T17:05:46.290Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-13T17:05:46.311Z] : [react-plugin]: Compiling...
+[info] [2023-10-13T17:05:46.540Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-13T17:05:46.544Z] : [react-plugin]: [eslint] 
+src\components\Contact\index.js
+  Line 20:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+[info] [2023-10-13T17:05:46.545Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-13T17:05:46.546Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-13T17:06:17.665Z] : [react-plugin]: Compiling...
+[info] [2023-10-13T17:06:18.359Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-13T17:06:18.361Z] : [react-plugin]: [eslint] 
+src\components\Contact\index.js
+  Line 20:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+[info] [2023-10-13T17:06:18.362Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-13T17:06:18.362Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-13T17:06:18.433Z] : [react-plugin]: Compiling...
+[info] [2023-10-13T17:06:18.689Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-13T17:06:18.691Z] : [react-plugin]: [eslint] 
+src\components\Contact\index.js
+  Line 20:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+[info] [2023-10-13T17:06:18.692Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-13T17:06:18.693Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-13T17:06:44.042Z] : [react-plugin]: Compiling...
+[info] [2023-10-13T17:06:45.483Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-13T17:06:45.485Z] : [react-plugin]: [eslint] 
+src\components\Contact\index.js
+  Line 20:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\index.js
+  Line 11:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 12:8:  'Terms' is defined but never used    no-unused-vars
+[info] [2023-10-13T17:06:45.485Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-13T17:06:45.485Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-13T17:07:07.079Z] : [react-plugin]: Compiling...
+[info] [2023-10-13T17:07:07.692Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-13T17:07:07.694Z] : [react-plugin]: [eslint] 
+src\components\Contact\index.js
+  Line 20:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\index.js
+  Line 11:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 12:8:  'Terms' is defined but never used    no-unused-vars
+[info] [2023-10-13T17:07:07.695Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-13T17:07:07.695Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-13T17:07:30.582Z] : [react-plugin]: Compiling...
+[info] [2023-10-13T17:07:30.915Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-13T17:07:30.917Z] : [react-plugin]: [eslint] 
+src\components\Contact\index.js
+  Line 20:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Home\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\index.js
+  Line 11:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 12:8:  'Terms' is defined but never used    no-unused-vars
+[info] [2023-10-13T17:07:30.917Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-13T17:07:30.918Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-13T17:07:57.841Z] : [react-plugin]: Compiling...
+[info] [2023-10-13T17:07:59.462Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-13T17:07:59.465Z] : [react-plugin]: [eslint] 
+src\components\Contact\index.js
+  Line 20:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Home\index.js
+  Line 4:10:   'Outlet' is defined but never used                                      no-unused-vars
+  Line 8:7:    Comments inside children section of tag should be placed inside braces  react/jsx-no-comment-textnodes
+  Line 13:20:  Comments inside children section of tag should be placed inside braces  react/jsx-no-comment-textnodes
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\index.js
+  Line 11:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 12:8:  'Terms' is defined but never used    no-unused-vars
+[info] [2023-10-13T17:07:59.465Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-13T17:07:59.465Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-13T17:07:59.491Z] : [react-plugin]: Compiling...
+[info] [2023-10-13T17:07:59.714Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-13T17:07:59.717Z] : [react-plugin]: [eslint] 
+src\components\Contact\index.js
+  Line 20:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Home\index.js
+  Line 4:10:   'Outlet' is defined but never used                                      no-unused-vars
+  Line 8:7:    Comments inside children section of tag should be placed inside braces  react/jsx-no-comment-textnodes
+  Line 13:20:  Comments inside children section of tag should be placed inside braces  react/jsx-no-comment-textnodes
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\index.js
+  Line 11:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 12:8:  'Terms' is defined but never used    no-unused-vars
+[info] [2023-10-13T17:07:59.717Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-13T17:07:59.718Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-13T17:08:02.481Z] : [react-plugin]: Compiling...
+[info] [2023-10-13T17:08:03.950Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-13T17:08:03.953Z] : [react-plugin]: [eslint] 
+src\components\Contact\index.js
+  Line 20:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Home\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\index.js
+  Line 11:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 12:8:  'Terms' is defined but never used    no-unused-vars
+[info] [2023-10-13T17:08:03.953Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-13T17:08:03.954Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-13T17:08:06.563Z] : [react-plugin]: Compiling...
+[info] [2023-10-13T17:08:08.040Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-13T17:08:08.042Z] : [react-plugin]: [eslint] 
+src\components\Contact\index.js
+  Line 20:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Home\index.js
+  Line 1:8:   'Wrapper' is defined but never used  no-unused-vars
+  Line 4:10:  'Outlet' is defined but never used   no-unused-vars
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\index.js
+  Line 11:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 12:8:  'Terms' is defined but never used    no-unused-vars
+[info] [2023-10-13T17:08:08.043Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-13T17:08:08.043Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-13T17:08:27.603Z] : [react-plugin]: Compiling...
+[info] [2023-10-13T17:08:29.210Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-13T17:08:29.213Z] : [react-plugin]: [eslint] 
+src\components\Contact\index.js
+  Line 20:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Home\index.js
+  Line 1:8:   'Wrapper' is defined but never used  no-unused-vars
+  Line 4:10:  'Outlet' is defined but never used   no-unused-vars
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\index.js
+  Line 11:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 12:8:  'Terms' is defined but never used    no-unused-vars
+[info] [2023-10-13T17:08:29.214Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-13T17:08:29.215Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-13T17:08:29.263Z] : [react-plugin]: Compiling...
+[info] [2023-10-13T17:08:29.516Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-13T17:08:29.518Z] : [react-plugin]: [eslint] 
+src\components\Contact\index.js
+  Line 20:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Home\index.js
+  Line 1:8:   'Wrapper' is defined but never used  no-unused-vars
+  Line 4:10:  'Outlet' is defined but never used   no-unused-vars
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\index.js
+  Line 11:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 12:8:  'Terms' is defined but never used    no-unused-vars
+[info] [2023-10-13T17:08:29.518Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-13T17:08:29.518Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-13T17:08:50.265Z] : [react-plugin]: Compiling...
+[info] [2023-10-13T17:08:50.414Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-13T17:08:50.416Z] : [react-plugin]: [eslint] 
+src\components\Contact\index.js
+  Line 20:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Home\index.js
+  Line 1:8:   'Wrapper' is defined but never used  no-unused-vars
+  Line 4:10:  'Outlet' is defined but never used   no-unused-vars
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\index.js
+  Line 11:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 12:8:  'Terms' is defined but never used    no-unused-vars
+[info] [2023-10-13T17:08:50.417Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-13T17:08:50.417Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-13T17:09:22.761Z] : [react-plugin]: Compiling...
+[info] [2023-10-13T17:09:23.541Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-13T17:09:23.555Z] : [react-plugin]: [eslint] 
+src\components\Contact\index.js
+  Line 23:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Home\index.js
+  Line 1:8:   'Wrapper' is defined but never used  no-unused-vars
+  Line 4:10:  'Outlet' is defined but never used   no-unused-vars
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\index.js
+  Line 11:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 12:8:  'Terms' is defined but never used    no-unused-vars
+[info] [2023-10-13T17:09:23.557Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-13T17:09:23.559Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-13T17:09:46.841Z] : [react-plugin]: Compiling...
+[info] [2023-10-13T17:09:47.319Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-13T17:09:47.321Z] : [react-plugin]: [eslint] 
+src\components\Contact\index.js
+  Line 23:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Footer\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Home\index.js
+  Line 1:8:   'Wrapper' is defined but never used  no-unused-vars
+  Line 4:10:  'Outlet' is defined but never used   no-unused-vars
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\index.js
+  Line 11:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 12:8:  'Terms' is defined but never used    no-unused-vars
+[info] [2023-10-13T17:09:47.322Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-13T17:09:47.322Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-13T17:09:56.458Z] : [react-plugin]: Compiling...
+[info] [2023-10-13T17:09:56.824Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-13T17:09:56.826Z] : [react-plugin]: [eslint] 
+src\components\Contact\index.js
+  Line 23:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Home\index.js
+  Line 1:8:   'Wrapper' is defined but never used  no-unused-vars
+  Line 4:10:  'Outlet' is defined but never used   no-unused-vars
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\index.js
+  Line 11:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 12:8:  'Terms' is defined but never used    no-unused-vars
+[info] [2023-10-13T17:09:56.826Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-13T17:09:56.826Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-13T17:10:01.378Z] : [react-plugin]: Compiling...
+[info] [2023-10-13T17:10:01.549Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-13T17:10:01.551Z] : [react-plugin]: [eslint] 
+src\components\Contact\index.js
+  Line 23:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Home\index.js
+  Line 1:8:   'Wrapper' is defined but never used  no-unused-vars
+  Line 4:10:  'Outlet' is defined but never used   no-unused-vars
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\index.js
+  Line 11:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 12:8:  'Terms' is defined but never used    no-unused-vars
+[info] [2023-10-13T17:10:01.552Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-13T17:10:01.552Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-13T17:10:25.139Z] : [react-plugin]: Compiling...
+[info] [2023-10-13T17:10:25.772Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-13T17:10:25.775Z] : [react-plugin]: [eslint] 
+src\components\Contact\index.js
+  Line 23:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Header\index.js
+  Line 2:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Home\index.js
+  Line 1:8:   'Wrapper' is defined but never used  no-unused-vars
+  Line 4:10:  'Outlet' is defined but never used   no-unused-vars
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\index.js
+  Line 11:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 12:8:  'Terms' is defined but never used    no-unused-vars
+[info] [2023-10-13T17:10:25.777Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-13T17:10:25.777Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-13T17:10:39.581Z] : [react-plugin]: Compiling...
+[info] [2023-10-13T17:10:40.121Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-13T17:10:40.123Z] : [react-plugin]: [eslint] 
+src\components\Contact\index.js
+  Line 23:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Home\index.js
+  Line 1:8:   'Wrapper' is defined but never used  no-unused-vars
+  Line 4:10:  'Outlet' is defined but never used   no-unused-vars
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\index.js
+  Line 11:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 12:8:  'Terms' is defined but never used    no-unused-vars
+[info] [2023-10-13T17:10:40.124Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-13T17:10:40.124Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-13T17:11:02.054Z] : [react-plugin]: Compiling...
+[info] [2023-10-13T17:11:02.599Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-13T17:11:02.601Z] : [react-plugin]: [eslint] 
+src\components\Contact\index.js
+  Line 23:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Home\index.js
+  Line 1:8:   'Wrapper' is defined but never used  no-unused-vars
+  Line 4:10:  'Outlet' is defined but never used   no-unused-vars
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\index.js
+  Line 11:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 12:8:  'Terms' is defined but never used    no-unused-vars
+[info] [2023-10-13T17:11:02.602Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-13T17:11:02.603Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-13T17:11:23.255Z] : [react-plugin]: Compiling...
+[info] [2023-10-13T17:11:23.849Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-13T17:11:23.851Z] : [react-plugin]: [eslint] 
+src\components\Contact\index.js
+  Line 23:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Home\index.js
+  Line 1:8:   'Wrapper' is defined but never used  no-unused-vars
+  Line 4:10:  'Outlet' is defined but never used   no-unused-vars
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\index.js
+  Line 11:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 12:8:  'Terms' is defined but never used    no-unused-vars
+[info] [2023-10-13T17:11:23.852Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-13T17:11:23.852Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-13T17:11:46.441Z] : [react-plugin]: Compiling...
+[info] [2023-10-13T17:11:47.045Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-13T17:11:47.046Z] : [react-plugin]: [eslint] 
+src\components\Contact\index.js
+  Line 23:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Home\index.js
+  Line 1:8:   'Wrapper' is defined but never used  no-unused-vars
+  Line 4:10:  'Outlet' is defined but never used   no-unused-vars
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\index.js
+  Line 11:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 12:8:  'Terms' is defined but never used    no-unused-vars
+[info] [2023-10-13T17:11:47.047Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-13T17:11:47.047Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-13T17:11:47.996Z] : [react-plugin]: Compiling...
+[info] [2023-10-13T17:11:48.165Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-13T17:11:48.168Z] : [react-plugin]: [eslint] 
+src\components\Contact\index.js
+  Line 23:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Home\index.js
+  Line 1:8:   'Wrapper' is defined but never used  no-unused-vars
+  Line 4:10:  'Outlet' is defined but never used   no-unused-vars
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\index.js
+  Line 11:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 12:8:  'Terms' is defined but never used    no-unused-vars
+[info] [2023-10-13T17:11:48.168Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-13T17:11:48.169Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-13T17:11:48.186Z] : [react-plugin]: Compiling...
+[info] [2023-10-13T17:11:48.346Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-13T17:11:48.348Z] : [react-plugin]: [eslint] 
+src\components\Contact\index.js
+  Line 23:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Home\index.js
+  Line 1:8:   'Wrapper' is defined but never used  no-unused-vars
+  Line 4:10:  'Outlet' is defined but never used   no-unused-vars
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\index.js
+  Line 11:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 12:8:  'Terms' is defined but never used    no-unused-vars
+[info] [2023-10-13T17:11:48.348Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-13T17:11:48.348Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-13T17:12:10.868Z] : [react-plugin]: Compiling...
+[info] [2023-10-13T17:12:11.415Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-13T17:12:11.417Z] : [react-plugin]: [eslint] 
+src\components\Contact\index.js
+  Line 23:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Home\index.js
+  Line 1:8:   'Wrapper' is defined but never used  no-unused-vars
+  Line 4:10:  'Outlet' is defined but never used   no-unused-vars
+
+src\components\Products\index.js
+  Line 19:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 31:17:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 41:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 53:17:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 63:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 75:17:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\index.js
+  Line 11:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 12:8:  'Terms' is defined but never used    no-unused-vars
+[info] [2023-10-13T17:12:11.417Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-13T17:12:11.418Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-13T17:12:36.261Z] : [react-plugin]: Compiling...
+[info] [2023-10-13T17:12:36.613Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-13T17:12:36.615Z] : [react-plugin]: [eslint] 
+src\components\Contact\index.js
+  Line 23:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Home\index.js
+  Line 1:8:   'Wrapper' is defined but never used  no-unused-vars
+  Line 4:10:  'Outlet' is defined but never used   no-unused-vars
+
+src\components\Products\index.js
+  Line 19:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 31:17:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 41:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 53:17:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 63:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 75:17:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\index.js
+  Line 11:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 12:8:  'Terms' is defined but never used    no-unused-vars
+[info] [2023-10-13T17:12:36.616Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-13T17:12:36.616Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-13T17:12:50.743Z] : [react-plugin]: Compiling...
+[info] [2023-10-13T17:12:51.387Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-13T17:12:51.389Z] : [react-plugin]: [eslint] 
+src\components\Contact\index.js
+  Line 23:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Home\index.js
+  Line 1:8:   'Wrapper' is defined but never used  no-unused-vars
+  Line 4:10:  'Outlet' is defined but never used   no-unused-vars
+
+src\components\Products\index.js
+  Line 19:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 31:17:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 41:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 53:17:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 63:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 75:17:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\index.js
+  Line 11:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 12:8:  'Terms' is defined but never used    no-unused-vars
+[info] [2023-10-13T17:12:51.390Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-13T17:12:51.390Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-10-13T17:13:06.296Z] : [react-plugin]: Compiling...
+[info] [2023-10-13T17:13:06.660Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-10-13T17:13:06.661Z] : [react-plugin]: SyntaxError: F:\S Studio\Clients\V Tecknologies\vtecknologies\react-app\src\components\Privacy\index.js: Expected corresponding JSX closing tag for <Wrapper>. (50:5)
+  48 |           </div>
+  49 |         </section>
+> 50 |      </>
+     |      ^
+  51 |     </Wrapper>
+  52 |   );
+  53 | };
+[info] [2023-10-13T17:13:07.559Z] : [react-plugin]: Compiling...
+[info] [2023-10-13T17:13:07.854Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-10-13T17:13:07.857Z] : [react-plugin]: [eslint] 
+src\components\Contact\index.js
+  Line 23:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Home\index.js
+  Line 1:8:   'Wrapper' is defined but never used  no-unused-vars
+  Line 4:10:  'Outlet' is defined but never used   no-unused-vars
+
+src\components\Products\index.js
+  Line 19:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 31:17:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 41:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 53:17:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 63:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 75:17:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\index.js
+  Line 11:8:  'Privacy' is defined but never used  no-unused-vars
+  Line 12:8:  'Terms' is defined but never used    no-unused-vars
+[info] [2023-10-13T17:13:07.857Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-10-13T17:13:07.858Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+

@@ -1,6 +1,7 @@
+import Wrapper from "../Wrapper";
 const Terms = () => {
   return (
-    <main className="max-w-screen-xl mx-auto overflow-x-hidden px-4 sm:px-5">
+    <Wrapper>
       <section
         data-aos="fade-up"
         data-aos-duration="1000"
@@ -105,7 +106,7 @@ const Terms = () => {
           <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6 justify-center lg:justify-start"></div>
         </div>
       </section>
-    </main>
+    </Wrapper>
   );
 };
 
