@@ -10,13 +10,14 @@ import {
 } from "react-router-dom";
 import Privacy from "./components/Privacy";
 import Terms from "./components/Terms/index";
+import ErrorPage from "./error-page";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/app" element={<App />}>
-      {/* <Route path="app" element={<App />} />
+    <Route path="/" element={<App />} errorElement={<ErrorPage />}>
+      {/* <Route path="app" element={<App />} /> */}
       <Route path="terms" element={<Terms />} />
-      <Route path="privacy" element={<Privacy />} /> */}
+      <Route path="privacy" element={<Privacy />} />
     </Route>
   )
 );

@@ -5,13 +5,11 @@ import { Outlet } from "react-router-dom";
 
 const Home = () => {
   return (
-    <>
-      {/* <Wrapper> */}
-      {/* {Outlet} */}
+    <Wrapper>
+      {Outlet}
       <Hero />
       <Product />
-      {/* </Wrapper> */}
-    </>
+    </Wrapper>
   );
 };
 
