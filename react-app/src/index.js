@@ -14,8 +14,7 @@ import ErrorPage from "./error-page";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<App />} errorElement={<ErrorPage />}>
-      {/* <Route path="app" element={<App />} /> */}
+    <Route path="/app/" element={<App />} errorElement={<ErrorPage />}>
       <Route path="terms" element={<Terms />} />
       <Route path="privacy" element={<Privacy />} />
     </Route>

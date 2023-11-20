@@ -7,9 +7,9 @@ const Header = () => {
       <nav className="px-4 sm:px-5 py-12 flex items-center justify-between space-x-12">
         <div className="flex items-center space-x-8">
           <div id="logo" className="flex items-center space-x-2">
-            <Link to="/" className="flex items-center space-x-2">
+            <Link to="/app/" className="flex items-center space-x-2">
               <img
-                src="assets/logo.png"
+                src={process.env.PUBLIC_URL}"/assets/logo.png"
                 className="w-8 h-8"
                 alt="VTecknology Logo"
               />
@@ -40,25 +40,25 @@ const Header = () => {
         </div>
         <div className="hidden lg:flex items-center space-x-5">
           <Link
-            to="/"
+            to="/app"
             className="px-5 py-3 rounded-md text-[#094067] font-semibold hover:text-[#094067]/75 transition duration-300"
           >
             Home
           </Link>
           <Link
             className="px-5 py-3 rounded-md text-[#094067] font-semibold hover:text-[#094067]/75 transition duration-300"
-            to="/about"
+            to="/app/about"
           >
             About Us
           </Link>
           <Link
             className="px-5 py-3 rounded-md text-[#094067] font-semibold hover:text-[#094067]/75 transition duration-300"
-            to="/#contactme"
+            to="/app/#contactme"
           >
             Contact Us
           </Link>
           <Link
-            to="/#myproduct"
+            to="/app/#myproduct"
             className="px-5 py-3 text-white bg-[#D687EB] rounded-md shadow-[0_6px_30px_rgba(214,135,235,0.6)] font-semibold hover:bg-[#D687EB] transition-colors duration-300"
           >
             Our Products

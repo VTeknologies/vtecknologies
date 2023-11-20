@@ -28,8 +28,8 @@ const Footer = () => {
       </div>
       <div className="py-12 border-t border-[rgba(144,180,206,0.25)] text-center text-sm font-bold tracking-wide uppercase text-[#5F6C7B]">
         <div className="flex justify-center gap-x-6">
-          <Link to="/terms">Terms of Use</Link>
-          <Link to="/privacy">Privacy Policy</Link>
+          <Link to="/app/terms">Terms of Use</Link>
+          <Link to="/app/privacy">Privacy Policy</Link>
         </div>
       </div>
       <div className="py-12 border-t border-[rgba(144,180,206,0.25)] text-center text-sm font-bold tracking-wide uppercase text-[#5F6C7B]">
