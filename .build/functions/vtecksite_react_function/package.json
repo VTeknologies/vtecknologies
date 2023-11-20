@@ -1,0 +1,9 @@
+{
+	"name": "vtecksite_react_function",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "support@vtecknologies.com",
+	"dependencies": {
+		"zcatalyst-sdk-node": "latest"
+	}
+}

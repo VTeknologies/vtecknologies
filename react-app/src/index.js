@@ -10,12 +10,14 @@ import {
 } from "react-router-dom";
 import Privacy from "./components/Privacy";
 import Terms from "./components/Terms/index";
+import About from "./components/About/index";
 import ErrorPage from "./error-page";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/app/" element={<App />} errorElement={<ErrorPage />}>
       <Route path="terms" element={<Terms />} />
+      <Route path="about" element={<About />} />
       <Route path="privacy" element={<Privacy />} />
     </Route>
   )
@@ -23,7 +25,6 @@ const router = createBrowserRouter(
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    {/* <App /> */}
     <RouterProvider router={router} />
   </React.StrictMode>
 );

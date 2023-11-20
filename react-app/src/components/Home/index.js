@@ -6,9 +6,7 @@ import { Outlet } from "react-router-dom";
 const Home = () => {
   return (
     <Wrapper>
-      {Outlet}
-      <Hero />
-      <Product />
+    <Outlet />
     </Wrapper>
   );
 };

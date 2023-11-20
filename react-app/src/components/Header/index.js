@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 const Header = () => {
   return (
@@ -9,7 +10,7 @@ const Header = () => {
           <div id="logo" className="flex items-center space-x-2">
             <Link to="/app/" className="flex items-center space-x-2">
               <img
-                src={process.env.PUBLIC_URL}"/assets/logo.png"
+                src={process.env.PUBLIC_URL + "/assets/logo.png"}
                 className="w-8 h-8"
                 alt="VTecknology Logo"
               />
@@ -51,18 +52,13 @@ const Header = () => {
           >
             About Us
           </Link>
-          <Link
+          <HashLink
             className="px-5 py-3 rounded-md text-[#094067] font-semibold hover:text-[#094067]/75 transition duration-300"
             to="/app/#contactme"
           >
             Contact Us
-          </Link>
-          <Link
-            to="/app/#myproduct"
-            className="px-5 py-3 text-white bg-[#D687EB] rounded-md shadow-[0_6px_30px_rgba(214,135,235,0.6)] font-semibold hover:bg-[#D687EB] transition-colors duration-300"
-          >
-            Our Products
-          </Link>
+          </HashLink>
+          <HashLink to="/app/#myproduct" className="px-5 py-3 text-white bg-[#D687EB] rounded-md shadow-[0_6px_30px_rgba(214,135,235,0.6)] font-semibold hover:bg-[#D687EB] transition-colors duration-300">Our Products</HashLink>
         </div>
       </nav>
     </header>

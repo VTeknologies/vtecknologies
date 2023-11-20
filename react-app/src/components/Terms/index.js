@@ -1,17 +1,16 @@
 import Wrapper from "../Wrapper";
 const Terms = () => {
   return (
-    // <Wrapper>
     <section
       data-aos="fade-up"
       data-aos-duration="1000"
-      className="grid grid-flow-row auto-rows-max grid-cols-12 lg:grid-cols-12 mb-20 text-center flex justify-center items-center"
+      className="grid max-w-screen-xl mx-auto"
     >
-      <div className="col-span-12 text-center lg:text-left mt-8">
+      <div className="flex-col justify-center col-span-8 text-left mt-8 mx-auto">
         <h3 className="text-5xl sm:text-6xl md:text-7xl mb-9 font-extrabold text-[#094067] leading-tight pt-8 text-center">
           Terms of Service
         </h3>
-        <div className="mb-6 text-base md:text-lg tracking-wide leading-8 font-medium text-[#5F6C7B] pr-0 md:pr-4 xl:pr-32 justify-content-center">
+        <div className="mb-6 text-base md:text-lg tracking-wide leading-8 font-medium text-[#5F6C7B] pr-0 md:pr-4 xl:pr-32 justify-center mx-auto">
           <div className="mb-4">
             Please read these Terms of Service ("Terms", "Terms of Service")
             carefully before using the https://www.vtecknologies.com website
@@ -104,7 +103,6 @@ const Terms = () => {
         <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6 justify-center lg:justify-start"></div>
       </div>
     </section>
-    // </Wrapper>
   );
 };
 

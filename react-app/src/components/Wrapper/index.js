@@ -9,7 +9,6 @@ const Wrapper = ({ children }) => {
     <>
       <Header />
       {children}
-      {/* {Outlet} */}
       <Clients />
       <Contact />
       <Footer />

@@ -3200,3 +3200,1761 @@ Search for the keywords to learn more about each warning.
 [debug] [2023-11-20T16:31:29.047Z] : NO ERRORS REGISTERED
 [debug] [2023-11-20T16:31:29.048Z] : EXEC ENDED with event: serve, message: success
 [debug] [2023-11-20T16:31:29.048Z] : TOTAL DURATION OF COMMAND EXEC : 3151117
+[debug] [2023-11-20T17:07:36.008Z] : 
+[debug] [2023-11-20T17:07:36.011Z] : ----------------------------------------------------------------------
+[debug] [2023-11-20T17:07:36.012Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\progr\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2023-11-20T17:07:36.013Z] : CLI Version:  1.16.0
+[debug] [2023-11-20T17:07:36.014Z] : Platform:     win32
+[debug] [2023-11-20T17:07:36.015Z] : Node Version: v18.16.0
+[debug] [2023-11-20T17:07:36.018Z] : Time:         Mon Nov 20 2023 22:37:36 GMT+0530 (India Standard Time)
+[debug] [2023-11-20T17:07:36.019Z] : ----------------------------------------------------------------------
+[debug] [2023-11-20T17:07:36.019Z] : 
+[debug] [2023-11-20T17:07:39.058Z] : > authorizing via signed-in user option
+[debug] [2023-11-20T17:07:39.060Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-11-20T17:07:39.106Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5140000000004073 
+
+[debug] [2023-11-20T17:07:39.429Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 20 Nov 2023 17:07:36 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=2bc424be-2c6d-447d-a0f6-45d6031774bf;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=2bc424be-2c6d-447d-a0f6-45d6031774bf;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-11-20T17:07:39.440Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5140000000004073/environment 
+
+[debug] [2023-11-20T17:07:39.584Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 20 Nov 2023 17:07:36 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=ec0e6092-699f-48f1-8b56-4d840f45ec65;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=ec0e6092-699f-48f1-8b56-4d840f45ec65;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-11-20T17:07:40.511Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5140000000004073/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2023-11-20T17:07:41.098Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 20 Nov 2023 17:07:38 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=9d1bb05f-5b66-4ec3-a71e-3ae1d37f2f8e;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=9d1bb05f-5b66-4ec3-a71e-3ae1d37f2f8e;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-11-20T17:07:41.108Z] : unknown eol undefined hence skipping check
+[info] [2023-11-20T17:07:47.235Z] : [react-plugin]: Starting the development server...
+
+[info] [2023-11-20T17:07:47.239Z] : 
+[info] [2023-11-20T17:07:47.240Z] : i Client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2023-11-20T17:07:47.240Z] : 
+[info] [2023-11-20T17:07:50.635Z] : 
+[info] [2023-11-20T17:07:50.636Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2023-11-20T17:07:50.636Z] : i vtecksite_react_function: http://localhost:3000/server/vtecksite_react_function/
+[info] [2023-11-20T17:07:50.636Z] : 
+[info] [2023-11-20T17:07:50.637Z] : 
+[info] [2023-11-20T17:07:50.637Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2023-11-20T17:07:50.637Z] : i client[react-app]: http://localhost:3000/app/
+[info] [2023-11-20T17:07:50.637Z] : 
+[info] [2023-11-20T17:08:07.319Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-11-20T17:08:07.321Z] : [react-plugin]: SyntaxError: C:\Sstudio\code\vtecknologies\react-app\src\components\Header\index.js: Unexpected token (12:44)
+  10 |             <Link to="/app/" className="flex items-center space-x-2">
+  11 |               <img
+> 12 |                 src={process.env.PUBLIC_URL}"/assets/logo.png"
+     |                                             ^
+  13 |                 className="w-8 h-8"
+  14 |                 alt="VTecknology Logo"
+  15 |               />
+[info] [2023-11-20T17:11:36.871Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:11:37.986Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T17:11:37.990Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Contact\index.js
+  Line 1:8:    'Wrapper' is defined but never used                                                                                                                                                    no-unused-vars
+  Line 23:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Footer\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Privacy\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Products\index.js
+  Line 17:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 29:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 39:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 51:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 61:13:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 73:15:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Terms\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+[info] [2023-11-20T17:11:37.991Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T17:11:37.991Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T17:19:59.751Z] : Shutting down server
+[info] [2023-11-20T17:19:59.851Z] : 
+[info] [2023-11-20T17:19:59.853Z] : √ Shutdown complete
+[debug] [2023-11-20T17:19:59.855Z] : NO ERRORS REGISTERED
+[debug] [2023-11-20T17:19:59.857Z] : EXEC ENDED with event: serve, message: success
+[debug] [2023-11-20T17:19:59.857Z] : TOTAL DURATION OF COMMAND EXEC : 740858
+[debug] [2023-11-20T17:19:59.896Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.in/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2023-11-20T17:20:00.283Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 20 Nov 2023 17:19:57 GMT","content-length":"0","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=ac2575e6-8b75-460c-82e9-fb7bfac903cf;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=ac2575e6-8b75-460c-82e9-fb7bfac903cf;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-11-20T17:21:12.133Z] : 
+[debug] [2023-11-20T17:21:12.135Z] : ----------------------------------------------------------------------
+[debug] [2023-11-20T17:21:12.136Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\progr\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2023-11-20T17:21:12.137Z] : CLI Version:  1.16.0
+[debug] [2023-11-20T17:21:12.138Z] : Platform:     win32
+[debug] [2023-11-20T17:21:12.138Z] : Node Version: v18.16.0
+[debug] [2023-11-20T17:21:12.142Z] : Time:         Mon Nov 20 2023 22:51:12 GMT+0530 (India Standard Time)
+[debug] [2023-11-20T17:21:12.143Z] : ----------------------------------------------------------------------
+[debug] [2023-11-20T17:21:12.143Z] : 
+[debug] [2023-11-20T17:21:14.799Z] : > authorizing via signed-in user option
+[debug] [2023-11-20T17:21:14.800Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-11-20T17:21:14.829Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5140000000004073 
+
+[debug] [2023-11-20T17:21:15.107Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 20 Nov 2023 17:21:12 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=26d8a0b8-7297-4366-9450-b8955bbfd699;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=26d8a0b8-7297-4366-9450-b8955bbfd699;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-11-20T17:21:15.118Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5140000000004073/environment 
+
+[debug] [2023-11-20T17:21:15.287Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 20 Nov 2023 17:21:12 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=c3a6b4bb-14a4-473c-9b83-aa4c96e653f1;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=c3a6b4bb-14a4-473c-9b83-aa4c96e653f1;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-11-20T17:21:15.995Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5140000000004073/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2023-11-20T17:21:16.453Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 20 Nov 2023 17:21:13 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=18e10b89-97e0-4195-98a9-c5553a984b96;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=18e10b89-97e0-4195-98a9-c5553a984b96;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-11-20T17:21:16.463Z] : unknown eol undefined hence skipping check
+[info] [2023-11-20T17:21:23.677Z] : [react-plugin]: Starting the development server...
+
+[info] [2023-11-20T17:21:23.680Z] : 
+[info] [2023-11-20T17:21:23.681Z] : i Client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2023-11-20T17:21:23.682Z] : 
+[info] [2023-11-20T17:21:27.317Z] : 
+[info] [2023-11-20T17:21:27.318Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2023-11-20T17:21:27.318Z] : i vtecksite_react_function: http://localhost:3000/server/vtecksite_react_function/
+[info] [2023-11-20T17:21:27.319Z] : 
+[info] [2023-11-20T17:21:27.319Z] : 
+[info] [2023-11-20T17:21:27.319Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2023-11-20T17:21:27.320Z] : i client[react-app]: http://localhost:3000/app/
+[info] [2023-11-20T17:21:27.320Z] : 
+[info] [2023-11-20T17:21:35.877Z] : [react-plugin]: Compiled successfully!
+[info] [2023-11-20T17:21:35.878Z] : [react-plugin]: 
+[info] [2023-11-20T17:21:35.878Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-11-20T17:21:35.879Z] : [react-plugin]: 
+[info] [2023-11-20T17:21:35.879Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-11-20T17:21:35.879Z] : [react-plugin]:   On Your Network:  http://192.168.1.111:3000/app/
+[info] [2023-11-20T17:21:35.879Z] : [react-plugin]: 
+[info] [2023-11-20T17:21:35.880Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-11-20T17:21:35.880Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-11-20T17:21:35.880Z] : [react-plugin]: 
+[info] [2023-11-20T17:22:53.985Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:23:02.839Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-11-20T17:23:02.839Z] : [react-plugin]: SyntaxError: C:\Sstudio\code\vtecknologies\react-app\src\components\Header\index.js: Unexpected token (68:10)
+  66 |           // </Link>
+  67 |
+> 68 |           <HashLink to="/some/path#with-hash-fragment">Link to Hash Fragment</HashLink>
+     |           ^
+  69 |         </div>
+  70 |       </nav>
+  71 |     </header>
+[info] [2023-11-20T17:23:04.244Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:23:04.868Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-11-20T17:23:04.868Z] : [react-plugin]: SyntaxError: C:\Sstudio\code\vtecknologies\react-app\src\components\Header\index.js: Unexpected token (68:10)
+  66 |           // </Link>
+  67 |
+> 68 |           <HashLink to="/app/#myproduct">Link to Hash Fragment</HashLink>
+     |           ^
+  69 |         </div>
+  70 |       </nav>
+  71 |     </header>
+[info] [2023-11-20T17:23:17.156Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:23:17.487Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-11-20T17:23:17.488Z] : [react-plugin]: SyntaxError: C:\Sstudio\code\vtecknologies\react-app\src\components\Header\index.js: Unexpected token (68:10)
+  66 |           // </Link>
+  67 |
+> 68 |           <HashLink to="/app/#myproduct">Link to Hash Fragment</HashLink>
+     |           ^
+  69 |         </div>
+  70 |       </nav>
+  71 |     </header>
+[info] [2023-11-20T17:23:19.986Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:23:20.879Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-11-20T17:23:20.880Z] : [react-plugin]: SyntaxError: C:\Sstudio\code\vtecknologies\react-app\src\components\Header\index.js: Unexpected token (68:10)
+  66 |           // </Link>
+  67 |
+> 68 |           <HashLink to="/app/#myproduct">Link to Hash Fragment</HashLink>
+     |           ^
+  69 |         </div>
+  70 |       </nav>
+  71 |     </header>
+[info] [2023-11-20T17:23:28.887Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:23:29.444Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-11-20T17:23:29.444Z] : [react-plugin]: SyntaxError: C:\Sstudio\code\vtecknologies\react-app\src\components\Header\index.js: Unexpected token (68:10)
+  66 |           // </Link>
+  67 |
+> 68 |           <HashLink to="/app/#myproduct">Link to Hash Fragment</HashLink>
+     |           ^
+  69 |         </div>
+  70 |       </nav>
+  71 |     </header>
+[info] [2023-11-20T17:23:43.160Z] : Shutting down server
+[info] [2023-11-20T17:23:43.234Z] : 
+[info] [2023-11-20T17:23:43.235Z] : √ Shutdown complete
+[debug] [2023-11-20T17:23:43.237Z] : NO ERRORS REGISTERED
+[debug] [2023-11-20T17:23:43.237Z] : EXEC ENDED with event: serve, message: success
+[debug] [2023-11-20T17:23:43.237Z] : TOTAL DURATION OF COMMAND EXEC : 148476
+[debug] [2023-11-20T17:23:43.258Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.in/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2023-11-20T17:23:43.521Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 20 Nov 2023 17:23:40 GMT","content-length":"0","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=aa187d65-75a2-49b4-b3b5-b36ba51c0e5f;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=aa187d65-75a2-49b4-b3b5-b36ba51c0e5f;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-11-20T17:23:46.040Z] : 
+[debug] [2023-11-20T17:23:46.042Z] : ----------------------------------------------------------------------
+[debug] [2023-11-20T17:23:46.043Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\progr\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2023-11-20T17:23:46.044Z] : CLI Version:  1.16.0
+[debug] [2023-11-20T17:23:46.045Z] : Platform:     win32
+[debug] [2023-11-20T17:23:46.046Z] : Node Version: v18.16.0
+[debug] [2023-11-20T17:23:46.049Z] : Time:         Mon Nov 20 2023 22:53:46 GMT+0530 (India Standard Time)
+[debug] [2023-11-20T17:23:46.051Z] : ----------------------------------------------------------------------
+[debug] [2023-11-20T17:23:46.051Z] : 
+[debug] [2023-11-20T17:23:48.797Z] : > authorizing via signed-in user option
+[debug] [2023-11-20T17:23:48.798Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-11-20T17:23:48.826Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5140000000004073 
+
+[debug] [2023-11-20T17:23:49.088Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 20 Nov 2023 17:23:46 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=d8c56b7e-8abc-4967-87b7-1e544add353d;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=d8c56b7e-8abc-4967-87b7-1e544add353d;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-11-20T17:23:49.099Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5140000000004073/environment 
+
+[debug] [2023-11-20T17:23:49.239Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 20 Nov 2023 17:23:46 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=b93e03fa-898b-4801-8bed-e83394c74f58;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=b93e03fa-898b-4801-8bed-e83394c74f58;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-11-20T17:23:49.842Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5140000000004073/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2023-11-20T17:23:50.270Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 20 Nov 2023 17:23:47 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=5ce9bf9c-b73b-4719-a5d6-27554e7bd584;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=5ce9bf9c-b73b-4719-a5d6-27554e7bd584;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-11-20T17:23:50.281Z] : unknown eol undefined hence skipping check
+[info] [2023-11-20T17:23:57.418Z] : [react-plugin]: Starting the development server...
+
+[info] [2023-11-20T17:23:57.421Z] : 
+[info] [2023-11-20T17:23:57.422Z] : i Client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2023-11-20T17:23:57.423Z] : 
+[info] [2023-11-20T17:24:01.214Z] : 
+[info] [2023-11-20T17:24:01.215Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2023-11-20T17:24:01.215Z] : i vtecksite_react_function: http://localhost:3000/server/vtecksite_react_function/
+[info] [2023-11-20T17:24:01.215Z] : 
+[info] [2023-11-20T17:24:01.216Z] : 
+[info] [2023-11-20T17:24:01.216Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2023-11-20T17:24:01.216Z] : i client[react-app]: http://localhost:3000/app/
+[info] [2023-11-20T17:24:01.216Z] : 
+[info] [2023-11-20T17:24:11.251Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-11-20T17:24:11.253Z] : [react-plugin]: SyntaxError: C:\Sstudio\code\vtecknologies\react-app\src\components\Header\index.js: Unexpected token (68:10)
+  66 |           // </Link>
+  67 |
+> 68 |           <HashLink to="/app/#myproduct">Link to Hash Fragment</HashLink>
+     |           ^
+  69 |         </div>
+  70 |       </nav>
+  71 |     </header>
+[info] [2023-11-20T17:24:38.552Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:24:40.501Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T17:24:40.501Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T17:24:40.501Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T17:24:40.502Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T17:25:37.683Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:25:38.596Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-11-20T17:25:38.597Z] : [react-plugin]: SyntaxError: C:\Sstudio\code\vtecknologies\react-app\src\components\Header\index.js: Unexpected token (68:10)
+  66 |           // </Link>
+  67 |
+> 68 |           <HashLink to="/app/#myproduct" className="px-5 py-3 text-white bg-[#D687EB] rounded-md shadow-[0_6px_30px_rgba(214,135,235,0.6)] font-semibold hover:bg-[#D687EB] transition-colors duration-300">Our Products</HashLink>
+     |           ^
+  69 |         </div>
+  70 |       </nav>
+  71 |     </header>
+[info] [2023-11-20T17:25:51.340Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:25:52.400Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T17:25:52.401Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T17:25:52.401Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T17:25:52.401Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T17:26:16.880Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:26:17.710Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T17:26:17.713Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T17:26:17.717Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T17:26:17.719Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T17:27:07.886Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:27:08.595Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T17:27:08.596Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T17:27:08.596Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T17:27:08.596Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T17:27:16.660Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:27:17.282Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T17:27:17.283Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T17:27:17.283Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T17:27:17.284Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T17:27:17.330Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:27:17.643Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T17:27:17.643Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T17:27:17.643Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T17:27:17.644Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T17:28:13.191Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:28:14.089Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T17:28:14.090Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T17:28:14.090Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T17:28:14.090Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T17:29:30.134Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:29:30.871Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T17:29:30.875Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T17:29:30.879Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T17:29:30.886Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T17:32:08.210Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:32:09.156Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T17:32:09.158Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T17:32:09.159Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T17:32:09.160Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T17:35:24.553Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:35:25.197Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T17:35:25.198Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T17:35:25.198Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T17:35:25.198Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T17:35:35.609Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:35:35.989Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T17:35:35.989Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T17:35:35.990Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T17:35:35.990Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T17:36:01.452Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:36:01.936Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T17:36:01.937Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T17:36:01.937Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T17:36:01.937Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T17:36:09.017Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:36:09.487Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T17:36:09.488Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T17:36:09.488Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T17:36:09.488Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T17:36:30.629Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:36:31.206Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T17:36:31.207Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T17:36:31.213Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T17:36:31.222Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T17:36:35.018Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:36:35.449Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T17:36:35.449Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T17:36:35.450Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T17:36:35.450Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T17:43:19.908Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:43:20.644Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T17:43:20.646Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T17:43:20.648Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T17:43:20.650Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T17:44:29.336Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:44:30.078Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T17:44:30.078Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T17:44:30.079Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T17:44:30.079Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T17:47:11.547Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:47:12.171Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T17:47:12.172Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T17:47:12.172Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T17:47:12.173Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T17:47:18.145Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:47:18.617Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T17:47:18.618Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T17:47:18.618Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T17:47:18.619Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T17:48:58.296Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:48:58.866Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T17:48:58.867Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T17:48:58.867Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T17:48:58.867Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T17:49:09.947Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:49:10.541Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T17:49:10.542Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T17:49:10.542Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T17:49:10.542Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T17:50:59.762Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:51:00.436Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T17:51:00.437Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T17:51:00.438Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T17:51:00.438Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T17:51:25.105Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:51:25.548Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T17:51:25.549Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T17:51:25.549Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T17:51:25.549Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T17:51:39.529Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:51:39.980Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T17:51:39.981Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T17:51:39.981Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T17:51:39.981Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T17:52:07.718Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:52:08.374Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T17:52:08.375Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T17:52:08.376Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T17:52:08.378Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T17:52:23.484Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:52:23.970Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T17:52:23.971Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T17:52:23.971Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T17:52:23.972Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T17:52:49.564Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:52:50.062Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T17:52:50.063Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T17:52:50.063Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T17:52:50.064Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T17:53:34.377Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:53:34.854Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T17:53:34.855Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T17:53:34.856Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T17:53:34.856Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T17:53:34.889Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:53:35.143Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T17:53:35.143Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T17:53:35.144Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T17:53:35.144Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T17:54:18.676Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:54:19.518Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T17:54:19.519Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T17:54:19.519Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T17:54:19.520Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T17:54:50.722Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:54:51.464Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T17:54:51.466Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T17:54:51.469Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T17:54:51.471Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T17:55:12.346Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:55:12.912Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T17:55:12.912Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T17:55:12.913Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T17:55:12.913Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T17:55:26.952Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:55:27.478Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T17:55:27.479Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T17:55:27.480Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T17:55:27.480Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T17:55:32.618Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:55:33.040Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T17:55:33.041Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T17:55:33.041Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T17:55:33.041Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T17:56:09.980Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:56:10.473Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T17:56:10.474Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T17:56:10.474Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T17:56:10.475Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T17:56:15.263Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:56:15.688Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T17:56:15.689Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T17:56:15.689Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T17:56:15.689Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T17:56:27.332Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T17:56:27.715Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T17:56:27.716Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T17:56:27.716Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T17:56:27.716Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:02:11.561Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:02:12.270Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:02:12.271Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:02:12.271Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:02:12.271Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[debug] [2023-11-20T18:02:12.336Z] : > refreshing access token <
+[debug] [2023-11-20T18:02:12.352Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2023-11-20T18:02:12.661Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 20 Nov 2023 18:02:09 GMT","content-type":"application/json;charset=UTF-8","content-length":"1883","connection":"close","set-cookie":["6e73717622=3bcf233c3836eb7934b6f3edc257f951; Path=/","iamcsr=91ef544a-f565-463b-bf96-932a1777abd3;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=91ef544a-f565-463b-bf96-932a1777abd3;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-xss-protection":"1","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[info] [2023-11-20T18:05:13.311Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:05:13.926Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:05:13.927Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:05:13.927Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:05:13.928Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:05:15.687Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:05:16.169Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:05:16.169Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:05:16.170Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:05:16.170Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:05:45.679Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:05:46.265Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:05:46.265Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:05:46.266Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:05:46.266Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:05:53.736Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:05:54.243Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:05:54.243Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:05:54.244Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:05:54.244Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:05:54.277Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:05:54.584Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:05:54.585Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:05:54.585Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:05:54.586Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:06:27.810Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:06:28.611Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:06:28.615Z] : [react-plugin]: [eslint] 
+src\components\About\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:06:28.618Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:06:28.619Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:06:29.049Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:06:29.820Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:06:29.821Z] : [react-plugin]: [eslint] 
+src\components\About\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:06:29.821Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:06:29.821Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:06:50.955Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:06:51.765Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:06:51.765Z] : [react-plugin]: [eslint] 
+src\components\About\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:06:51.766Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:06:51.766Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:07:10.077Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:07:10.512Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:07:10.513Z] : [react-plugin]: [eslint] 
+src\components\About\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:07:10.514Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:07:10.514Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:07:21.367Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:07:21.853Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:07:21.854Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:07:21.854Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:07:21.854Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:07:52.190Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:07:52.735Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:07:52.736Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 10:17:  Comments inside children section of tag should be placed inside braces  react/jsx-no-comment-textnodes
+[info] [2023-11-20T18:07:52.736Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:07:52.736Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:08:00.651Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:08:01.129Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:08:01.129Z] : [react-plugin]: [eslint] 
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 10:17:  Comments inside children section of tag should be placed inside braces  react/jsx-no-comment-textnodes
+[info] [2023-11-20T18:08:01.130Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:08:01.130Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:08:17.690Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:08:18.096Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:08:18.097Z] : [react-plugin]: [eslint] 
+src\components\About\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 10:17:  Comments inside children section of tag should be placed inside braces  react/jsx-no-comment-textnodes
+[info] [2023-11-20T18:08:18.097Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:08:18.097Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:08:43.858Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:08:44.349Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:08:44.350Z] : [react-plugin]: [eslint] 
+src\components\About\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:08:44.350Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:08:44.351Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:11:38.767Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:11:39.175Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:11:39.176Z] : [react-plugin]: [eslint] 
+src\components\About\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used                                      no-unused-vars
+  Line 9:7:   Comments inside children section of tag should be placed inside braces  react/jsx-no-comment-textnodes
+[info] [2023-11-20T18:11:39.176Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:11:39.176Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:11:44.042Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:11:44.347Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:11:44.347Z] : [react-plugin]: [eslint] 
+src\components\About\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 1:8:   'Header' is defined but never used  no-unused-vars
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:11:44.347Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:11:44.347Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:11:51.243Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:11:51.487Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:11:51.488Z] : [react-plugin]: [eslint] 
+src\components\About\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used                                      no-unused-vars
+  Line 9:7:   Comments inside children section of tag should be placed inside braces  react/jsx-no-comment-textnodes
+[info] [2023-11-20T18:11:51.488Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:11:51.488Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:11:53.200Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:11:53.433Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:11:53.434Z] : [react-plugin]: [eslint] 
+src\components\About\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:11:53.434Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:11:53.434Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:12:51.375Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:12:51.891Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:12:51.892Z] : [react-plugin]: [eslint] 
+src\components\About\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Home\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:12:51.892Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:12:51.892Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:13:40.086Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:13:40.460Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:13:40.461Z] : [react-plugin]: [eslint] 
+src\components\About\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Home\index.js
+  Line 8:14:  Comments inside children section of tag should be placed inside braces  react/jsx-no-comment-textnodes
+  Line 9:18:  Comments inside children section of tag should be placed inside braces  react/jsx-no-comment-textnodes
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:13:40.461Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:13:40.461Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:14:20.606Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:14:21.017Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:14:21.017Z] : [react-plugin]: [eslint] 
+src\components\About\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Home\index.js
+  Line 2:8:  'Hero' is defined but never used     no-unused-vars
+  Line 3:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:14:21.018Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:14:21.018Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:15:19.583Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:15:19.911Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-11-20T18:15:19.912Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 8:8:  'Hero' is not defined     react/jsx-no-undef
+  Line 9:8:  'Product' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2023-11-20T18:15:36.095Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:15:36.404Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-11-20T18:15:36.404Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 10:8:  'Product' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2023-11-20T18:15:49.432Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:15:49.720Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-11-20T18:15:49.721Z] : [react-plugin]: Module not found: Error: Can't resolve './components/Product' in 'C:\Sstudio\code\vtecknologies\react-app\src'
+[info] [2023-11-20T18:16:02.711Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:16:03.092Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:16:03.092Z] : [react-plugin]: [eslint] 
+src\components\About\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Home\index.js
+  Line 2:8:  'Hero' is defined but never used     no-unused-vars
+  Line 3:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:16:03.092Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:16:03.092Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:16:18.821Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:16:19.088Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:16:19.088Z] : [react-plugin]: [eslint] 
+src\components\About\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Home\index.js
+  Line 2:8:  'Hero' is defined but never used     no-unused-vars
+  Line 3:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:16:19.088Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:16:19.089Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:16:31.089Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:16:31.361Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:16:31.362Z] : [react-plugin]: [eslint] 
+src\components\About\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Home\index.js
+  Line 2:8:  'Hero' is defined but never used     no-unused-vars
+  Line 3:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:16:31.362Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:16:31.363Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:17:48.537Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:17:48.906Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:17:48.907Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 3:8:  'Hero' is defined but never used     no-unused-vars
+  Line 4:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\About\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Home\index.js
+  Line 2:8:  'Hero' is defined but never used     no-unused-vars
+  Line 3:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:17:48.907Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:17:48.907Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:18:00.627Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:18:00.969Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-11-20T18:18:00.970Z] : [react-plugin]: SyntaxError: C:\Sstudio\code\vtecknologies\react-app\src\App.js: Unexpected token (14:7)
+  12 | )}
+  13 | export default App;
+> 14 |       {* <Hero /> <Product /> *}
+     |        ^
+    at parser.next (<anonymous>)
+    at normalizeFile.next (<anonymous>)
+    at run.next (<anonymous>)
+    at transform.next (<anonymous>)
+[info] [2023-11-20T18:18:07.309Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:18:07.656Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:18:07.656Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 3:8:  'Hero' is defined but never used     no-unused-vars
+  Line 4:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\About\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Home\index.js
+  Line 2:8:  'Hero' is defined but never used     no-unused-vars
+  Line 3:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:18:07.657Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:18:07.657Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:18:33.755Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:18:34.172Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:18:34.172Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 3:8:  'Hero' is defined but never used     no-unused-vars
+  Line 4:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\About\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Home\index.js
+  Line 2:8:  'Hero' is defined but never used     no-unused-vars
+  Line 3:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\Terms\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:18:34.172Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:18:34.173Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:18:44.580Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:18:44.933Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:18:44.934Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 3:8:  'Hero' is defined but never used     no-unused-vars
+  Line 4:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\About\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Home\index.js
+  Line 2:8:  'Hero' is defined but never used     no-unused-vars
+  Line 3:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\Terms\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:18:44.934Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:18:44.934Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:19:13.906Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:19:14.309Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:19:14.309Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 3:8:  'Hero' is defined but never used     no-unused-vars
+  Line 4:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\About\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Home\index.js
+  Line 2:8:  'Hero' is defined but never used     no-unused-vars
+  Line 3:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\Terms\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:19:14.309Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:19:14.310Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:19:33.322Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:19:33.665Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:19:33.665Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 3:8:  'Hero' is defined but never used     no-unused-vars
+  Line 4:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\About\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Home\index.js
+  Line 2:8:  'Hero' is defined but never used     no-unused-vars
+  Line 3:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\Terms\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:19:33.666Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:19:33.666Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:20:04.607Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:20:05.138Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:20:05.139Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 3:8:  'Hero' is defined but never used     no-unused-vars
+  Line 4:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\About\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Home\index.js
+  Line 2:8:  'Hero' is defined but never used     no-unused-vars
+  Line 3:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\Terms\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:20:05.140Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:20:05.141Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:20:39.198Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:20:39.465Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:20:39.465Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 3:8:  'Hero' is defined but never used     no-unused-vars
+  Line 4:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\About\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Home\index.js
+  Line 2:8:  'Hero' is defined but never used     no-unused-vars
+  Line 3:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\Terms\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:20:39.466Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:20:39.466Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:20:42.699Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:20:43.021Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:20:43.022Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 3:8:  'Hero' is defined but never used     no-unused-vars
+  Line 4:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\About\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Home\index.js
+  Line 2:8:  'Hero' is defined but never used     no-unused-vars
+  Line 3:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\Terms\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:20:43.022Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:20:43.022Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:20:52.391Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:20:52.746Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:20:52.746Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 3:8:  'Hero' is defined but never used     no-unused-vars
+  Line 4:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\About\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Home\index.js
+  Line 2:8:  'Hero' is defined but never used     no-unused-vars
+  Line 3:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\Terms\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:20:52.746Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:20:52.746Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:20:59.567Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:20:59.911Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:20:59.911Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 3:8:  'Hero' is defined but never used     no-unused-vars
+  Line 4:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\About\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Home\index.js
+  Line 2:8:  'Hero' is defined but never used     no-unused-vars
+  Line 3:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\Terms\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:20:59.912Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:20:59.912Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:21:12.473Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:21:12.786Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:21:12.786Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 3:8:  'Hero' is defined but never used     no-unused-vars
+  Line 4:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\About\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Home\index.js
+  Line 2:8:  'Hero' is defined but never used     no-unused-vars
+  Line 3:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\Terms\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:21:12.787Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:21:12.787Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:21:15.895Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:21:16.203Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:21:16.203Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 3:8:  'Hero' is defined but never used     no-unused-vars
+  Line 4:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\About\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Home\index.js
+  Line 2:8:  'Hero' is defined but never used     no-unused-vars
+  Line 3:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\Terms\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:21:16.203Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:21:16.203Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:21:20.642Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:21:20.932Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:21:20.932Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 3:8:  'Hero' is defined but never used     no-unused-vars
+  Line 4:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\About\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Home\index.js
+  Line 2:8:  'Hero' is defined but never used     no-unused-vars
+  Line 3:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\Terms\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:21:20.932Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:21:20.933Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:21:31.957Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:21:32.255Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:21:32.256Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 3:8:  'Hero' is defined but never used     no-unused-vars
+  Line 4:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\About\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Home\index.js
+  Line 2:8:  'Hero' is defined but never used     no-unused-vars
+  Line 3:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\Terms\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:21:32.256Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:21:32.256Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:22:27.261Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:22:27.607Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:22:27.607Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 3:8:  'Hero' is defined but never used     no-unused-vars
+  Line 4:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\About\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Home\index.js
+  Line 2:8:  'Hero' is defined but never used     no-unused-vars
+  Line 3:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\Terms\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:22:27.607Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:22:27.607Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:22:34.303Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:22:34.639Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:22:34.639Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 3:8:  'Hero' is defined but never used     no-unused-vars
+  Line 4:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\About\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Home\index.js
+  Line 2:8:  'Hero' is defined but never used     no-unused-vars
+  Line 3:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\Terms\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:22:34.640Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:22:34.640Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:22:38.771Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:22:39.108Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:22:39.108Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 3:8:  'Hero' is defined but never used     no-unused-vars
+  Line 4:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\About\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Home\index.js
+  Line 2:8:  'Hero' is defined but never used     no-unused-vars
+  Line 3:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\Terms\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:22:39.108Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:22:39.109Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:23:27.107Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:23:27.420Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:23:27.420Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 3:8:  'Hero' is defined but never used     no-unused-vars
+  Line 4:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\About\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Home\index.js
+  Line 2:8:  'Hero' is defined but never used     no-unused-vars
+  Line 3:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\Terms\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:23:27.421Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:23:27.421Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:23:56.191Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:23:56.537Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:23:56.537Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 3:8:  'Hero' is defined but never used     no-unused-vars
+  Line 4:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\About\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Home\index.js
+  Line 2:8:  'Hero' is defined but never used     no-unused-vars
+  Line 3:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\Privacy\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Terms\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:23:56.537Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:23:56.538Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:25:44.131Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:25:44.570Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:25:44.570Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 3:8:  'Hero' is defined but never used                                        no-unused-vars
+  Line 4:8:  'Product' is defined but never used                                     no-unused-vars
+  Line 8:3:  Comments inside children section of tag should be placed inside braces  react/jsx-no-comment-textnodes
+
+src\components\About\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Home\index.js
+  Line 2:8:  'Hero' is defined but never used     no-unused-vars
+  Line 3:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\Privacy\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Terms\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:25:44.570Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:25:44.571Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:25:44.763Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:25:45.016Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:25:45.016Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 3:8:  'Hero' is defined but never used                                        no-unused-vars
+  Line 4:8:  'Product' is defined but never used                                     no-unused-vars
+  Line 8:3:  Comments inside children section of tag should be placed inside braces  react/jsx-no-comment-textnodes
+
+src\components\About\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Home\index.js
+  Line 2:8:  'Hero' is defined but never used     no-unused-vars
+  Line 3:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\Privacy\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Terms\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:25:45.017Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:25:45.017Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-11-20T18:26:02.963Z] : [react-plugin]: Compiling...
+[info] [2023-11-20T18:26:03.234Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-11-20T18:26:03.234Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 3:8:  'Hero' is defined but never used     no-unused-vars
+  Line 4:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\About\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Clients\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Home\index.js
+  Line 2:8:  'Hero' is defined but never used     no-unused-vars
+  Line 3:8:  'Product' is defined but never used  no-unused-vars
+
+src\components\Privacy\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Terms\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+
+src\components\Wrapper\index.js
+  Line 4:10:  'Outlet' is defined but never used  no-unused-vars
+[info] [2023-11-20T18:26:03.235Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-11-20T18:26:03.235Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[debug] [2023-11-20T18:27:30.986Z] : 
+[debug] [2023-11-20T18:27:30.988Z] : ----------------------------------------------------------------------
+[debug] [2023-11-20T18:27:30.988Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\progr\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2023-11-20T18:27:30.989Z] : CLI Version:  1.16.0
+[debug] [2023-11-20T18:27:30.990Z] : Platform:     win32
+[debug] [2023-11-20T18:27:30.990Z] : Node Version: v18.16.0
+[debug] [2023-11-20T18:27:30.999Z] : Time:         Mon Nov 20 2023 23:57:30 GMT+0530 (India Standard Time)
+[debug] [2023-11-20T18:27:31.000Z] : ----------------------------------------------------------------------
+[debug] [2023-11-20T18:27:31.000Z] : 
+[debug] [2023-11-20T18:27:32.969Z] : > authorizing via signed-in user option
+[debug] [2023-11-20T18:27:32.970Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2023-11-20T18:27:32.992Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5140000000004073 
+
+[debug] [2023-11-20T18:27:33.343Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 20 Nov 2023 18:27:30 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=6311091a-b4bd-4d0a-aa97-4c4278a33812;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=6311091a-b4bd-4d0a-aa97-4c4278a33812;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-11-20T18:27:33.349Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5140000000004073/environment 
+
+[debug] [2023-11-20T18:27:33.488Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 20 Nov 2023 18:27:30 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=3cdf697d-6b59-403a-ba4c-459af86c40b9;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=3cdf697d-6b59-403a-ba4c-459af86c40b9;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-11-20T18:27:33.518Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5140000000004073/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2023-11-20T18:27:33.678Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 20 Nov 2023 18:27:30 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=5f1cc340-a24f-4dc9-8ca9-a100607f082f;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=5f1cc340-a24f-4dc9-8ca9-a100607f082f;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-11-20T18:27:33.685Z] : unknown eol undefined hence skipping check
+[debug] [2023-11-20T18:27:33.929Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.in/baas/v1/project/5140000000004073/server/upsert 
+
+[debug] [2023-11-20T18:27:35.985Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 20 Nov 2023 18:27:33 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=caa75219-f4c3-41bd-b00b-81a833b0d60d;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=caa75219-f4c3-41bd-b00b-81a833b0d60d;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2023-11-20T18:27:36.241Z] : i Plugin : "zcatalyst-cli-plugin-react" is used for client deploy
+[info] [2023-11-20T18:27:36.241Z] : i Building Application...
+[info] [2023-11-20T18:27:40.513Z] : [react-plugin]: Creating an optimized production build...
+[info] [2023-11-20T18:27:55.759Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-11-20T18:27:55.760Z] : [react-plugin]: static/css/main.fdef1a3b.css from Css Minimizer plugin
+SyntaxError: C:\Sstudio\code\vtecknologies\package.json: Unexpected end of JSON input
+    at parse (<anonymous>)
+
+[info] [2023-11-20T18:27:55.760Z] : [react-plugin]:  
+[debug] [2023-11-20T18:27:55.762Z] : client deploy unsuccessful, reason : CatalystError: Compilation failed
+    at CatalystError.getErrorInstance (C:\Users\progr\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\error.js:43:20)
+    at C:\Users\progr\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\client-utils.js:154:45
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\progr\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\client-utils.js:6:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[warn] [2023-11-20T18:27:55.762Z] : ‼ client: Compilation failed
+[info] [2023-11-20T18:27:55.762Z] : 
+[error] [2023-11-20T18:27:55.763Z] : × client: deploy skipped
+[info] [2023-11-20T18:27:55.763Z] : 
+[info] [2023-11-20T18:27:55.763Z] : i functions(vtecksite_react_function): URL => https://vtecksite-react-60024018492.development.catalystserverless.in/server/vtecksite_react_function/
+[info] [2023-11-20T18:27:55.763Z] : √ functions(vtecksite_react_function): deploy successful
+[info] [2023-11-20T18:27:55.763Z] : 
+[info] [2023-11-20T18:27:55.764Z] : √ Catalyst deploy complete!
+[error] [2023-11-20T18:27:55.768Z] : × Compilation failed
+[debug] [2023-11-20T18:27:55.768Z] : Error Stack: CatalystError: Compilation failed
+    at CatalystError.getErrorInstance (C:\Users\progr\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\error.js:43:20)
+    at C:\Users\progr\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\client-utils.js:154:45
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\progr\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\client-utils.js:6:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [2023-11-20T18:27:55.768Z] : Original Error: Error: Compilation failed
+    at module.exports (C:\Sstudio\code\vtecknologies\react-app\node_modules\zcatalyst-cli-plugin-react\lib\build\index.js:274:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [2023-11-20T18:27:55.768Z] : Error Status: 500
+[debug] [2023-11-20T18:27:55.768Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2023-11-20T18:27:55.768Z] : TOTAL DURATION OF COMMAND EXEC : 22818
+[debug] [2023-11-20T18:27:55.779Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.in/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2023-11-20T18:27:55.990Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 20 Nov 2023 18:27:53 GMT","content-length":"0","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=b8adaf53-38ff-47c3-b5f5-a69ee787e6e9;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=b8adaf53-38ff-47c3-b5f5-a69ee787e6e9;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
