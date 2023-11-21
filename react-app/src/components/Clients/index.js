@@ -9,27 +9,27 @@ const Clients = () => {
     >
       <div className="flex justify-center w-full mb-10 mt-20  md:flex md:justify-between">
         <img
-          src="assets/partners/zoho.png"
+          src={process.env.PUBLIC_URL + "/assets/partners/zoho.png"}
           className="h-10"
           alt="Zoho"
         />
         <img
-          src="assets/partners/intercom.jpg"
+          src={process.env.PUBLIC_URL + "/assets/partners/intercom.jpg"}
           className="h-10"
           alt="intercom"
         />
         <img
-          src="assets/partners/freshwork.png"
+          src={process.env.PUBLIC_URL + "/assets/partners/freshwork.png"}
           className="h-10"
           alt="intercom"
         />
         <img
-          src="assets/partners/zendesk.png"
+          src={process.env.PUBLIC_URL + "/assets/partners/zendesk.png"}
           className="h-10"
           alt="zendesk"
         />
         <img
-          src="assets/partners/freshdesk.png"
+          src={process.env.PUBLIC_URL + "/assets/partners/freshdesk.png"}
           className="h-10"
           alt="intercom"
         />

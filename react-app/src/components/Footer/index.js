@@ -7,7 +7,11 @@ const Footer = () => {
     <section data-aos="fade-down" className="container max-w-screen-xl mx-auto">
       <div className="py-12 grid grid-cols-6 lg:grid-cols-12 gap-y-8 lg:gap-y-0 lg:gap-x-8">
         <div className="col-span-9 space-y-4">
-          <img src="assets/logo.png" className="w-9 h-9" alt="" />
+          <img
+            src={process.env.PUBLIC_URL + "/assets/logo.png"}
+            className="w-9 h-9"
+            alt=""
+          />
           <h5 className="text-xl font-bold text-[#094067]">VTecknologies</h5>
         </div>
         <div className="col-span-3 sm:col-span-2">

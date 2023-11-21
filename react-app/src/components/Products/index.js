@@ -20,7 +20,7 @@ const Product = () => {
               title="Click to See Demo"
             >
               <img
-                src="assets/apps/todo.jpg"
+                src={process.env.PUBLIC_URL + "/assets/apps/todo.jpg"}
                 className="h-[100%] aspect-video lg:aspect-auto object-cover object-center mb-4 rounded-xl shadow-[0_9px_40px_rgba(9,64,103,0.20)]"
                 alt=""
               />
@@ -42,7 +42,7 @@ const Product = () => {
               title="Click to See Demo"
             >
               <img
-                src="assets/apps/approval.jpg"
+                src={process.env.PUBLIC_URL + "/assets/apps/approval.jpg"}
                 className="h-[100%] aspect-video lg:aspect-auto object-cover object-center mb-4 rounded-xl shadow-[0_9px_40px_rgba(9,64,103,0.20)]"
                 alt=""
               />
@@ -64,7 +64,7 @@ const Product = () => {
               title="Click to See Demo"
             >
               <img
-                src="assets/apps/scheduler.jpg"
+                src={process.env.PUBLIC_URL + "/assets/apps/scheduler.jpg"}
                 className="h-[100%] aspect-video lg:aspect-auto object-cover object-center mb-4 rounded-xl shadow-[0_9px_40px_rgba(9,64,103,0.20)]"
                 alt=""
               />

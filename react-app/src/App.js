@@ -1,13 +1,4 @@
-import "./App.css";
-import Home from "./components/Home";
-import Hero from "./components/Hero";
-import Product from "./components/Products";
+import Wrapper from "./components/Wrapper";
 
-const App = () => {return(
-<>
-	<Home />
-
-
-	</>
-)}
+const App = () => <Wrapper />;
 export default App;

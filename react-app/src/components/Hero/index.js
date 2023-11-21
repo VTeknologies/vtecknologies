@@ -16,7 +16,7 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6 justify-center lg:justify-start"></div>
       </div>
       <div className="col-span-6 pl-24 hidden lg:block">
-        <img src="assets/hero-image.jpg" alt="" />
+        <img src={process.env.PUBLIC_URL + "/assets/hero-image.jpg"} alt="" />
       </div>
     </section>
   );

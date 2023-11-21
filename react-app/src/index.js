@@ -12,13 +12,17 @@ import Privacy from "./components/Privacy";
 import Terms from "./components/Terms/index";
 import About from "./components/About/index";
 import ErrorPage from "./error-page";
+import Home from "./components/Home/index";
+import Wrapper from "./components/Wrapper";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/app/" element={<App />} errorElement={<ErrorPage />}>
-      <Route path="terms" element={<Terms />} />
-      <Route path="about" element={<About />} />
-      <Route path="privacy" element={<Privacy />} />
+    <Route path="/" element={<Wrapper />}>
+      <Route path="app" element={<Home />} />
+      <Route path="app/terms" element={<Terms />} />
+      <Route path="app/about" element={<About />} />
+      <Route path="app/privacy" element={<Privacy />} />
+      <Route path="*" element={<ErrorPage />} />
     </Route>
   )
 );

@@ -2,17 +2,16 @@ import Wrapper from "../Wrapper/index";
 
 const About = () => {
   return (
-    // <Wrapper>
     <section
       data-aos="fade-up"
       data-aos-duration="1000"
-      className="grid grid-flow-row auto-rows-max grid-cols-12 lg:grid-cols-12 mb-20 text-center flex justify-center items-center"
+      className="grid max-w-screen-xl mx-auto"
     >
       <div className="col-span-12 text-center lg:text-left mt-8">
-        <h3 className="text-5xl sm:text-6xl md:text-7xl mb-9 font-extrabold text-[#094067] leading-tight pt-8 text-center">
+        <h3 className="text-5xl sm:text-6xl md:text-7xl mb-10 font-extrabold text-[#094067] leading-tight pt-8 text-center">
           About Us
         </h3>
-        <div className="mb-6 text-base md:text-lg tracking-wide leading-8 font-medium text-[#5F6C7B] pr-0 md:pr-4 xl:pr-32 d-flex justify-context-center">
+        <div className="mb-10 text-base md:text-lg tracking-wide leading-8 font-medium text-[#5F6C7B] pr-0 md:pr-4 xl:pr-32 d-flex justify-context-center">
           <div className="mb-4">
             VTecknologies an Indian company based in Chennai, but our physical
             location is now less relevant in today's remote-centric landscape.

@@ -4,11 +4,11 @@ import Contact from "../Contact/index";
 import { Outlet } from "react-router-dom";
 import Clients from "../Clients";
 
-const Wrapper = ({ children }) => {
+const Wrapper = () => {
   return (
     <>
       <Header />
-      {children}
+      <Outlet />
       <Clients />
       <Contact />
       <Footer />
