@@ -14,6 +14,7 @@ import About from "./components/About/index";
 import ErrorPage from "./error-page";
 import Home from "./components/Home/index";
 import Wrapper from "./components/Wrapper";
+import Todo from "./components/AllProducts/Todo";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -22,6 +23,7 @@ const router = createBrowserRouter(
       <Route path="app/terms" element={<Terms />} />
       <Route path="app/about" element={<About />} />
       <Route path="app/privacy" element={<Privacy />} />
+      <Route path="app/products/todo" element={<Todo />} />
       <Route path="*" element={<ErrorPage />} />
     </Route>
   )

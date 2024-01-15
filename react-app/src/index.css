@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Nunito:wght@500;700&family=Poppins:wght@400;500;700&display=swap");
+
 body {
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Lato", sans-serif;
 }

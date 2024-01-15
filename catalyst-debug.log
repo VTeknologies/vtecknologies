@@ -101,3 +101,47 @@ Response Headers: {"server":"ZGS","date":"Mon, 27 Nov 2023 06:27:40 GMT","conten
 [debug] [2023-11-27T06:27:40.355Z] : NO ERRORS REGISTERED
 [debug] [2023-11-27T06:27:40.356Z] : EXEC ENDED with event: deploy, message: success
 [debug] [2023-11-27T06:27:40.356Z] : TOTAL DURATION OF COMMAND EXEC : 152922
+[debug] [2024-01-15T16:28:51.193Z] : 
+[debug] [2024-01-15T16:28:51.195Z] : ----------------------------------------------------------------------
+[debug] [2024-01-15T16:28:51.196Z] : Command:      D:\Program Files\nodejs\node.exe C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js run
+[debug] [2024-01-15T16:28:51.196Z] : CLI Version:  1.16.0
+[debug] [2024-01-15T16:28:51.197Z] : Platform:     win32
+[debug] [2024-01-15T16:28:51.197Z] : Node Version: v18.18.0
+[debug] [2024-01-15T16:28:51.199Z] : Time:         Mon Jan 15 2024 21:58:51 GMT+0530 (India Standard Time)
+[debug] [2024-01-15T16:28:51.200Z] : ----------------------------------------------------------------------
+[debug] [2024-01-15T16:28:51.200Z] : 
+[debug] [2024-01-15T16:29:11.966Z] : > authorizing via signed-in user option
+[debug] [2024-01-15T16:29:11.967Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL"]
+[debug] [2024-01-15T16:29:12.032Z] : > refreshing access token <
+[debug] [2024-01-15T16:29:12.034Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-01-15T16:29:12.282Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 15 Jan 2024 16:29:12 GMT","content-type":"application/json;charset=UTF-8","content-length":"1883","connection":"close","set-cookie":["6e73717622=3bcf233c3836eb7934b6f3edc257f951; Path=/","iamcsr=06df2894-db3c-4992-a41a-26de5013cbd5;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=06df2894-db3c-4992-a41a-26de5013cbd5;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-xss-protection":"1","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-01-15T16:29:12.299Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5140000000004073 
+
+[debug] [2024-01-15T16:29:12.582Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 15 Jan 2024 16:29:13 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=d93dd51f-b002-4cdd-b6a9-04b95f58d567;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=d93dd51f-b002-4cdd-b6a9-04b95f58d567;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-01-15T16:29:12.583Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5140000000004073/environment 
+
+[debug] [2024-01-15T16:29:12.732Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 15 Jan 2024 16:29:13 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=5e984d57-7631-4313-b02e-ff8760fbfc40;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=5e984d57-7631-4313-b02e-ff8760fbfc40;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[error] [2024-01-15T16:29:12.746Z] : × Scripts not found
+[debug] [2024-01-15T16:29:12.747Z] : Error Stack: CatalystError: Scripts not found
+    at Object.script (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\util_modules\config\lib\client.js:75:15)
+    at C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\commands\run.js:60:37
+    at Array.forEach (<anonymous>)
+    at C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\commands\run.js:57:25
+    at Generator.next (<anonymous>)
+    at C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\commands\run.js:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\commands\run.js:27:12)
+    at Command.cmdAction (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\commands\run.js:49:30)
+    at Command.<anonymous> (C:\Users\DELL-XEON\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\command.js:212:35)
+[debug] [2024-01-15T16:29:12.747Z] : Error Status: 500
+[info] [2024-01-15T16:29:12.747Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[debug] [2024-01-15T16:29:12.748Z] : EXEC ENDED with event: Error (Unexpected), message: Scripts not found
+[debug] [2024-01-15T16:29:12.748Z] : TOTAL DURATION OF COMMAND EXEC : 910

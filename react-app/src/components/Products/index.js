@@ -14,11 +14,12 @@ const Product = () => {
         </div>
         <div className="grid grid-cols-4 lg:grid-cols-12 gap-y-12 lg:gap-y-0 lg:gap-x-12 mb-8">
           <div className="col-span-4 flex flex-col items-center justify-center rounded-xl hover:scale-105 transition duration-250 cursor-pointer">
-            <a
+            {/* <a
               href="https://youtu.be/luOrjK2I1rk"
               target="_blank"
               title="Click to See Demo"
-            >
+            > */}
+            <a href="products/todo" target="_blank" title="Click to See Demo">
               <img
                 src={process.env.PUBLIC_URL + "/assets/apps/todo.jpg"}
                 className="h-[100%] aspect-video lg:aspect-auto object-cover object-center mb-4 rounded-xl shadow-[0_9px_40px_rgba(9,64,103,0.20)]"
