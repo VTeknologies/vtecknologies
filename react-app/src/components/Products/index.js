@@ -11,30 +11,30 @@ const Product = () => {
           <h3 className="text-4xl text-[#094067] font-extrabold leading-tight w-full lg:w-fit pb-8">
             Our Top products
           </h3>
+          <h6 className="text-[#094067] font-extrabold leading-tight w-full lg:w-fit pb-8">
+            Our other products
+          </h6>
         </div>
         <div className="grid grid-cols-4 lg:grid-cols-12 gap-y-12 lg:gap-y-0 lg:gap-x-12 mb-8">
-          <div className="col-span-4 flex flex-col items-center justify-center rounded-xl hover:scale-105 transition duration-250 cursor-pointer">
-            {/* <a
-              href="https://youtu.be/luOrjK2I1rk"
-              target="_blank"
-              title="Click to See Demo"
-            > */}
-            <a href="products/todo" target="_blank" title="Click to See Demo">
+          <div className="col-span-4 flex flex-col items-center justify-center rounded-xl hover:scale-105 transition duration-250 ">
+            <a href="app/products/todo" title="Click to See Demo">
               <img
                 src={process.env.PUBLIC_URL + "/assets/apps/todo.jpg"}
-                className="h-[100%] aspect-video lg:aspect-auto object-cover object-center mb-4 rounded-xl shadow-[0_9px_40px_rgba(9,64,103,0.20)]"
+                className="h-[100%] aspect-video lg:aspect-auto object-cover object-center mb-4 rounded-xl shadow-[0_9px_40px_rgba(9,64,103,0.20)] cursor-pointer"
                 alt=""
               />
             </a>
             <h5 className="text-xl text-[#094067] font-bold mb-3.5 mt-3.5">
+              Tasks Todo
+            </h5>
+            <p className="text-sm text-[#5F6C7B] font-medium">
               <a
                 href="https://www.freshworks.com/apps/freshdesk/task_master/"
                 target="_blank"
               >
-                Tasks Todo
+                FreshDesk
               </a>
-            </h5>
-            <p className="text-sm text-[#5F6C7B] font-medium">FreshDesk</p>
+            </p>
           </div>
           <div className="col-span-4 flex flex-col items-center justify-center rounded-xl hover:scale-105 transition duration-250 cursor-pointer">
             <a
@@ -58,19 +58,22 @@ const Product = () => {
             </h5>
             <p className="text-sm text-[#5F6C7B] font-medium">FreshDesk</p>
           </div>
-          <div className="col-span-4 flex flex-col items-center justify-center rounded-xl hover:scale-105 transition duration-300 cursor-pointer">
-            <a
+          <div className="col-span-4 flex flex-col items-center justify-center rounded-xl hover:scale-105 transition duration-300">
+            {/* <a
               href="https://youtu.be/ZgPGDql1bpg"
               target="_blank"
               title="Click to See Demo"
-            >
+            > */}
+
+            <a href="app/products/pdc">
               <img
                 src={process.env.PUBLIC_URL + "/assets/apps/scheduler.jpg"}
                 className="h-[100%] aspect-video lg:aspect-auto object-cover object-center mb-4 rounded-xl shadow-[0_9px_40px_rgba(9,64,103,0.20)]"
                 alt=""
               />
             </a>
-            <h5 className="text-xl text-[#094067] font-bold mb-3.5 mt-3.5">
+            {/* </a> */}
+            {/* <h5 className="text-xl text-[#094067] font-bold mb-3.5 mt-3.5">
               <a
                 href="https://www.freshworks.com/apps/freshdesk/ticket_schedules_1/"
                 target="_blank"
@@ -78,7 +81,11 @@ const Product = () => {
                 Ticket Scheduler
               </a>
             </h5>
-            <p className="text-sm text-[#5F6C7B] font-medium">FreshDesk</p>
+            <p className="text-sm text-[#5F6C7B] font-medium">FreshDesk</p> */}
+            <h5 className="text-xl text-[#094067] font-bold mb-3.5 mt-3.5">
+              Post Dated cheque (PDC)
+            </h5>
+            <p className="text-sm text-[#5F6C7B] font-medium">Zoho</p>
           </div>
         </div>
       </section>
