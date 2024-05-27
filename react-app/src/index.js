@@ -16,6 +16,7 @@ import Home from "./components/Home/index";
 import Wrapper from "./components/Wrapper";
 import Todo from "./components/AllProducts/Todo";
 import PDC from "./components/AllProducts/PDC";
+import AllProductsLayout from "./components/AllProducts/AllProductsLayout";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -24,9 +25,9 @@ const router = createBrowserRouter(
       <Route path="app/terms" element={<Terms />} />
       <Route path="app/about" element={<About />} />
       <Route path="app/privacy" element={<Privacy />} />
-      <Route path="app/products/todo" element={<Todo />} />
-      <Route path="app/products/pdc" element={<PDC />} />
-      {/* <Route path="app/allproducts" element={<Todo />} /> */}
+      <Route path="app/todo" element={<Todo />} />
+      <Route path="app/all" element={<AllProductsLayout />} />
+      <Route path="app/pdc" element={<PDC />} />
       <Route path="*" element={<ErrorPage />} />
     </Route>
   )

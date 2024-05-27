@@ -1,71 +1,59 @@
 import React from "react";
 
-const ProductDetails = () => {
+const ProductDetails = ({
+  key,
+  icon,
+  name,
+  desc,
+  platform,
+  videolink,
+  appurl,
+  installationpprocedures,
+}) => {
   return (
     <section
       data-aos="fade-up"
       data-aos-duration="1000"
       className="grid max-w-screen-xl mx-auto"
     >
-      <div className="flex flex-row justify-center items-center">
-        <img
-          className="object-stretch w-12 h-12"
-          src={process.env.PUBLIC_URL + "/assets/logo/todo.jpeg"}
-          alt=""
-          srcset=""
-        />
-        <p className="text-5xl font-bold mx-4">Task Todo</p>
+      <div className="flex justify-center items-center">
+        <p className="text-5xl font-bold mx-4">{name}</p>
       </div>
-      <div className="my-9 flex flex-row justify-center items-center">
-        <p className="w-7/12  text-lg">
-          Create your own workflows with custom task lists for managing your
-          tickets. Businesses always have a set of processes and rules that need
-          to be adhered to in their day to day operations. The Task To do App
-          exclusively built for FreshDesk comes in handy to structure this
-          process for a newly joined team member and as well as a seasoned
-          staff.
-        </p>
-        <div className="w-5/12">
-          <img
-            src={process.env.PUBLIC_URL + "/assets/apps/todo.jpg"}
-            alt="Todo app logo"
-            className="object-cover"
-          />
+      <div className="mt-9 flex justify-center place-content-between  items-center">
+        <div className="flex-col">
+          <p className="text-lg">
+            {desc.map((x) => (
+              <p className="my-3">{x}</p>
+            ))}
+          </p>
+        </div>
+        <div className="w-4/5">
+          <img src={`${process.env.PUBLIC_URL}/${icon}`} alt={name} />
         </div>
       </div>
-      <p className="text-3xl font-bold">Highlights of the App</p>
-      <p className="my-5">
-        Once the app is installed, the admin of the organization would be able
-        to
-      </p>
-      <div className="flex flex-row justify-center items-center">
-        <p className="w-6/12 border-2 border-solid border-slate-900  mx-4 px-10 py-5 rounded-lg  shadow hover:shadow-2xl transition-shadow duration-75 hover:ease-in-out hover:animate-pulse ">
-          Add a set of tasks for ticket type or dependent fields that agents
-          must complete.
-        </p>
-        <p className="w-6/12 border-2 border-solid border-slate-900  mx-4 px-10 py-5 rounded-lg  shadow hover:shadow-2xl transition-shadow duration-100 hover:ease-in-out hover:animate-pulse">
-          All created tasks that are critical or necessary can be marked as
-          mandatory. Agents have to complete them before resolving or closing
-          the ticket.
-        </p>
+      <div className="flex gap-x-6 mb-14 ">
+        <a href={videolink} target="_blank">
+          <p className="rounded-lg bg-[#D687EB] px-10 py-5 text-white text-2xl font-semibold">
+            Demo link
+          </p>
+        </a>
+        <a href={appurl} target="_blank">
+          <p className="rounded-lg bg-[#D687EB] px-10 py-5 text-white text-2xl font-semibold ">
+            Install Now
+          </p>
+        </a>
       </div>
-      <p className="my-5">
-        Once the app is configured, inside the ticket details page
-      </p>
-      <div className="flex flex-col justify-start items-start">
-        <p className="w-full border-2 border-solid border-slate-900 mx-4 px-10 py-5 rounded-lg  shadow hover:shadow-2xl transition-shadow duration-75 hover:ease-in-out hover:animate-pulse mt-5">
-          Both agents and admin would be able to see the tasks shown for a
-          selected ticket type.
-        </p>
-        <p className="w-full border-2 border-solid border-slate-900 mx-4 px-10 py-5 rounded-lg  shadow hover:shadow-2xl transition-shadow duration-100 hover:ease-in-out hover:animate-pulse mt-5">
-          Agents can refer to the tasks to ensure all steps are followed while
-          resolving that particular ticket.
-        </p>
-        <p className="w-full mt-5 border-2 border-solid border-slate-900 mx-4 px-10 py-5  rounded-lg  shadow hover:shadow-2xl transition-all duration-100 hover:ease-in-out hover:animate-pulse mt-5">
-          Agents can refer to the tasks to ensure all steps are followed while
-          resolving that particular ticket.
-        </p>
-      </div>
+      <p className="text-3xl font-bold">Steps to Install the Extension</p>
+      <section className="my-4">
+        {installationpprocedures.map((x) => (
+          <p className="mt-4">{`* ${x}`}</p>
+        ))}
+      </section>
+      {/* <div className="my-5">
+        In essence, Zoho Books provides a user-friendly extension to streamline
+        the tracking and management of post-dated cheques, contributing to a
+        more efficient and organized financial workflow for businesses.
+      </div> */}
     </section>
   );
 };
