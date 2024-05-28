@@ -1,10 +1,10 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 export default function AllProductsLayout() {
   const products = [
     {
       id: "1",
-      key: "todo",
+      key: "app/todo",
       icon: "assets/apps/todo.jpg",
       name: "Todo",
       platform: "Freshdesk",
@@ -65,9 +65,9 @@ export default function AllProductsLayout() {
           <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8 ">
             {products.map((product) => (
               <div className="border border-solid border-gray-200 rounded-lg hover:shadow-lg">
-                <a
+                <Link
                   key={product.key}
-                  href={`/app/${product.key}`}
+                  to={`/${product.key}`}
                   className="group h-auto max-w-full"
                 >
                   <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
@@ -83,7 +83,7 @@ export default function AllProductsLayout() {
                   <p className="mb-2 text-sm font-medium text-gray-900 text-center">
                     {product.platform}
                   </p>
-                </a>
+                </Link>
               </div>
             ))}
           </div>

@@ -1,5 +1,6 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
+
 import "./index.css";
 import App from "./App";
 import {
@@ -26,8 +27,8 @@ const router = createBrowserRouter(
       <Route path="app/about" element={<About />} />
       <Route path="app/privacy" element={<Privacy />} />
       <Route path="app/todo" element={<Todo />} />
-      <Route path="app/all" element={<AllProductsLayout />} />
-      <Route path="app/pdc" element={<PDC />} />
+      <Route path="/all" element={<AllProductsLayout />} />
+      <Route path="/pdc" element={<PDC />} />
       <Route path="*" element={<ErrorPage />} />
     </Route>
   )

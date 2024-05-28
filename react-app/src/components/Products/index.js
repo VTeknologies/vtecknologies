@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const Product = () => {
   return (
     <>
@@ -12,7 +13,7 @@ const Product = () => {
             Our Top products
           </h3>
           <h6 className="text-[#094067] font-extrabold underline underline-offset-4 hover:no-underline leading-tight w-full lg:w-fit pb-8">
-            <a href="app/all">Our other products</a>
+            <Link to="/all">Our other products</Link>
           </h6>
         </div>
         <div className="grid grid-cols-4 lg:grid-cols-12 gap-y-12 lg:gap-y-0 lg:gap-x-12 mb-8">
@@ -64,14 +65,15 @@ const Product = () => {
               target="_blank"
               title="Click to See Demo"
             > */}
-
-            <a href="app/products/pdc">
+            <Link to="/pdc">
+              {/* <a href="app/products/pdc"> */}
               <img
                 src={process.env.PUBLIC_URL + "/assets/apps/PDC.jpeg"}
                 className="h-[100%] aspect-video lg:aspect-auto object-cover object-center mb-4 rounded-xl shadow-[0_9px_40px_rgba(9,64,103,0.20)]"
                 alt=""
               />
-            </a>
+              {/* </a> */}
+            </Link>
             {/* </a> */}
             {/* <h5 className="text-xl text-[#094067] font-bold mb-3.5 mt-3.5">
               <a
