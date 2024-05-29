@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { HashLink } from 'react-router-hash-link';
+import { HashLink } from "react-router-hash-link";
 
 const Header = () => {
   return (
@@ -58,7 +58,12 @@ const Header = () => {
           >
             Contact Us
           </HashLink>
-          <HashLink to="/app/#myproduct" className="px-5 py-3 text-white bg-[#D687EB] rounded-md shadow-[0_6px_30px_rgba(214,135,235,0.6)] font-semibold hover:bg-[#D687EB] transition-colors duration-300">Our Products</HashLink>
+          <HashLink
+            to="/app/#myproduct"
+            className="px-5 py-3 text-white bg-[#D687EB] rounded-md shadow-[0_6px_30px_rgba(214,135,235,0.6)] font-semibold hover:bg-[#D687EB] transition-colors duration-300"
+          >
+            Our Products
+          </HashLink>
         </div>
       </nav>
     </header>
