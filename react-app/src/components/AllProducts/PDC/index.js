@@ -28,6 +28,15 @@ export default function PDC() {
 
       "In essence, Zoho Books provides a user-friendly extension to streamline the tracking and management of post-dated cheques, contributing to a more efficient and organized financial workflow for businesses.",
     ],
+    features: [
+      "Track issued and received cheques",
+
+      " Real time reports for both customer received and vendor issued cheques",
+
+      "Automate payment recording in a single click",
+
+      " Activity logs to track any discrepancies",
+    ],
   };
   return (
     <ProductDetails
@@ -39,6 +48,7 @@ export default function PDC() {
       videolink={a.videolink}
       appurl={a.appurl}
       installationpprocedures={a.installationpprocedures}
+      features={a.features}
     />
   );
 }

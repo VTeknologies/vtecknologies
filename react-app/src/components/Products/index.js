@@ -18,13 +18,13 @@ const Product = () => {
         </div>
         <div className="grid grid-cols-4 lg:grid-cols-12 gap-y-12 lg:gap-y-0 lg:gap-x-12 mb-8">
           <div className="col-span-4 flex flex-col items-center justify-center rounded-xl hover:scale-105 transition duration-250 ">
-            <a href="app/products/todo" title="Click to See Demo">
+            <Link to="/app/todo" title="Click to See Demo">
               <img
                 src={process.env.PUBLIC_URL + "/assets/apps/todo.jpg"}
                 className="h-[100%] aspect-video lg:aspect-auto object-cover object-center mb-4 rounded-xl shadow-[0_9px_40px_rgba(9,64,103,0.20)] cursor-pointer"
                 alt=""
               />
-            </a>
+            </Link>
             <h5 className="text-xl text-[#094067] font-bold mb-3.5 mt-3.5">
               Tasks Todo
             </h5>

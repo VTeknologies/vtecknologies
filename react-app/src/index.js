@@ -18,6 +18,7 @@ function AppRouter() {
     <HashRouter basename="/">
       <Routes>
         <Route path="/" element={<Wrapper />}>
+          <Route index element={<Home />} />
           <Route path="app" element={<Home />} />
           <Route path="app/terms" element={<Terms />} />
           <Route path="app/about" element={<About />} />

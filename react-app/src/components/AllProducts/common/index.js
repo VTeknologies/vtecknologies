@@ -9,6 +9,7 @@ const ProductDetails = ({
   videolink,
   appurl,
   installationpprocedures,
+  features,
 }) => {
   return (
     <section
@@ -31,6 +32,16 @@ const ProductDetails = ({
           <img src={`${process.env.PUBLIC_URL}/${icon}`} alt={name} />
         </div>
       </div>
+      {features && (
+        <div className="flex-col mb-10">
+          <p className="text-3xl font-bold">Key Features</p>
+          <p className="text-lg">
+            {features.map((x) => (
+              <p className="my-3">{x}</p>
+            ))}
+          </p>
+        </div>
+      )}
       <div className="flex gap-x-6 mb-14 ">
         <a href={videolink} target="_blank">
           <p className="rounded-lg bg-[#D687EB] px-10 py-5 text-white text-2xl font-semibold">
