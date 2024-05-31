@@ -42,6 +42,55 @@ const Privacy = () => {
             If you have any questions about how we handle user data and personal
             information, feel free to contact us.
           </div>
+          <div className="mb-4">
+            <p className="text-3xl font-bold mb-4">Information you Provide :</p>
+            Our Services allow you to create connections or integrations between
+            the third-party applications you use. When you utilize the Services,
+            information or content is transferred from one application to
+            another, and we collect this transferred information. Other users
+            may provide information about individuals when they submit content
+            or information through the Services. For example, if a user sets up
+            an automated calendaring process, they will share information about
+            the individuals they schedule meetings with through the integration.
+            Users may also provide information about their teammates, such as
+            names and email addresses, to invite them to use the Services.
+            Additionally, an administrator might provide your contact
+            information if they designate you as a user, billing contact,
+            technical contact, or administrator. You or your administrator may
+            integrate the Services with third-party applications. In such cases,
+            we receive information that identifies your account within those
+            third-party applications, including your name, email address, phone
+            number, tokens, and other identifying information, along with log
+            data, content, and device information. The information or content we
+            receive from your organization is subject to your organization’s
+            privacy policies. The information we receive when you integrate our
+            Services with a third-party application depends on the settings,
+            permissions, and privacy policies of that third-party application.
+            Authentication information used to identify an account will not be
+            saved, or if saved, it will be stored within the application and not
+            in any other private storage.
+          </div>
+          <div className="mb-4">
+            <p className="text-3xl font-bold mb-4">Interactions :</p>
+            If you encounter any issues or have feature requests, you can email
+            us, and we will assist you. These interactions are retained by us to
+            provide better service to our customers.
+          </div>
+          <div className="mb-4">
+            <p className="text-3xl font-bold mb-4">
+              Publicly Available Informations :
+            </p>
+            Information from Social Media Sites and Other Publicly Available
+            Sources When you provide feedback or reviews about our products, or
+            interact with us on marketplaces, review sites, or social media
+            platforms such as Facebook, Twitter, LinkedIn, and Instagram through
+            posts, comments, questions, and other interactions, we may collect
+            this publicly available information, including your profile
+            information. This allows us to connect with you, improve our
+            products, and reproduce and publish your feedback on our websites.
+            Please note that once collected, this information may remain with us
+            even if you delete it from these sites.
+          </div>
         </div>
         <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6 justify-center lg:justify-start"></div>
       </div>

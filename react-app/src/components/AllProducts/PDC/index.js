@@ -19,7 +19,7 @@ export default function PDC() {
       "1.Go to the Zoho Books marketplace and search for the application “Post Dated Cheques for Zoho Books”",
       "2.Click on the application and full pager opens with all the application related information.",
       "3.On the right top corner you will find the Buy Now button below which you will find the “Click here to install Extension” to install and experience the 14days free trial.",
-      "4.On cluck the link, a new page will open where you will be asked to select the organisation ion which you wish to install the application. This happens only if your Zoho Books account is logged in.",
+      "4.On click the link, a new page will open where you will be asked to select the organisation which you wish to install the application. This happens only if your Zoho Books account is logged in.",
       "5.If your Zoho Books account is not logged in then you will be requested to login into the account.",
       "6.Once the above step is completed you will have to agree to the terms and condition and click on the next button.",
       "7.The next steps is to authorise the connection, in this new page the Authorisation happens and you can complete by clicking on connect.",

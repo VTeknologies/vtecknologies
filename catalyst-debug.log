@@ -2235,3 +2235,142 @@ Response Headers: {"server":"ZGS","date":"Fri, 31 May 2024 11:04:09 GMT","conten
 [debug] [2024-05-31T11:04:09.976Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
 
 [debug] [2024-05-31T11:04:09.980Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2024-05-31T11:11:45.326Z] : 
+[debug] [2024-05-31T11:11:45.327Z] : ----------------------------------------------------------------------
+[debug] [2024-05-31T11:11:45.327Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\aroki\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-05-31T11:11:45.328Z] : CLI Version:  1.17.5
+[debug] [2024-05-31T11:11:45.328Z] : Platform:     win32
+[debug] [2024-05-31T11:11:45.328Z] : Node Version: v18.15.0
+[debug] [2024-05-31T11:11:45.332Z] : Time:         Fri May 31 2024 16:41:45 GMT+0530 (India Standard Time)
+[debug] [2024-05-31T11:11:45.332Z] : ----------------------------------------------------------------------
+[debug] [2024-05-31T11:11:45.332Z] : 
+[debug] [2024-05-31T11:11:46.213Z] : > authorizing via signed-in user option
+[debug] [2024-05-31T11:11:46.213Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-05-31T11:11:46.228Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5140000000004073 
+
+[debug] [2024-05-31T11:11:47.035Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 31 May 2024 11:11:46 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=4d31b9cc-686a-475f-b0d8-4ad4dc8008a9;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=4d31b9cc-686a-475f-b0d8-4ad4dc8008a9;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-05-31T11:11:47.043Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5140000000004073/environment 
+
+[debug] [2024-05-31T11:11:47.652Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 31 May 2024 11:11:46 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=2527e00d-81c4-477c-8f31-2a324ea90e88;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=2527e00d-81c4-477c-8f31-2a324ea90e88;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-05-31T11:11:47.974Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5140000000004073/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2024-05-31T11:11:48.334Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 31 May 2024 11:11:47 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=349af4af-a70e-4e89-a8e1-a55270d38619;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=349af4af-a70e-4e89-a8e1-a55270d38619;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-05-31T11:11:48.340Z] : unknown eol undefined hence skipping check
+[info] [2024-05-31T11:11:51.337Z] : [react-plugin]: Starting the development server...
+
+[info] [2024-05-31T11:11:51.339Z] : 
+[info] [2024-05-31T11:11:51.340Z] : i Client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2024-05-31T11:11:51.340Z] : 
+[info] [2024-05-31T11:11:53.686Z] : 
+[info] [2024-05-31T11:11:53.686Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2024-05-31T11:11:53.687Z] : i vtecksite_react_function: http://localhost:3000/server/vtecksite_react_function/
+[info] [2024-05-31T11:11:53.687Z] : 
+[info] [2024-05-31T11:11:53.688Z] : 
+[info] [2024-05-31T11:11:53.688Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2024-05-31T11:11:53.688Z] : i client[react-app]: http://localhost:3000/app/
+[info] [2024-05-31T11:11:53.689Z] : 
+[info] [2024-05-31T11:12:05.486Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-05-31T11:12:05.487Z] : [react-plugin]: [eslint] 
+src\components\AllProducts\common\index.js
+  Line 53:9:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 58:9:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Privacy\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2024-05-31T11:12:05.487Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-05-31T11:12:05.488Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-05-31T11:14:56.207Z] : [react-plugin]: Compiling...
+[info] [2024-05-31T11:14:57.613Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-05-31T11:14:57.613Z] : [react-plugin]: [eslint] 
+src\components\AllProducts\common\index.js
+  Line 53:9:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 58:9:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Privacy\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2024-05-31T11:14:57.614Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-05-31T11:14:57.615Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-05-31T11:15:51.835Z] : [react-plugin]: Compiling...
+[info] [2024-05-31T11:15:52.737Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-05-31T11:15:52.738Z] : [react-plugin]: [eslint] 
+src\components\AllProducts\common\index.js
+  Line 53:9:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 58:9:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Privacy\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2024-05-31T11:15:52.739Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-05-31T11:15:52.740Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-05-31T11:16:22.665Z] : [react-plugin]: Compiling...
+[info] [2024-05-31T11:16:23.548Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-05-31T11:16:23.550Z] : [react-plugin]: [eslint] 
+src\components\AllProducts\common\index.js
+  Line 53:9:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 58:9:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Privacy\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2024-05-31T11:16:23.551Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-05-31T11:16:23.552Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-05-31T11:17:15.245Z] : [react-plugin]: Compiling...
+[info] [2024-05-31T11:17:16.014Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-05-31T11:17:16.016Z] : [react-plugin]: [eslint] 
+src\components\AllProducts\common\index.js
+  Line 53:9:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 58:9:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Privacy\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2024-05-31T11:17:16.017Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-05-31T11:17:16.018Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-05-31T11:17:35.156Z] : [react-plugin]: Compiling...
+[info] [2024-05-31T11:17:35.833Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-05-31T11:17:35.833Z] : [react-plugin]: [eslint] 
+src\components\AllProducts\common\index.js
+  Line 53:9:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 58:9:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\components\Privacy\index.js
+  Line 1:8:  'Wrapper' is defined but never used  no-unused-vars
+[info] [2024-05-31T11:17:35.834Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-05-31T11:17:35.835Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-05-31T11:18:19.016Z] : Shutting down server
+[info] [2024-05-31T11:18:19.085Z] : 
+[info] [2024-05-31T11:18:19.087Z] : √ Shutdown complete
+[debug] [2024-05-31T11:18:19.088Z] : NO ERRORS REGISTERED
+[debug] [2024-05-31T11:18:19.090Z] : EXEC ENDED with event: serve, message: success
+[debug] [2024-05-31T11:18:19.090Z] : TOTAL DURATION OF COMMAND EXEC : 392889
+[debug] [2024-05-31T11:18:19.131Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.in/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-05-31T11:18:21.709Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Fri, 31 May 2024 11:18:20 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"147","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=591abb6e-3c01-404a-9323-8cd98ced90f0;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=591abb6e-3c01-404a-9323-8cd98ced90f0;path=/;SameSite=Strict;Secure;priority=high","JSESSIONID=EB70D6DA0ABD2FB1FE339C92E6F09C68; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2024-05-31T11:18:21.712Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2024-05-31T11:18:21.717Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
