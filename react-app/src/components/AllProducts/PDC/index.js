@@ -16,16 +16,16 @@ export default function PDC() {
     videolink: "https://www.youtube.com/watch?v=F2JhkMmz2yQ&t=67s",
     appurl: "https://www.freshworks.com/apps/task_master/",
     installationpprocedures: [
-      "1.Go to the Zoho Books marketplace and search for the application “Post Dated Cheques for Zoho Books”",
-      "2.Click on the application and full pager opens with all the application related information.",
-      "3.On the right top corner you will find the Buy Now button below which you will find the “Click here to install Extension” to install and experience the 14days free trial.",
-      "4.On click the link, a new page will open where you will be asked to select the organisation which you wish to install the application. This happens only if your Zoho Books account is logged in.",
-      "5.If your Zoho Books account is not logged in then you will be requested to login into the account.",
-      "6.Once the above step is completed you will have to agree to the terms and condition and click on the next button.",
-      "7.The next steps is to authorise the connection, in this new page the Authorisation happens and you can complete by clicking on connect.",
-      "8.Now the connection is completed and the last step is to create the authorised connection through Zoho Flow.",
-      "9.Click on connect and accept the listed information we wish to access and associate it to the cheques you receive.",
-      "10.The installation is completed and you are good to use the our “Post Dated Cheques for Zoho Books” Seamlessly.",
+      "1. Go to the Zoho Books marketplace and search for the application “Post Dated Cheques for Zoho Books”",
+      "2. Click on the application and full pager opens with all the application related information.",
+      "3. On the right top corner you will find the Buy Now button below which you will find the “Click here to install Extension” to install and experience the 14days free trial.",
+      "4. On click the link, a new page will open where you will be asked to select the organisation which you wish to install the application. This happens only if your Zoho Books account is logged in.",
+      "5. If your Zoho Books account is not logged in then you will be requested to login into the account.",
+      "6. Once the above step is completed you will have to agree to the terms and condition and click on the next button.",
+      "7. The next steps is to authorise the connection, in this new page the Authorisation happens and you can complete by clicking on connect.",
+      "8. Now the connection is completed and the last step is to create the authorised connection through Zoho Flow.",
+      "9. Click on connect and accept the listed information we wish to access and associate it to the cheques you receive.",
+      "10. The installation is completed and you are good to use the our “Post Dated Cheques for Zoho Books” Seamlessly.",
     ],
     features: [
       "Track issued and received cheques",
@@ -36,18 +36,38 @@ export default function PDC() {
 
       " Activity logs to track any discrepancies",
     ],
-    functionality: [
-      "Navigate to the Webtab where the extension is conveniently located.",
-      "Click on the extension, invoice section appears where all outstanding transactions with customers.Select one or multiple transactions for which you've received a post-dated cheque.",
-      "Follow the same steps for the Bills under the Bills TAB of the application.",
-      "Click submit, and the information will be captured under the 'Record Payment' section when selecting the relevant customer or vendor.",
-
-      "Within this section, you can effortlessly record received payments, edit dates, or delete entries as needed. A field displays the total receivables and Total payables for major business decisions.",
-
-      "The system ensures that recording a payment will automatically update the status of the corresponding invoice or bill, marking it as paid and reflecting the transaction in the payments received or paid section.",
-
-      "In essence, Zoho Books provides a user-friendly extension to streamline the tracking and management of post-dated cheques, contributing to a more efficient and organized financial workflow for businesses.",
-    ],
+    functionality: {
+      invoice: [
+        "Click on the extension, invoice section appears by default. ",
+        "Selected the customer from whom you have received the a check and immediately you can find all the invoices that are not in the paid status. We have provided the option to select multiple invoices as the chances of receiving one single check for multiple invoices are high.",
+        "After selecting the customer and the invoices, you can start entering cheque number, the mentioned amount on the cheque and also the future date.",
+        "Once you click on submit you can quickly find the selected invoices displayed below to which you allocate the amount accordingly. Also note that we will throw an error if you enter an amount more than the amount mentioned in the cheque, and also show the balance incase there is any.",
+        "Finally click on Submit and we will save the data accordingly.",
+      ],
+      bill: [
+        "Click on the bills tab on the top, the bills section will appear.",
+        "Selected the vendor to whom you have issued a check and immediately you can find all the bills that are not in the paid status. We have provided the option to select multiple bills as the chances of receiving one single check for multiple bills is possible.",
+        "After selecting the vendor and the bills, you can start entering the cheque number, the mentioned amount on the cheque and also the future date.",
+        "Once you click on submit you can quickly find the selected bills displayed below to which you allocate the amount accordingly. Also note that we will throw an error if you enter an amount more than the amount mentioned in the cheque, and also show the balance incase there is any.",
+        "Finally click on Submit and we will save the data accordingly. ",
+      ],
+      record_payments: [
+        "Select invoice cheques if you wish to record payments for the invoices and the Bills cheques if you wish to record payment s for the Vendor Bills.",
+        "On selecting the customer or vendor all the invoices or bills for which a cheque and the desired amount is allocated will be displayed.",
+        "In this place you can edit the entry in case you feel the entered data is wrong or there is a data change request from the customer or vendor.",
+        "If all the data is correct, you can click on the pay now button to record the payment. Please note that if a particular cheques is associated to multiple invoices or bills, recording payment for any one of the invoice or bills will automatically record the payment for the other.",
+        "On clicking the pay now button you will see a pop up where you can select the bank and the payment method to complete the payment.",
+      ],
+      paid_report: [
+        "Click on the tab and you will find a drop down showing Invoice reports and Bills reports.",
+        "Select one of the them for which you wish to take refer the reports",
+        "Lets say you want to see the report for customers and hence you select the invoice reports option. On selecting this you will get the option to select the desired Customer from the drop down post which you can see the reports getting displayed below.",
+      ],
+      activity: [
+        "Click on the module and find the option to choose either Invoice or Bills.",
+        "Based on the selected option we will display all the activities that has happened within the application. For instance, let’s say, a user has added a particular record or edited a particular record, the report will show who the user was, the activity that was performed, the related customer and transaction ID and finally the date of the activity.",
+      ],
+    },
   };
   return (
     <ProductDetails
@@ -57,7 +77,7 @@ export default function PDC() {
       desc={a.description}
       platform={a.platform}
       videolink={a.videolink}
-      appurl={a.appurl}
+      // appurl={a.appurl}
       installationpprocedures={a.installationpprocedures}
       features={a.features}
       functionality={a.functionality}

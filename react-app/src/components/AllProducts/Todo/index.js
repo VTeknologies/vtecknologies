@@ -6,7 +6,7 @@ export default function Todo() {
     id: "1",
     key: "todo",
     icon: "assets/apps/todo.jpg",
-    name: "Todo",
+    name: "Tasks To Do",
     platform: "Freshdesk",
     description: [
       "Create your own workflows with custom task lists for managing your tickets.",

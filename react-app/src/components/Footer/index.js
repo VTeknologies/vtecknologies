@@ -1,5 +1,6 @@
 import Wrapper from "../Wrapper/index";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const Footer = () => {
   return (
@@ -36,8 +37,12 @@ const Footer = () => {
             <p>Copyrights @VTecknologies</p>
           </div>
           <div className="flex gap-x-4">
-            <Link to="/app/terms">Terms of Use</Link>
-            <Link to="/app/privacy">Privacy Policy</Link>
+            <Link smooth to="/app/terms">
+              Terms of Use
+            </Link>
+            <Link smooth to="/app/privacy">
+              Privacy Policy
+            </Link>
           </div>
         </div>
       </div>

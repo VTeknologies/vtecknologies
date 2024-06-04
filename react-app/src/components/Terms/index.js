@@ -5,6 +5,7 @@ const Terms = () => {
       data-aos="fade-up"
       data-aos-duration="1000"
       className="grid max-w-screen-xl mx-auto"
+      id="terms"
     >
       <div className="flex-col justify-center col-span-8 text-left mt-8 mx-auto">
         <h3 className="text-5xl sm:text-6xl md:text-7xl mb-9 font-extrabold text-[#094067] leading-tight pt-8 text-center">
