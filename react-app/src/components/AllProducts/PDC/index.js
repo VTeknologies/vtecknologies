@@ -14,7 +14,8 @@ export default function PDC() {
       " In addressing this need, a dedicated extension has been developed to seamlessly manage checks received from customers or issued to vendors.",
     ],
     videolink: "https://www.youtube.com/watch?v=F2JhkMmz2yQ&t=67s",
-    appurl: "https://www.freshworks.com/apps/task_master/",
+    appurl:
+      "https://marketplace.zoho.com/app/books/post-dated-cheque-for-zoho-books",
     installationpprocedures: [
       "1. Go to the Zoho Books marketplace and search for the application “Post Dated Cheques for Zoho Books”",
       "2. Click on the application and full pager opens with all the application related information.",
@@ -77,7 +78,7 @@ export default function PDC() {
       desc={a.description}
       platform={a.platform}
       videolink={a.videolink}
-      // appurl={a.appurl}
+      appurl={a.appurl}
       installationpprocedures={a.installationpprocedures}
       features={a.features}
       functionality={a.functionality}
