@@ -4,7 +4,6 @@ const ProductDetails = ({
   icon,
   name,
   desc,
-
   videolink,
   appurl,
   installationpprocedures,
@@ -29,9 +28,15 @@ const ProductDetails = ({
             ))}
           </p>
         </div>
-        <div className="w-4/5">
-          <img src={`${process.env.PUBLIC_URL}/${icon}`} alt={name} />
-        </div>
+        {name === "Twilio" ? (
+          <div className="w-4/5" id="twilioimg">
+            <img src={`${process.env.PUBLIC_URL}/${icon}`} alt={name} />
+          </div>
+        ) : (
+          <div className="w-4/5">
+            <img src={`${process.env.PUBLIC_URL}/${icon}`} alt={name} />
+          </div>
+        )}
       </div>
       {features && (
         <div className="flex-col mb-10">
@@ -44,6 +49,53 @@ const ProductDetails = ({
             ))}
           </p>
         </div>
+      )}
+      <p className="text-3xl font-bold">Steps to Install the Extension</p>
+      {name === "Twilio" ? (
+        <section className="my-4 pb-10">
+          {installationpprocedures.map((x, index) => (
+            <p className="mt-4" key={index}>
+              {x.startsWith("1.") ||
+              x.startsWith("2.") ||
+              x.startsWith("3.") ||
+              x.startsWith("4.") ||
+              x.startsWith("5.") ||
+              x.startsWith("6.") ||
+              x.startsWith("7.") ? (
+                <b>{x}</b>
+              ) : (
+                // Apply indentation based on content
+                <>
+                  {x.includes("https://") ? (
+                    <>
+                      <span className="ml-6">{x.split("https://")[0]}</span>
+                      <a
+                        href={`https://${x.split("https://")[1]}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ color: "blue" }}
+                      >
+                        {`https://${x.split("https://")[1]}`}
+                      </a>
+                    </>
+                  ) : (
+                    <span
+                      className={`ml-${x.startsWith("        ") ? "6" : ""}`}
+                    >
+                      {x}
+                    </span>
+                  )}
+                </>
+              )}
+            </p>
+          ))}
+        </section>
+      ) : (
+        <section className="my-4 pb-10">
+          {installationpprocedures.map((x) => (
+            <p className="mt-4">{x}</p>
+          ))}
+        </section>
       )}
       {installationpprocedures && (
         <>

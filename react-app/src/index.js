@@ -11,6 +11,7 @@ import Home from "./components/Home/index";
 import Wrapper from "./components/Wrapper";
 import Todo from "./components/AllProducts/Todo";
 import PDC from "./components/AllProducts/PDC";
+import Twilio from "./components/AllProducts/Twilio";
 import AllProductsLayout from "./components/AllProducts/AllProductsLayout";
 import ApprovalApp from "./components/AllProducts/ApprovalAutomation";
 import Scheduler from "./components/AllProducts/Scheduler";
@@ -29,6 +30,7 @@ function AppRouter() {
           <Route path="app/todo" element={<Todo />} />
           <Route path="all" element={<AllProductsLayout />} />
           <Route path="pdc" element={<PDC />} />
+          <Route path="twilio" element={<Twilio />} />
           <Route path="approval" element={<ApprovalApp />} />
           <Route path="scheduler" element={<Scheduler />} />
           <Route path="stickynotes" element={<StickyNotes />} />
