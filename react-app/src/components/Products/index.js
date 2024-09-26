@@ -19,7 +19,7 @@ const Product = () => {
         </div>
         <div className="grid grid-cols-4 lg:grid-cols-12 gap-y-12 lg:gap-y-0 lg:gap-x-12 mb-8">
           <div className="col-span-4 flex flex-col items-center justify-center rounded-xl hover:scale-105 transition duration-250 ">
-            <Link smooth to="/app/todo" title="Click to See Demo">
+            <Link smooth to="/app/todo" title="Click to See more info">
               <img
                 src={process.env.PUBLIC_URL + "/assets/apps/todo.jpg"}
                 className="h-[100%] aspect-video lg:aspect-auto object-cover object-center mb-4 rounded-xl shadow-[0_9px_40px_rgba(9,64,103,0.20)] cursor-pointer"
@@ -39,17 +39,19 @@ const Product = () => {
             </p>
           </div>
           <div className="col-span-4 flex flex-col items-center justify-center rounded-xl hover:scale-105 transition duration-250 cursor-pointer">
-            <a
+            {/* <a
               href="https://youtu.be/tmYUO4RrstA"
               target="_blank"
-              title="Click to See Demo"
-            >
+              title="Click to See more info"
+            > */}
+            <Link smooth to="/approval" title="click to See more info">
               <img
                 src={process.env.PUBLIC_URL + "/assets/apps/approval.jpg"}
                 className="h-[100%] aspect-video lg:aspect-auto object-cover object-center mb-4 rounded-xl shadow-[0_9px_40px_rgba(9,64,103,0.20)]"
                 alt=""
               />
-            </a>
+            </Link>
+            {/* </a> */}
             <h5 className="text-xl text-[#094067] font-bold mb-3.5 mt-3.5">
               <a
                 href="https://www.freshworks.com/apps/freshdesk/approval_automations/"
@@ -61,12 +63,12 @@ const Product = () => {
             <p className="text-sm text-[#5F6C7B] font-medium">FreshDesk</p>
           </div>
           <div className="col-span-4 flex flex-col items-center justify-center rounded-xl hover:scale-105 transition duration-300">
-            {/* <a
+            {/* <a 
               href="https://youtu.be/ZgPGDql1bpg"
               target="_blank"
               title="Click to See Demo"
             > */}
-            <Link smooth to="/pdc">
+            <Link smooth to="/pdc" title="click to See more info">
               {/* <a href="app/products/pdc"> */}
               <img
                 src={process.env.PUBLIC_URL + "/assets/apps/PDC.jpeg"}

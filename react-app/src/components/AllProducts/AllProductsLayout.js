@@ -1,68 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import productsData from "./productsData.json";
 export default function AllProductsLayout() {
-  const products = [
-    {
-      id: "1",
-      key: "app/todo",
-      icon: "assets/apps/todo.jpg",
-      name: "Todo",
-      platform: "Freshdesk",
-      description: [
-        "Create your own workflows with custom task lists for managing your tickets.",
-        "Businesses always have a set of processes and rules that need to be adhered to in their day to day operations. The Task To do App exclusively built for freshdesk comes in handy to structure this process for a newly joined team member and as well as a seasoned staff.",
-      ],
-      videolink: "https://www.youtube.com/watch?v=luOrjK2I1rk",
-      appurl: "https://www.freshworks.com/apps/task_master/",
-      installationpprocedures: [
-        "Make sure to install the app from the Freshdesk marketplace.",
-        "Open the Todo app from your gallery",
-        "Enter the Freshdesk API key and domain URL",
-        "All ticket types available for the account is shown",
-        "Each ticket type has a section where you can choose to add/remove tasks",
-        "You can also choose to closeresolve tickets only after the set tasks are complete by turning on the toggle button",
-        "Click Install and you should see the app live in your ticket details page",
-      ],
-    },
-    {
-      id: "1",
-      key: "pdc",
-      icon: "assets/apps/PDC.jpeg",
-      name: "Post Dated Cheques for Zoho Books",
-      platform: "Zoho",
-      description: [
-        "Post-dated cheques serve as a valuable financial tool for proactively planning and managing cash flow in various transactions.",
-        " These cheques are issued with a future date, allowing for scheduled payments. It is essential for businesses to keep a meticulous record of both issued and received post-dated cheques in their accounting systems.",
-        " In addressing this need, a dedicated extension has been developed to seamlessly manage checks received from customers or issued to vendors.",
-      ],
-      videolink: "https://www.youtube.com/watch?v=F2JhkMmz2yQ&t=67s",
-      appurl: "https://www.freshworks.com/apps/task_master/",
-      installationpprocedures: [
-        "1.Go to the Zoho Books marketplace and search for the application “Post Dated Cheques for Zoho Books”",
-        "2.Click on the application and full pager opens with all the application related information.",
-        "3.On the right top corner you will find the Buy Now button below which you will find the “Click here to install Extension” to install and experience the 14days free trial.",
-        "4.On cluck the link, a new page will open where you will be asked to select the organisation ion which you wish to install the application. This happens only if your Zoho Books account is logged in.",
-        "5.If your Zoho Books account is not logged in then you will be requested to login into the account.",
-        "6.Once the above step is completed you will have to agree to the terms and condition and click on the next button.",
-        "7.The next steps is to authorise the connection, in this new page the Authorisation happens and you can complete by clicking on connect.",
-        "8.Now the connection is completed and the last step is to create the authorised connection through Zoho Flow.",
-        "9.Click on connect and accept the listed information we wish to access and associate it to the cheques you receive.",
-        "10.The installation is completed and you are good to use the our “Post Dated Cheques for Zoho Books” Seamlessly.",
-      ],
-      functionality: [
-        "Navigate to the Webtab where the extension is conveniently located.",
-        "Click on the extension, invoice section appears where all outstanding transactions with customers.Select one or multiple transactions for which you've received a post-dated cheque.",
-        "Follow the same steps for the Bills under the Bills TAB of the application.",
-        "Click submit, and the information will be captured under the 'Record Payment' section when selecting the relevant customer or vendor.",
-
-        "Within this section, you can effortlessly record received payments, edit dates, or delete entries as needed. A field displays the total receivables and Total payables for major business decisions.",
-
-        "The system ensures that recording a payment will automatically update the status of the corresponding invoice or bill, marking it as paid and reflecting the transaction in the payments received or paid section.",
-
-        "In essence, Zoho Books provides a user-friendly extension to streamline the tracking and management of post-dated cheques, contributing to a more efficient and organized financial workflow for businesses.",
-      ],
-    },
-  ];
+  const products = [...productsData.products];
   return (
     <section
       data-aos="fade-up"

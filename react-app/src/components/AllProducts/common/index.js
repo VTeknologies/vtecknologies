@@ -45,12 +45,18 @@ const ProductDetails = ({
           </p>
         </div>
       )}
-      <p className="text-3xl font-bold">Steps to Install the Extension</p>
-      <section className="my-4 pb-10">
-        {installationpprocedures.map((x) => (
-          <p className="mt-4">{x}</p>
-        ))}
-      </section>
+      {installationpprocedures && (
+        <>
+          {" "}
+          <p className="text-3xl font-bold">Steps to Install the Extension</p>
+          <section className="my-4 pb-10">
+            {installationpprocedures.map((x) => (
+              <p className="mt-4">{x}</p>
+            ))}
+          </section>
+        </>
+      )}
+
       <div className="flex gap-x-6 mb-14 ">
         <a href={videolink} target="_blank">
           <p className="rounded-lg bg-[#D687EB] px-10 py-5 text-white text-2xl font-semibold">
