@@ -69,7 +69,7 @@ const ProductDetails = ({
                 <>
                   {x.includes("https://") ? (
                     <>
-                      <span className="ml-6">{x.split("https://")[0]}</span>
+                      <span >{x.split("https://")[0]}</span>
                       <a
                         href={`https://${x.split("https://")[1]}`}
                         target="_blank"
@@ -81,7 +81,6 @@ const ProductDetails = ({
                     </>
                   ) : (
                     <span
-                      className={`ml-${x.startsWith("        ") ? "6" : ""}`}
                     >
                       {x}
                     </span>
