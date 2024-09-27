@@ -38,12 +38,27 @@ const Product = () => {
               </a>
             </p>
           </div>
-          <div className="col-span-4 flex flex-col items-center justify-center rounded-xl hover:scale-105 transition duration-250 cursor-pointer">
-            {/* <a
-              href="https://youtu.be/tmYUO4RrstA"
-              target="_blank"
-              title="Click to See more info"
-            > */}
+          <div className="col-span-4 flex flex-col items-center justify-center rounded-xl hover:scale-105 transition duration-250 ">
+            <Link smooth to="/twilio" title="Click to See more info">
+              <img
+                src={process.env.PUBLIC_URL + "/assets/apps/twilio.jpg"}
+                className="h-[100%] aspect-video lg:aspect-auto object-cover object-center mb-4 rounded-xl shadow-[0_9px_40px_rgba(9,64,103,0.20)] cursor-pointer"
+                alt=""
+              />
+            </Link>
+            <h5 className="text-xl text-[#094067] font-bold mb-3.5 mt-3.5">
+              Twilio
+            </h5>
+            <p className="text-sm text-[#5F6C7B] font-medium">
+              <a
+                href="https://www.freshworks.com/apps/twilio_pro/"
+                target="_blank"
+              >
+                FreshDesk
+              </a>
+            </p>
+          </div>
+          {/* <div className="col-span-4 flex flex-col items-center justify-center rounded-xl hover:scale-105 transition duration-250 cursor-pointer">
             <Link smooth to="/approval" title="click to See more info">
               <img
                 src={process.env.PUBLIC_URL + "/assets/apps/approval.jpg"}
@@ -51,7 +66,6 @@ const Product = () => {
                 alt=""
               />
             </Link>
-            {/* </a> */}
             <h5 className="text-xl text-[#094067] font-bold mb-3.5 mt-3.5">
               <a
                 href="https://www.freshworks.com/apps/freshdesk/approval_automations/"
@@ -61,7 +75,7 @@ const Product = () => {
               </a>
             </h5>
             <p className="text-sm text-[#5F6C7B] font-medium">FreshDesk</p>
-          </div>
+          </div> */}
           <div className="col-span-4 flex flex-col items-center justify-center rounded-xl hover:scale-105 transition duration-300">
             {/* <a 
               href="https://youtu.be/ZgPGDql1bpg"

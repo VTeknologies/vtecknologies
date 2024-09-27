@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import productsData from "./productsData.json";
 export default function AllProductsLayout() {
-  const products = [
+  let products = [
     {
       id: "1",
       key: "app/todo",
@@ -123,7 +123,7 @@ export default function AllProductsLayout() {
       ],
     },
   ];
-  const products = [...productsData.products];
+  products=[...productsData.products]
   return (
     <section
       data-aos="fade-up"

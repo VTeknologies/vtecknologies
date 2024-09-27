@@ -1,5 +1,5 @@
 import Wrapper from "../Wrapper/index";
-
+import 'aos/dist/aos.css'
 const Clients = () => {
   return (
     <section

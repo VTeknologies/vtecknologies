@@ -50,21 +50,22 @@ const ProductDetails = ({
           </p>
         </div>
       )}
-      <p className="text-3xl font-bold">Steps to Install the Extension</p>
-      {name === "Twilio" ? (
+      {installationpprocedures ? <p className="text-3xl font-bold">Steps to Install the Extension</p>:""}
+
+      {installationpprocedures ?
+      name === "Twilio"? (
         <section className="my-4 pb-10">
           {installationpprocedures.map((x, index) => (
             <p className="mt-4" key={index}>
               {x.startsWith("1.") ||
-              x.startsWith("2.") ||
-              x.startsWith("3.") ||
-              x.startsWith("4.") ||
-              x.startsWith("5.") ||
-              x.startsWith("6.") ||
-              x.startsWith("7.") ? (
+                x.startsWith("2.") ||
+                x.startsWith("3.") ||
+                x.startsWith("4.") ||
+                x.startsWith("5.") ||
+                x.startsWith("6.") ||
+                x.startsWith("7.") ? (
                 <b>{x}</b>
               ) : (
-                // Apply indentation based on content
                 <>
                   {x.includes("https://") ? (
                     <>
@@ -91,23 +92,13 @@ const ProductDetails = ({
           ))}
         </section>
       ) : (
-        <section className="my-4 pb-10">
+       <section className="my-4 pb-10">
           {installationpprocedures.map((x) => (
             <p className="mt-4">{x}</p>
           ))}
         </section>
-      )}
-      {installationpprocedures && (
-        <>
-          {" "}
-          <p className="text-3xl font-bold">Steps to Install the Extension</p>
-          <section className="my-4 pb-10">
-            {installationpprocedures.map((x) => (
-              <p className="mt-4">{x}</p>
-            ))}
-          </section>
-        </>
-      )}
+      )
+      :""}
 
       <div className="flex gap-x-6 mb-14 ">
         <a href={videolink} target="_blank">
