@@ -5,10 +5,10 @@ const About = () => {
     <section
       data-aos="fade-up"
       data-aos-duration="1000"
-      className="grid max-w-screen-xl mx-auto"
+      className="grid max-w-screen-xl mx-auto p-4"
     >
-      <div className="col-span-12 text-center lg:text-left mt-8">
-        <h3 className="text-5xl sm:text-6xl md:text-7xl mb-10 font-extrabold text-[#094067] leading-tight pt-8 text-center">
+      <div className="col-span-12 text-left mt-2">
+        <h3 className="text-5xl sm:text-6xl md:text-7xl mb-10 font-extrabold text-[#094067] leading-tight pt-2 text-left">
           About Us
         </h3>
         <div className="mb-10 text-base md:text-lg tracking-wide leading-8 font-medium text-[#5F6C7B] pr-0 md:pr-4 xl:pr-32 d-flex justify-context-center">

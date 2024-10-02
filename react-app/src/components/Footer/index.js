@@ -5,8 +5,8 @@ import { HashLink } from "react-router-hash-link";
 const Footer = () => {
   return (
     // <Wrapper>
-    <section data-aos="fade-down" className="container max-w-screen-xl mx-auto">
-      <div className="py-12 grid grid-cols-6 lg:grid-cols-12 gap-y-8 lg:gap-y-0 lg:gap-x-8">
+    <section data-aos="fade-down" className="container max-w-screen-xl mx-auto p-4">
+      <div className="py-12 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-12 gap-y-8 lg:gap-y-0 lg:gap-x-8">
         <div className="col-span-9 space-y-4">
           <img
             src={process.env.PUBLIC_URL + "/assets/logo.png"}

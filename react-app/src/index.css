@@ -7,3 +7,26 @@
 body {
   font-family: "Lato", sans-serif;
 }
+@media (min-width: 700px) and (max-width: 1024px) {
+  #hero-section {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #mobile-image {
+    display: none; 
+  }
+
+  #desktop-image {
+    width:50%;
+    display: block;
+  }
+  #desktop-image img{
+    width: 100%;
+  }
+  .pl-24{
+    padding: 0px !important;
+  }
+}
+
+

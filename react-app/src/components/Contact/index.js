@@ -9,7 +9,7 @@ const Contact = () => {
         data-aos="zoom-in"
         data-aos-delay="50"
         data-aos-duration="500"
-        className="container mx-auto max-w-screen-xl relative w-full bg-[#D8EEFE] py-12 rounded-xl shadow-[0_6px_30px_rgba(9,64,103,0.13)] mb-24 overflow-hidden"
+        className="container mx-auto max-w-screen-xl relative w-full bg-[#D8EEFE] py-12 rounded-xl shadow-[0_6px_30px_rgba(9,64,103,0.13)] mb-12 overflow-hidden"
       >
         <div className="relative z-10 flex flex-col items-center px-4 sm:px-8">
           <h3 className="text-2xl sm:text-3xl lg:text-4xl text-[#094067] text-center font-bold leading-tight px-0 lg:px-24 xl:px-48 mb-2">

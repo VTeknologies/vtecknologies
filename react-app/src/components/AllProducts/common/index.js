@@ -14,30 +14,27 @@ const ProductDetails = ({
     <section
       data-aos="fade-up"
       data-aos-duration="1000"
-      className="grid max-w-screen-xl mx-auto"
+      className="grid max-w-screen-xl p-4"
       id="product-details"
     >
       <div className="flex justify-center items-center">
         <p className="text-5xl font-bold ">{name}</p>
       </div>
-      <div className="mt-9 flex justify-center place-content-between  items-center">
+      <div className="mt-9 flex flex-col md:flex-row justify-center items-center">
         <div className="flex-col">
           <p className="text-lg">
-            {desc.map((x) => (
-              <p className="my-3">{x}</p>
+            {desc.map((x, index) => (
+              <p key={index} className="my-3">
+                {x}
+              </p>
             ))}
           </p>
         </div>
-        {name === "Twilio" ? (
-          <div className="w-4/5" id="twilioimg">
-            <img src={`${process.env.PUBLIC_URL}/${icon}`} alt={name} />
-          </div>
-        ) : (
-          <div className="w-4/5">
-            <img src={`${process.env.PUBLIC_URL}/${icon}`} alt={name} />
-          </div>
-        )}
+        <div className="w-full md:w-1/2 lg:w-2/5 flex justify-center mt-6 md:mt-0">
+          <img src={`${process.env.PUBLIC_URL}/${icon}`} alt={name} className="max-w-full" />
+        </div>
       </div>
+
       {features && (
         <div className="flex-col mb-10">
           <p className="text-3xl font-bold">Key Features</p>
@@ -50,72 +47,67 @@ const ProductDetails = ({
           </p>
         </div>
       )}
-      {installationpprocedures ? <p className="text-3xl font-bold">Steps to Install the Extension</p>:""}
 
-      {installationpprocedures ?
-      name === "Twilio"? (
-        <section className="my-4 pb-10">
-          {installationpprocedures.map((x, index) => (
-            <p className="mt-4" key={index}>
-              {x.startsWith("1.") ||
-                x.startsWith("2.") ||
-                x.startsWith("3.") ||
-                x.startsWith("4.") ||
-                x.startsWith("5.") ||
-                x.startsWith("6.") ||
-                x.startsWith("7.") ? (
-                <b>{x}</b>
-              ) : (
-                <>
-                  {x.includes("https://") ? (
-                    <>
-                      <span >{x.split("https://")[0]}</span>
-                      <a
-                        href={`https://${x.split("https://")[1]}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        style={{ color: "blue" }}
-                      >
-                        {`https://${x.split("https://")[1]}`}
-                      </a>
-                    </>
-                  ) : (
-                    <span
-                    >
-                      {x}
-                    </span>
-                  )}
-                </>
-              )}
-            </p>
-          ))}
-        </section>
-      ) : (
-       <section className="my-4 pb-10">
-          {installationpprocedures.map((x) => (
-            <p className="mt-4">{x}</p>
-          ))}
-        </section>
-      )
-      :""}
+      {installationpprocedures && (
+        <div>
+          <p className="text-3xl font-bold">Steps to Install the Extension</p>
+          <section className="my-4 pb-10">
+            {installationpprocedures.map((x, index) => (
+              <p className="mt-4" key={index}>
+                {x.startsWith("1.") ||
+                  x.startsWith("2.") ||
+                  x.startsWith("3.") ||
+                  x.startsWith("4.") ||
+                  x.startsWith("5.") ||
+                  x.startsWith("6.") ||
+                  x.startsWith("7.") ? (
+                  <b>{x}</b>
+                ) : (
+                  <>
+                    {x.includes("https://") ? (
+                      <>
+                        <span>{x.split("https://")[0]}</span>
+                        <a
+                          href={`https://${x.split("https://")[1]}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="break-all text-blue-500"
+                        >
+                          {`https://${x.split("https://")[1]}`}
+                        </a>
 
-      <div className="flex gap-x-6 mb-14 ">
-        <a href={videolink} target="_blank">
-          <p className="rounded-lg bg-[#D687EB] px-10 py-5 text-white text-2xl font-semibold">
-            Demo link
-          </p>
-        </a>
-        {appurl && (
-          <a href={appurl} target="_blank">
-            <p className="rounded-lg bg-[#D687EB] px-10 py-5 text-white text-2xl font-semibold ">
-              Install Now
-            </p>
-          </a>
-        )}
-      </div>
+                      </>
+                    ) : (
+                      <span>{x}</span>
+                    )}
+                  </>
+                )}
+              </p>
+            ))}
+          </section>
+        </div>
+      )}
+
+<div className="flex gap-x-6 mb-14">
+  <a href={videolink} target="_blank" className="w-full sm:w-auto">
+    <p className="rounded-lg bg-[#D687EB] px-6 py-3 text-white text-xl font-semibold text-center">
+      Demo link
+    </p>
+  </a>
+  {appurl && (
+    <a href={appurl} target="_blank" className="w-full sm:w-auto">
+      <p className="rounded-lg bg-[#D687EB] px-6 py-3 text-white text-xl font-semibold text-center">
+        Install Now
+      </p>
+    </a>
+  )}
+</div>
+
+
+
       {functionality && (
         <div>
-          <p className="text-3xl font-bold">Functionalites</p>
+          <p className="text-3xl font-bold">Functionalities</p>
           <p className=" text-lg my-3 ">
             Install the application as mentioned in the steps above.
           </p>
@@ -130,85 +122,8 @@ const ProductDetails = ({
               ))}
             </ol>
           </section>
-          <p className="text-2xl my-3 font-bold">Bills</p>
-          <p className=" text-lg my-3 ">
-            The working is similar to that of invoices but her you can manage
-            the cheques that you or your firm has issue. The working is
-            mentioned below,
-          </p>
-          <section className="my-2">
-            <ol>
-              {functionality.bill.map((x, i) => (
-                <li className="my-2" key={i}>
-                  {`${i + 1}.  ${x}`}
-                </li>
-              ))}
-            </ol>
-          </section>
-          <p className="text-2xl my-3 font-bold">Record Payments</p>
-          <p className=" text-lg my-3 ">
-            Record Payment is the place where all the entered data can be see
-            for customer under the invoice Cheques and for vendor under the
-            Bills Cheques accordingly.
-          </p>
-          <section className="my-2">
-            <ol>
-              {functionality.record_payments.map((x, i) => (
-                <li className="my-2" key={i}>
-                  {`${i + 1}.  ${x}`}
-                </li>
-              ))}
-            </ol>
-          </section>
-          <p className="text-2xl my-3 font-bold">Paid Reports</p>
-          <p className=" text-lg my-3 ">
-            This module is specifically to track the invoices and Bills for
-            which the payment was recorded from the Post Dated Cheques For Zoho
-            Books application. Below is the explanation of the reports this
-            module has,
-          </p>
-          <section className="my-2">
-            <ol>
-              {functionality.paid_report.map((x, i) => (
-                <li className="my-2" key={i}>
-                  {`${i + 1}.  ${x}`}
-                </li>
-              ))}
-            </ol>
-          </section>
-          <p className="text-2xl my-3 font-bold">Activities</p>
-          <p className=" text-lg my-3 ">
-            Just as the name suggests, this module to track the activities
-            happening within the application. Since dealing with cheques is
-            crucial, having a track is always beneficial,{" "}
-          </p>
-          <section className="my-2">
-            <ul>
-              {functionality.activity.map((x, i) => (
-                <li className="my-2" key={i}>
-                  {`${i + 1}.  ${x}`}
-                </li>
-              ))}
-            </ul>
-          </section>
-          <p className=" text-lg my-3 ">
-            Hope this document gives you detailed explanation, incase you wish
-            to raise any feature request or working of the application, please
-            feel free to drop an email to{" "}
-            <a
-              className=" text-cyan-600"
-              href="mailto:support@vtecknologies.com"
-            >
-              support@vtecknologies.com.
-            </a>
-          </p>
         </div>
       )}
-      {/* <div className="my-5">
-        In essence, Zoho Books provides a user-friendly extension to streamline
-        the tracking and management of post-dated cheques, contributing to a
-        more efficient and organized financial workflow for businesses.
-      </div> */}
     </section>
   );
 };
