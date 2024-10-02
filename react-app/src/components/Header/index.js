@@ -63,7 +63,7 @@ const Header = () => {
         </div>
         <div className="hidden md:flex items-center space-x-5">
           <Link
-            to="/app"
+            to="/app/#Home"
             className="px-5 py-3 rounded-md text-[#094067] font-semibold hover:text-[#094067]/75 transition duration-300"
           >
             Home
@@ -95,7 +95,7 @@ const Header = () => {
       >
         <div className="flex flex-col items-start space-y-3 p-4">
           <Link
-            to="/app"
+            to="/app/#Home"
             className="px-5 py-3 rounded-md text-[#094067] font-semibold hover:text-[#094067]/75 transition duration-300"
             onClick={toggleMobileMenu}
           >

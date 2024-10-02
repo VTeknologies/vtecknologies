@@ -1,6 +1,5 @@
 import React from "react";
 import ProductDetails from "../common";
-import "../Twilio/twilio.css"
 
 export default function Twilio() {
     const a = {

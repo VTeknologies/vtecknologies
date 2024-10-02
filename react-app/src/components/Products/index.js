@@ -2,8 +2,10 @@ import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import "../../App.css"
 
 const Product = () => {
+  
   return (
     <>
       <div id="myproduct"></div>
@@ -16,23 +18,9 @@ const Product = () => {
           <h3 className="text-[20px] sm:text-3xl md:text-4xl lg:text-4xl  text-[#094067] font-extrabold leading-tight w-full lg:w-fit pb-8">
             Our Top products
           </h3>
-          <h6 className="text-[#094067] font-extrabold leading-tight w-full lg:w-fit pb-8">
-            <Link to="/all" className="flex items-center justify-center hover:no-underline">
-              <span className="inline-flex items-center">
-                <span className="hidden lg:inline md:inline underline underline-offset-4 hover:no-underline" >Our Other Products</span>
-                <span className="inline lg:hidden md:hidden">See More</span>
-                <FontAwesomeIcon
-                  icon={faArrowRight}
-                  className="text-lg ml-2  lg:hidden md:hidden"
-                />
-              </span>
-            </Link>
-          </h6>
-
-
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-12 lg:gap-y-0 lg:gap-x-12 mb-8">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-y-12 lg:gap-y-0 lg:gap-x-12 mb-8">
           <div className="col-span-1 flex flex-col items-center justify-center rounded-xl hover:scale-105 transition duration-250 ">
             <Link smooth to="/app/todo" title="Click to See more info">
               <img
@@ -108,6 +96,20 @@ const Product = () => {
             <p className="text-sm text-[#5F6C7B] font-medium">Zoho</p>
           </div>
         </div>
+        <h6 className="text-[#094067] font-extrabold leading-tight pb-8 flex justify-center sm:justify-center md:justify-end lg:justify-end w-full lg:w-auto">
+          <Link to="/all" className="flex items-center justify-center  p-2">
+            <span className="inline-flex items-center">
+              <span className="hidden lg:inline md:inline  underline underline-offset-4 hover:no-underline">
+                Our Other Products
+              </span>
+              <span className="inline lg:hidden md:hidden">See More</span>
+              <FontAwesomeIcon
+                icon={faArrowRight}
+                className="text-lg ml-2 arrow-animation"
+              />
+            </span>
+          </Link>
+        </h6>
       </section>
     </>
   );

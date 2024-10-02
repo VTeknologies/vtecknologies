@@ -14,14 +14,14 @@ const ProductDetails = ({
     <section
       data-aos="fade-up"
       data-aos-duration="1000"
-      className="grid max-w-screen-xl p-4"
+      className="grid max-w-screen-xl p-4 mx-auto"
       id="product-details"
     >
-      <div className="flex justify-center items-center">
-        <p className="text-5xl font-bold ">{name}</p>
+      <div className="flex justify-center items-left">
+        <p className="text-4xl lg:text-5xl md:text-5xl items-left font-bold ">{name}</p>
       </div>
-      <div className="mt-9 flex flex-col md:flex-row justify-center items-center">
-        <div className="flex-col">
+      <div className="mt-9 flex flex-col md:flex-row justify-center items-left">
+        <div className="flex-col w-full">
           <p className="text-lg">
             {desc.map((x, index) => (
               <p key={index} className="my-3">
@@ -30,7 +30,7 @@ const ProductDetails = ({
             ))}
           </p>
         </div>
-        <div className="w-full md:w-1/2 lg:w-2/5 flex justify-center mt-6 md:mt-0">
+        <div className="w-full  lg:w-[40%] lg:h-[250px] flex justify-center mt-6 md:mt-0">
           <img src={`${process.env.PUBLIC_URL}/${icon}`} alt={name} className="max-w-full" />
         </div>
       </div>
@@ -54,57 +54,55 @@ const ProductDetails = ({
           <section className="my-4 pb-10">
             {installationpprocedures.map((x, index) => (
               <p className="mt-4" key={index}>
-                {x.startsWith("1.") ||
-                  x.startsWith("2.") ||
-                  x.startsWith("3.") ||
-                  x.startsWith("4.") ||
-                  x.startsWith("5.") ||
-                  x.startsWith("6.") ||
-                  x.startsWith("7.") ? (
-                  <b>{x}</b>
-                ) : (
-                  <>
-                    {x.includes("https://") ? (
-                      <>
-                        <span>{x.split("https://")[0]}</span>
-                        <a
-                          href={`https://${x.split("https://")[1]}`}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="break-all text-blue-500"
-                        >
-                          {`https://${x.split("https://")[1]}`}
-                        </a>
+                {name === "Twilio" ?
+                  x.startsWith("1.") ||
+                    x.startsWith("2.") ||
+                    x.startsWith("3.") ||
+                    x.startsWith("4.") ||
+                    x.startsWith("5.") ||
+                    x.startsWith("6.") ||
+                    x.startsWith("7.") ? (
+                    <b>{x}</b>
+                  ) : (
+                    <>
+                      {x.includes("https://") ? (
+                        <>
+                          <span>{x.split("https://")[0]}</span>
+                          <a
+                            href={`https://${x.split("https://")[1]}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="break-all text-blue-500"
+                          >
+                            {`https://${x.split("https://")[1]}`}
+                          </a>
 
-                      </>
-                    ) : (
-                      <span>{x}</span>
-                    )}
-                  </>
-                )}
+                        </>
+                      ) : (
+                        <span>{x}</span>
+                      )}
+                    </>
+                  ):x}
               </p>
             ))}
           </section>
         </div>
       )}
 
-<div className="flex gap-x-6 mb-14">
-  <a href={videolink} target="_blank" className="w-full sm:w-auto">
-    <p className="rounded-lg bg-[#D687EB] px-6 py-3 text-white text-xl font-semibold text-center">
-      Demo link
-    </p>
-  </a>
-  {appurl && (
-    <a href={appurl} target="_blank" className="w-full sm:w-auto">
-      <p className="rounded-lg bg-[#D687EB] px-6 py-3 text-white text-xl font-semibold text-center">
-        Install Now
-      </p>
-    </a>
-  )}
-</div>
-
-
-
+      <div className="flex gap-x-6 mb-14">
+        <a href={videolink} target="_blank" className="w-full sm:w-auto">
+          <p className="rounded-lg bg-[#D687EB] px-3 py-1 lg:px-6 lg:py-3 md:px-6 md:py-3  text-white text-xl font-semibold text-center">
+            Demo link
+          </p>
+        </a>
+        {appurl && (
+          <a href={appurl} target="_blank" className="w-full sm:w-auto">
+            <p className="rounded-lg bg-[#D687EB] px-3 py-1 lg:px-6 lg:py-3 md:px-6 md:py-3 text-white text-xl font-semibold text-center">
+              Install Now
+            </p>
+          </a>
+        )}
+      </div>
       {functionality && (
         <div>
           <p className="text-3xl font-bold">Functionalities</p>

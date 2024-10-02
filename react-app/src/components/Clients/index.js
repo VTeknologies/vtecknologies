@@ -20,12 +20,12 @@ const Clients = () => {
         />
         <img
           src={process.env.PUBLIC_URL + "/assets/partners/freshwork.png"}
-          className="h-10 sm:p-1"  
+          className="h-8 sm:p-1"  
           alt="Freshwork"
         />
         <img
           src={process.env.PUBLIC_URL + "/assets/partners/zendesk.png"}
-          className="h-10 sm:p-1"  
+          className="h-8 sm:p-1"  
           alt="Zendesk"
         />
         <img

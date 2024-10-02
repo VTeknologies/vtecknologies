@@ -5,3 +5,20 @@
 #header{
     --tw-shadow:none !important
 }
+
+@keyframes moveArrow {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .arrow-animation {
+    animation: moveArrow 1.5s ease-in-out infinite;
+  }
+  
