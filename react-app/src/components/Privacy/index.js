@@ -6,11 +6,11 @@ const Privacy = () => {
     <section
       data-aos="fade-up"
       data-aos-duration="1000"
-      className="grid max-w-screen-xl mx-auto"
+      className="grid max-w-screen-xl mx-auto px-4"
       id="privacy-policy"
     >
-      <div className="col-span-12 text-center lg:text-left mt-8">
-        <h3 className="text-5xl sm:text-6xl md:text-7xl mb-9 font-extrabold text-[#094067] leading-tight pt-8 text-center">
+      <div className="col-span-12 text-left mt-8">
+        <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl mb-9 font-extrabold text-[#094067] leading-tight pt-1 text-center">
           Privacy Policy
         </h3>
         <div className="mb-6 text-base md:text-lg tracking-wide leading-8 font-medium text-[#5F6C7B] pr-0 md:pr-4 xl:pr-32">

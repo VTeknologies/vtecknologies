@@ -11,7 +11,7 @@ const Header = () => {
   };
 
   return (
-    <header className="sticky top-0 bg-white shadow z-50 max-w-screen-xl mx-auto mb-8" id="header">
+    <header className="sticky top-0 bg-white shadow z-50 max-w-screen-xl mx-auto lg:mb-8" id="header">
       <nav className="px-4 sm:px-5 py-12 flex items-center justify-between space-x-12">
         <div className="flex items-center space-x-8">
           <div id="logo" className="flex items-center space-x-2">
