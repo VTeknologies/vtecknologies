@@ -10,12 +10,17 @@ const Header = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
+  const handleNavigation = () => {
+    window.scrollTo(0, 0);
+    setIsMobileMenuOpen(false);
+  };
+
   return (
     <header className="sticky top-0 bg-white shadow z-50 max-w-screen-xl mx-auto lg:mb-8" id="header">
       <nav className="px-4 sm:px-5 py-12 flex items-center justify-between space-x-12">
         <div className="flex items-center space-x-8">
           <div id="logo" className="flex items-center space-x-2">
-            <Link to="/app/" className="flex items-center space-x-2">
+            <Link to="/app/" className="flex items-center space-x-2" onClick={handleNavigation}>
               <img
                 src={process.env.PUBLIC_URL + "/assets/logo.png"}
                 className="w-8 h-8"
@@ -62,27 +67,34 @@ const Header = () => {
           </button>
         </div>
         <div className="hidden md:flex items-center space-x-5">
-          <Link
+          <HashLink
             to="/app/#Home"
             className="px-5 py-3 rounded-md text-[#094067] font-semibold hover:text-[#094067]/75 transition duration-300"
+            onClick={handleNavigation}
+            scroll={(el) => el.scrollIntoView({ behavior: 'smooth' })}
           >
             Home
-          </Link>
+          </HashLink>
           <Link
             className="px-5 py-3 rounded-md text-[#094067] font-semibold hover:text-[#094067]/75 transition duration-300"
             to="/app/about"
+            onClick={handleNavigation}
           >
             About Us
           </Link>
           <HashLink
             className="px-5 py-3 rounded-md text-[#094067] font-semibold hover:text-[#094067]/75 transition duration-300"
             to="/app/#contactme"
+            onClick={toggleMobileMenu}
+            scroll={(el) => el.scrollIntoView({ behavior: 'smooth' })}
           >
             Contact Us
           </HashLink>
           <HashLink
             to="/app/#myproduct"
             className="px-5 py-3 text-white bg-[#D687EB] rounded-md shadow-[0_6px_30px_rgba(214,135,235,0.6)] font-semibold hover:bg-[#D687EB] transition-colors duration-300"
+            onClick={toggleMobileMenu}
+            scroll={(el) => el.scrollIntoView({ behavior: 'smooth' })}
           >
             Our Products
           </HashLink>
@@ -94,17 +106,18 @@ const Header = () => {
         } overflow-hidden md:hidden`}
       >
         <div className="flex flex-col items-start space-y-3 p-4">
-          <Link
+          <HashLink
             to="/app/#Home"
             className="px-5 py-3 rounded-md text-[#094067] font-semibold hover:text-[#094067]/75 transition duration-300"
-            onClick={toggleMobileMenu}
+            onClick={handleNavigation}
+            scroll={(el) => el.scrollIntoView({ behavior: 'smooth' })}
           >
             Home
-          </Link>
+          </HashLink>
           <Link
             className="px-5 py-3 rounded-md text-[#094067] font-semibold hover:text-[#094067]/75 transition duration-300"
             to="/app/about"
-            onClick={toggleMobileMenu}
+            onClick={handleNavigation}
           >
             About Us
           </Link>
@@ -112,14 +125,15 @@ const Header = () => {
             className="px-5 py-3 rounded-md text-[#094067] font-semibold hover:text-[#094067]/75 transition duration-300"
             to="/app/#contactme"
             onClick={toggleMobileMenu}
+            scroll={(el) => el.scrollIntoView({ behavior: 'smooth' })}
           >
             Contact Us
           </HashLink>
-          {/* Updated Our Products link to match others */}
           <HashLink
             to="/app/#myproduct"
             className="px-5 py-3 rounded-md text-[#094067] font-semibold hover:text-[#094067]/75 transition duration-300"
             onClick={toggleMobileMenu}
+            scroll={(el) => el.scrollIntoView({ behavior: 'smooth' })}
           >
             Our Products
           </HashLink>

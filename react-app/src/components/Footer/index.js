@@ -1,17 +1,15 @@
 import Wrapper from "../Wrapper/index";
-import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
 const Footer = () => {
   return (
-    // <Wrapper>
     <section data-aos="fade-down" className="container max-w-screen-xl mx-auto p-4">
       <div className="py-12 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-12 gap-y-8 lg:gap-y-0 lg:gap-x-8">
         <div className="col-span-9 space-y-4">
           <img
             src={process.env.PUBLIC_URL + "/assets/logo.png"}
             className="w-9 h-9"
-            alt=""
+            alt="VTecknologies Logo"
           />
           <h5 className="text-xl font-bold text-[#094067]">VTecknologies</h5>
         </div>
@@ -31,23 +29,32 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="py-12 border-t border-[rgba(144,180,206,0.25)] text-center text-sm tracking-wide  text-[#5F6C7B]">
-        <div className="flex  flex-1 place-content-between">
+      <div className="py-12 border-t border-[rgba(144,180,206,0.25)] text-center text-sm tracking-wide text-[#5F6C7B]">
+        <div className="flex flex-1 place-content-between">
           <div>
             <p>Copyrights @VTecknologies</p>
           </div>
           <div className="flex gap-x-4">
-            <Link smooth to="/app/terms">
+            <HashLink
+              smooth
+              to="/app/terms#top"
+              className="text-[#5F6C7B] hover:text-[#33393f] transition duration-300"
+              scroll={(el) => el.scrollIntoView({ behavior: 'smooth' })}
+            >
               Terms of Use
-            </Link>
-            <Link smooth to="/app/privacy">
+            </HashLink>
+            <HashLink
+              smooth
+              to="/app/privacy#top"
+              className="text-[#5F6C7B] hover:text-[#33393f] transition duration-300"
+              scroll={(el) => el.scrollIntoView({ behavior: 'smooth' })}
+            >
               Privacy Policy
-            </Link>
+            </HashLink>
           </div>
         </div>
       </div>
     </section>
-    // </Wrapper>
   );
 };
 
