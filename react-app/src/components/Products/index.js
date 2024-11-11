@@ -4,7 +4,6 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import "../../App.css";
 
 const Product = () => {
-
   return (
     <>
       <div id="myproduct"></div>
@@ -14,12 +13,15 @@ const Product = () => {
         className="py-2 mb-16 text-center lg:text-left max-w-screen-xl mx-auto mb-8"
       >
         <div className="lg:flex md:flex items-center justify-between mb-8 lg:mb-5">
-          <h3 className="text-[20px] sm:text-3xl md:text-4xl lg:text-4xl  text-[#094067] font-extrabold leading-tight w-full lg:w-fit pb-8">
+          <h3 className="text-[20px] sm:text-3xl md:text-4xl lg:text-4xl text-[#094067] font-extrabold leading-tight w-full lg:w-fit pb-8">
             Our Top Products
           </h3>
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-y-12 lg:gap-y-0 lg:gap-x-12 mb-8">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-y-12 lg:gap-y-0 lg:gap-x-12 mb-8
+          iphone-5-se:grid-cols-1 iphone-6-8:grid-cols-2 iphone-x:grid-cols-2 iphone-12-mini:grid-cols-2
+          iphone-12:grid-cols-2 iphone-13:grid-cols-2 iphone-14:grid-cols-3 iphone-15:grid-cols-3
+          iphone-15-pro:grid-cols-3 iphone-15-pro-max:grid-cols-3">
           {/* Product 1 */}
           <div className="col-span-1 flex flex-col items-center justify-center rounded-xl hover:scale-105 transition duration-250">
             <HashLink smooth to="/app/todo#top" title="Click to See more info">
