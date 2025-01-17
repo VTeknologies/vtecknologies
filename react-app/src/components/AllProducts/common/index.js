@@ -54,14 +54,15 @@ const ProductDetails = ({
           <section className="my-4 pb-10">
             {installationpprocedures.map((x, index) => (
               <p className="mt-4" key={index}>
-                {name === "Twilio" ?
+                {name === "Twilio"||name==="Intercom" ?
                   x.startsWith("1.") ||
                     x.startsWith("2.") ||
                     x.startsWith("3.") ||
                     x.startsWith("4.") ||
                     x.startsWith("5.") ||
                     x.startsWith("6.") ||
-                    x.startsWith("7.") ? (
+                    x.startsWith("7.")||
+                    x.startsWith("8.") ? (
                     <b>{x}</b>
                   ) : (
                     <>
