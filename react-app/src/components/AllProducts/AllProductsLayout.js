@@ -167,8 +167,8 @@ export default function AllProductsLayout() {
         "This ensures that your payroll data is seamlessly synchronized between Payspace and Zoho Books, facilitating accurate payroll accounting and journal creation.",
         "It ensures a smooth flow of payroll-related accounting, making it easier for businesses to manage employee payments and liabilities."
       ],
-      videolink: "https://www.youtube.com/watch?v=qLThSFZjjF0",
-      appurl: "https://www.freshworks.com/apps/twilio_pro/",
+      videolink: "https://youtu.be/vHplfKYEBjI",
+      appurl: "https://www.freshworks.com/apps/freshsales_intercom_integration/",
       installationpprocedures: [
         "1. Ensure you have an active Payspace account.",
         "2. Go to the Zoho Books Marketplace and search for the application “Payspace Integration for Zoho Books.",
@@ -203,8 +203,8 @@ export default function AllProductsLayout() {
         "The Freshsales and Intercom Integration App is designed to simplify customer management by automatically synchronizing contact data.",
         "It ensures seamless updates, creation, and deletion of contacts between the two platforms, helping businesses maintain consistent and accurate customer information."
       ],
-      videolink: "https://www.youtube.com/watch?v=qLThSFZjjF0",
-      appurl: "https://www.freshworks.com/apps/twilio_pro/",
+      videolink: "https://youtu.be/vHplfKYEBjI",
+      appurl: "https://www.freshworks.com/apps/freshsales_intercom_integration/",
       installationpprocedures: [
         "1. Log in to Intercom:",
         "Visit the Intercom website and log in with your credentials.",
