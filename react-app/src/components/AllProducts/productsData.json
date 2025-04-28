@@ -34,12 +34,12 @@
         " In addressing this need, a dedicated extension has been developed to seamlessly manage checks received from customers or issued to vendors."
       ],
       "videolink": "https://www.youtube.com/watch?v=F2JhkMmz2yQ&t=67s",
-      "appurl": "https://www.freshworks.com/apps/task_master/",
+      "appurl": "https://marketplace.zoho.com/app/books/post-dated-cheque-for-zoho-books",
       "installationpprocedures": [
         "1.Go to the Zoho Books marketplace and search for the application “Post Dated Cheques for Zoho Books”",
         "2.Click on the application and full pager opens with all the application related information.",
         "3.On the right top corner you will find the Buy Now button below which you will find the “Click here to install Extension” to install and experience the 14days free trial.",
-        "4.On cluck the link, a new page will open where you will be asked to select the organisation ion which you wish to install the application. This happens only if your Zoho Books account is logged in.",
+        "4.On click the link, a new page will open where you will be asked to select the organisation ion which you wish to install the application. This happens only if your Zoho Books account is logged in.",
         "5.If your Zoho Books account is not logged in then you will be requested to login into the account.",
         "6.Once the above step is completed you will have to agree to the terms and condition and click on the next button.",
         "7.The next steps is to authorise the connection, in this new page the Authorisation happens and you can complete by clicking on connect.",
@@ -186,7 +186,6 @@
         "If the redirect doesn’t happen, simply find your app in the list and click on it to open the app’s settings page.",
         "Once you're on the app’s page, look at the left-hand menu for the Test and Publish option.",
 
-
         "5. Copy the Access Token:",
         "In the Test and Publish section, you’ll find your workspace details, including the Access Token. Copy the token for use in your integration.",
 
@@ -216,6 +215,31 @@
         "Contact Deletion: Deleting a contact in one system removes it from the other to ensure data accuracy.",
         "Company Attachment: Links contacts to their associated companies during synchronization, ensuring complete and structured data transfer.",
         "Improved Data Management: Reduces manual effort, eliminates data duplication, and ensures smooth customer management workflows."
+      ]
+    },
+    {
+      "id": "10",
+      "key": "simplepay",
+      "icon": "assets/apps/simplepay.png",
+      "name": "Simplepay for Zoho Books",
+      "platform": "Zoho",
+      "description": [
+        " The SimplePay Integration App for Zoho Books is designed to streamline the payroll process by synchronizing payroll data and automating journal entries.",
+        "It ensures a smooth flow of payroll-related accounting, making it easier for businesses to manage employee payments and liabilities."
+      ],
+      "videolink": "https://youtu.be/MHqqdiRyNDY",
+      "appurl": "https://marketplace.zoho.com/app/books/post-dated-cheque-for-zoho-books",
+      "installationpprocedures": [
+        "1.Go to the Zoho Books marketplace and search for the application “Simplepay for Zoho Books”",
+        "2.Click on the application and full pager opens with all the application related information.",
+        "3.On the right top corner you will find the Buy Now button below which you will find the “Click here to install Extension” to install and experience the 14days free trial.",
+        "4.On click the link, a new page will open where you will be asked to select the organisation ion which you wish to install the application. This happens only if your Zoho Books account is logged in.",
+        "5.If your Zoho Books account is not logged in then you will be requested to login into the account.",
+        "6.Once the above step is completed you will have to agree to the terms and condition and click on the next button.",
+        "7.The next steps is to authorise the connection, in this new page the Authorisation happens and you can complete by clicking on connect.",
+        "8.Now you have to connect the both zoho books and simplepay accounts with necessary details.",
+        "9.Once the connection is completed, Click on the install button and you are good to go.",
+        "10.The installation is completed and you are good to use the our “Simplepay for Zoho Books” Seamlessly."
       ]
     }
   ]
