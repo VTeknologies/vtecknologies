@@ -13,8 +13,7 @@ export default function SimplePay() {
       "It ensures a smooth flow of payroll-related accounting, making it easier for businesses to manage employee payments and liabilities.",
     ],
     videolink: "https://youtu.be/MHqqdiRyNDY",
-    appurl:
-      "https://marketplace.zoho.com/app/books/post-dated-cheque-for-zoho-books",
+    appurl: "https://marketplace.zoho.com/app/books/simple-pay-for-zoho-books",
     installationpprocedures: [
       "1. Ensure you have an active SimplePay account.",
       "2. Retrieve your SimplePay API Key from your SimplePay account settings. Go to the simpay account, click on your Profile Icon at the top-right corner of the page.",
