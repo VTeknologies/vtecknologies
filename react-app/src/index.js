@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-import { Route, HashRouter, Routes } from "react-router-dom";
+import { Route, HashRouter, Routes, useLocation } from "react-router-dom";
 import Privacy from "./components/Privacy";
 import Terms from "./components/Terms/index";
 import About from "./components/About/index";
@@ -19,10 +19,20 @@ import AllProductsLayout from "./components/AllProducts/AllProductsLayout";
 import ApprovalApp from "./components/AllProducts/ApprovalAutomation";
 import Scheduler from "./components/AllProducts/Scheduler";
 import StickyNotes from "./components/About/StickyNotes";
+import Xero from "./components/AllProducts/Xero";
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+  return null;
+}
 
 function AppRouter() {
   return (
     <HashRouter basename="/">
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Wrapper />}>
           <Route index element={<Home />} />
@@ -40,6 +50,7 @@ function AppRouter() {
           <Route path="approval" element={<ApprovalApp />} />
           <Route path="scheduler" element={<Scheduler />} />
           <Route path="stickynotes" element={<StickyNotes />} />
+          <Route path="xero" element={<Xero />} />
           <Route path="*" element={<ErrorPage />} />
         </Route>
       </Routes>

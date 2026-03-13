@@ -1,103 +1,142 @@
-import { HashLink } from "react-router-hash-link";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import "../../App.css";
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import productsData from "../AllProducts/productsData.json";
+import PlatformBadge from "../PlatformBadge";
 
 const Product = () => {
+  const [activeFilter, setActiveFilter] = useState("All");
+
+  const filters = [
+    { label: "All", value: "All" },
+    { label: "Freshworks", value: "freshworks" },
+    { label: "Zoho", value: "zoho" },
+    { label: "HubSpot", value: "hubspot" }
+  ];
+
+  const filteredProducts = productsData.products
+    .filter(product => {
+      if (activeFilter === "All") return true;
+      return product.platformCategory === activeFilter;
+    })
+    .slice(0, 6);
+
   return (
-    <>
-      <div id="myproduct"></div>
-      <section
-        data-aos="zoom-in"
-        data-aos-duration="1000"
-        className="py-2 mb-16 text-center lg:text-left max-w-screen-xl mx-auto mb-8"
-      >
-        <div className="lg:flex md:flex items-center justify-between mb-8 lg:mb-5">
-          <h3 className="text-[20px] iphone678:text-lg iphone12:text-xl iphone14promax:text-2xl sm:text-3xl md:text-4xl lg:text-4xl text-[#094067] font-extrabold leading-tight w-full lg:w-fit pb-8">
-            Our Top Products
-          </h3>
-        </div>
+    <section
+      id="myproduct"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      className="max-w-screen-xl mx-auto px-4 py-16"
+    >
+      {/* Section Header */}
+      <div className="text-center mb-10">
+        <h2 className="text-3xl md:text-4xl font-extrabold text-[#094067] mb-4">
+          Apps That Solve Real Problems
+        </h2>
+        <p className="text-lg text-[#5F6C7B] max-w-2xl mx-auto">
+          From helpdesk automation to accounting extensions, our products are designed for teams that need more from their SaaS tools.
+        </p>
+      </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-12 mb-8">
-          {/* Product 1 */}
-          <div className="col-span-1 flex flex-col items-center justify-center rounded-xl hover:scale-105 transition duration-250 p-2 iphone:p-3">
-            <HashLink smooth to="/app/todo#top" title="Click to See more info">
-              <img
-                src={process.env.PUBLIC_URL + "/assets/apps/todo.jpg"}
-                className="product-image h-auto w-full sm:h-[80%] lg:h-[100%] iphone678:h-[150px] iphone12:h-[200px] iphone14promax:h-[240px] aspect-video lg:aspect-auto object-contain mb-4 rounded-xl shadow-[0_9px_40px_rgba(9,64,103,0.20)] cursor-pointer"
-                alt="Tasks Todo"
-              />
-            </HashLink>
-            <h5 className="text-xl iphone678:text-base iphone12:text-lg iphone14promax:text-xl text-[#094067] font-bold mb-3.5 mt-3.5">
-              Tasks Todo
-            </h5>
-            <p className="text-sm iphone678:text-xs iphone12:text-sm text-[#5F6C7B] font-medium">
-              <a
-                href="https://www.freshworks.com/apps/freshdesk/task_master/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                FreshDesk
-              </a>
-            </p>
-          </div>
+      {/* Platform Filters */}
+      <div className="flex flex-wrap justify-center gap-2 mb-10">
+        {filters.map((filter) => (
+          <button
+            key={filter.value}
+            onClick={() => setActiveFilter(filter.value)}
+            className={`px-5 py-2 rounded-full font-medium transition-all duration-300 ${
+              activeFilter === filter.value
+                ? "bg-[#D687EB] text-white shadow-md"
+                : "bg-gray-100 text-[#094067] hover:bg-gray-200"
+            }`}
+          >
+            {filter.label}
+          </button>
+        ))}
+      </div>
 
-          {/* Product 2 */}
-          <div className="col-span-1 flex flex-col items-center justify-center rounded-xl hover:scale-105 transition duration-250 p-2 iphone:p-3">
-            <HashLink smooth to="/twilio#top" title="Click to See more info">
+      {/* Products Grid */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {filteredProducts.map((product, index) => (
+          <Link
+            key={product.id}
+            to={`/${product.key}`}
+            data-aos="fade-up"
+            data-aos-delay={index * 50}
+            className="group bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-[0_15px_50px_rgba(9,64,103,0.15)] transition-all duration-300 hover:-translate-y-1"
+          >
+            {/* Product Image */}
+            <div className="relative aspect-video overflow-hidden bg-gray-50">
               <img
-                src={process.env.PUBLIC_URL + "/assets/apps/twilio.jpg"}
-                className="product-image h-auto w-full sm:h-[80%] lg:h-[100%] iphone678:h-[150px] iphone12:h-[200px] iphone14promax:h-[240px] aspect-video lg:aspect-auto object-contain mb-4 rounded-xl shadow-[0_9px_40px_rgba(9,64,103,0.20)] cursor-pointer"
-                alt="Twilio"
+                src={process.env.PUBLIC_URL + "/" + product.icon}
+                alt={product.name}
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
               />
-            </HashLink>
-            <h5 className="text-xl iphone678:text-base iphone12:text-lg iphone14promax:text-xl text-[#094067] font-bold mb-3.5 mt-3.5">
-              Twilio
-            </h5>
-            <p className="text-sm iphone678:text-xs iphone12:text-sm text-[#5F6C7B] font-medium">
-              <a
-                href="https://www.freshworks.com/apps/twilio_pro/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                FreshDesk
-              </a>
-            </p>
-          </div>
+              {/* Gradient overlay */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              {/* Platform Badge Overlay */}
+              <div className="absolute top-3 left-3">
+                <PlatformBadge platform={product.platform} size="xs" />
+              </div>
+              {/* Hover icon */}
+              <div className="absolute bottom-3 right-3 w-10 h-10 bg-white/90 backdrop-blur-sm rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
+                <svg className="w-5 h-5 text-[#D687EB]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+              </div>
+            </div>
 
-          {/* Product 3 */}
-          <div className="col-span-1 flex flex-col items-center justify-center rounded-xl hover:scale-105 transition duration-300 p-2 iphone:p-3">
-            <HashLink smooth to="/pdc#top" title="Click to See more info">
-              <img
-                src={process.env.PUBLIC_URL + "/assets/apps/PDC.jpeg"}
-                className="product-image h-auto w-full sm:h-[80%] lg:h-[100%] iphone678:h-[150px] iphone12:h-[200px] iphone14promax:h-[240px] aspect-video lg:aspect-auto object-contain mb-4 rounded-xl shadow-[0_9px_40px_rgba(9,64,103,0.20)] cursor-pointer"
-                alt="Post Dated Cheque"
-              />
-            </HashLink>
-            <h5 className="text-xl iphone678:text-base iphone12:text-lg iphone14promax:text-xl text-[#094067] font-bold mb-3.5 mt-3.5">
-              Post Dated Cheque (PDC)
-            </h5>
-            <p className="text-sm iphone678:text-xs iphone12:text-sm text-[#5F6C7B] font-medium">
-              Zoho
-            </p>
-          </div>
-        </div>
-        <h6 className="text-[#094067] font-extrabold leading-tight pb-8 flex justify-center sm:justify-center md:justify-end lg:justify-end w-full lg:w-auto">
-          <HashLink smooth to="/all#top" className="flex items-center justify-center p-2">
-            <span className="inline-flex items-center">
-              <span className="hidden lg:inline md:inline underline underline-offset-4 hover:no-underline">
-                Our Other Products
-              </span>
-              <span className="inline lg:hidden md:hidden">See More</span>
-              <FontAwesomeIcon
-                icon={faArrowRight}
-                className="text-lg ml-2 arrow-animation"
-              />
-            </span>
-          </HashLink>
-        </h6>
-      </section>
-    </>
+            {/* Product Info */}
+            <div className="p-5">
+              <h3 className="text-lg font-bold text-[#094067] mb-2 group-hover:text-[#D687EB] transition-colors">
+                {product.name}
+              </h3>
+              <p className="text-sm text-[#5F6C7B] mb-3 line-clamp-2">
+                {product.tagline}
+              </p>
+              <div className="flex items-center text-[#D687EB] font-semibold text-sm">
+                <span>Learn More</span>
+                <svg
+                  className="w-4 h-4 ml-1 group-hover:translate-x-2 transition-transform duration-300"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M9 5l7 7-7 7"
+                  />
+                </svg>
+              </div>
+            </div>
+          </Link>
+        ))}
+      </div>
+
+      {/* See All Products Link */}
+      <div className="text-center mt-10">
+        <Link
+          to="/all"
+          className="inline-flex items-center px-6 py-3 bg-[#094067] text-white font-bold rounded-lg hover:bg-[#0a5a8a] transition-colors duration-300"
+        >
+          <span>View All Products</span>
+          <svg
+            className="w-5 h-5 ml-2"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M17 8l4 4m0 0l-4 4m4-4H3"
+            />
+          </svg>
+        </Link>
+      </div>
+    </section>
   );
 };
 

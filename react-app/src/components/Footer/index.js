@@ -1,5 +1,5 @@
 import Wrapper from "../Wrapper/index";
-import { HashLink } from "react-router-hash-link";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -35,22 +35,18 @@ const Footer = () => {
             <p>Copyrights @VTecknologies</p>
           </div>
           <div className="flex gap-x-4">
-            <HashLink
-              smooth
-              to="/app/terms#top"
+            <Link
+              to="/app/terms"
               className="text-[#5F6C7B] hover:text-[#33393f] transition duration-300"
-              scroll={(el) => el.scrollIntoView({ behavior: 'smooth' })}
             >
               Terms of Use
-            </HashLink>
-            <HashLink
-              smooth
-              to="/app/privacy#top"
+            </Link>
+            <Link
+              to="/app/privacy"
               className="text-[#5F6C7B] hover:text-[#33393f] transition duration-300"
-              scroll={(el) => el.scrollIntoView({ behavior: 'smooth' })}
             >
               Privacy Policy
-            </HashLink>
+            </Link>
           </div>
         </div>
       </div>

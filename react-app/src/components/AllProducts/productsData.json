@@ -3,243 +3,485 @@
     {
       "id": "1",
       "key": "app/todo",
-      "icon": "assets/apps/todo.jpg",
+      "icon": "assets/apps/task-to-do-.png",
       "name": "Task Todo",
+      "tagline": "Structured task management for every ticket",
       "platform": "Freshdesk",
+      "platformCategory": "freshworks",
+      "targetUsers": ["Support Managers", "Team Leads", "QA Teams"],
+      "problemStatement": "Support teams often miss critical steps when resolving tickets, leading to inconsistent service quality, longer resolution times, and frustrated customers.",
+      "solution": "Task Todo enforces standardized workflows by requiring agents to complete predefined task checklists before closing tickets. Define unique checklists for each ticket type and ensure every ticket follows the same quality process.",
+      "benefits": [
+        "Ensure consistent ticket resolution quality across your team",
+        "Reduce training time for new support agents",
+        "Prevent tickets from closing until all required steps are complete",
+        "Improve SLA compliance with structured workflows"
+      ],
+      "howItWorks": [
+        "Install the app from the Freshdesk marketplace",
+        "Configure task lists for each ticket type in your account",
+        "Tasks automatically appear when agents open tickets",
+        "Agents check off tasks as they complete them",
+        "Optionally block ticket resolution until all tasks are done"
+      ],
+      "relatedProducts": ["twilio", "scheduler", "approval"],
       "description": [
-        "Create your own workflows with custom task lists for managing your tickets.",
-        "Businesses always have a set of processes and rules that need to be adhered to in their day to day operations. The Task To do App exclusively built for freshdesk comes in handy to structure this process for a newly joined team member and as well as a seasoned staff."
+        "Standardize your support workflows with customizable task checklists. Task Todo lets you define required steps for each ticket type—ensuring consistency, accountability, and faster resolution.",
+        "Whether you're onboarding new agents or enforcing SLA procedures, Task Todo helps your team deliver consistent, high-quality support every time."
       ],
       "videolink": "https://www.youtube.com/watch?v=luOrjK2I1rk",
       "appurl": "https://www.freshworks.com/apps/task_master/",
-      "installationpprocedures": [
-        "Make sure to install the app from the Freshdesk marketplace.",
+      "installationprocedures": [
+        "Install the app from the Freshdesk marketplace",
         "Open the Todo app from your gallery",
         "Enter the Freshdesk API key and domain URL",
-        "All ticket types available for the account is shown",
-        "Each ticket type has a section where you can choose to add/remove tasks",
-        "You can also choose to closeresolve tickets only after the set tasks are complete by turning on the toggle button",
-        "Click Install and you should see the app live in your ticket details page"
+        "Configure task lists for each ticket type",
+        "Enable completion enforcement if desired",
+        "Click Install to activate the app"
+      ],
+      "features": [
+        "Custom task lists for each ticket type",
+        "Completion enforcement before ticket resolution",
+        "Easy no-code configuration interface",
+        "Works with all Freshdesk ticket properties"
       ]
     },
     {
       "id": "2",
       "key": "pdc",
-      "icon": "assets/apps/PDC.jpeg",
+      "icon": "assets/apps/pdc-.png",
       "name": "Post Dated Cheques for Zoho Books",
+      "tagline": "Track and manage post-dated cheques with ease",
       "platform": "Zoho",
+      "platformCategory": "zoho",
+      "targetUsers": ["Finance Teams", "Accountants", "Bookkeepers"],
+      "problemStatement": "Managing post-dated cheques manually leads to missed deposits, cash flow surprises, and accounting errors. Spreadsheets are error-prone and don't integrate with your accounting system.",
+      "solution": "Post Dated Cheques extension seamlessly integrates with Zoho Books to track all cheques received from customers or issued to vendors. Get automated reminders, maintain accurate records, and improve cash flow visibility.",
+      "benefits": [
+        "Centralized cheque tracking inside Zoho Books",
+        "Automated maturity date reminders",
+        "Improved cash flow forecasting and visibility",
+        "Eliminate manual spreadsheet tracking"
+      ],
+      "howItWorks": [
+        "Install the extension from Zoho Marketplace",
+        "Connect your Zoho Books organization",
+        "Record cheques received or issued with maturity dates",
+        "Receive automated reminders before due dates",
+        "Track cheque status and payment history"
+      ],
+      "relatedProducts": ["simplepay", "payspace"],
       "description": [
-        "Post-dated cheques serve as a valuable financial tool for proactively planning and managing cash flow in various transactions.",
-        " These cheques are issued with a future date, allowing for scheduled payments. It is essential for businesses to keep a meticulous record of both issued and received post-dated cheques in their accounting systems.",
-        " In addressing this need, a dedicated extension has been developed to seamlessly manage checks received from customers or issued to vendors."
+        "Keep a clear record of cheques received from customers or issued to vendors—all within Zoho Books. Automate reminders, track maturity dates, and maintain accurate cash flow forecasts without spreadsheets.",
+        "Post-dated cheques serve as a valuable financial tool for proactively planning and managing cash flow. This extension ensures you never miss a deposit or payment date."
       ],
       "videolink": "https://www.youtube.com/watch?v=F2JhkMmz2yQ&t=67s",
       "appurl": "https://marketplace.zoho.com/app/books/post-dated-cheque-for-zoho-books",
-      "installationpprocedures": [
-        "1.Go to the Zoho Books marketplace and search for the application “Post Dated Cheques for Zoho Books”",
-        "2.Click on the application and full pager opens with all the application related information.",
-        "3.On the right top corner you will find the Buy Now button below which you will find the “Click here to install Extension” to install and experience the 14days free trial.",
-        "4.On click the link, a new page will open where you will be asked to select the organisation ion which you wish to install the application. This happens only if your Zoho Books account is logged in.",
-        "5.If your Zoho Books account is not logged in then you will be requested to login into the account.",
-        "6.Once the above step is completed you will have to agree to the terms and condition and click on the next button.",
-        "7.The next steps is to authorise the connection, in this new page the Authorisation happens and you can complete by clicking on connect.",
-        "8.Now the connection is completed and the last step is to create the authorised connection through Zoho Flow.",
-        "9.Click on connect and accept the listed information we wish to access and associate it to the cheques you receive.",
-        "10.The installation is completed and you are good to use the our “Post Dated Cheques for Zoho Books” Seamlessly."
+      "installationprocedures": [
+        "Go to the Zoho Books marketplace and search for 'Post Dated Cheques for Zoho Books'",
+        "Click on the application to view details",
+        "Click 'Install Extension' to start the 14-day free trial",
+        "Select the organization where you want to install",
+        "Agree to terms and authorize the connection",
+        "Complete the Zoho Flow connection setup",
+        "Start tracking your post-dated cheques"
+      ],
+      "features": [
+        "Track cheques received from customers",
+        "Track cheques issued to vendors",
+        "Automated maturity date reminders",
+        "Integration with Zoho Books transactions",
+        "Comprehensive cheque status reporting"
       ]
     },
     {
       "id": "3",
       "key": "scheduler",
-      "icon": "assets/apps/scheduler.jpg",
+      "icon": "assets/apps/tkt-scheduler.png",
       "name": "Ticket Scheduler",
+      "tagline": "Automate recurring ticket creation",
       "platform": "Freshworks",
+      "platformCategory": "freshworks",
+      "targetUsers": [
+        "IT Teams",
+        "Operations Managers",
+        "Managed Service Providers"
+      ],
+      "problemStatement": "Manually creating recurring tickets for maintenance tasks, compliance checks, or routine requests wastes time and leads to missed deadlines when someone forgets.",
+      "solution": "Ticket Scheduler automatically generates tickets on daily, weekly, or monthly intervals. Set it up once and never worry about missing routine tasks again.",
+      "benefits": [
+        "Set-and-forget ticket automation",
+        "Reduce manual ticket creation workload",
+        "Never miss routine maintenance or compliance tasks",
+        "Customizable scheduling intervals"
+      ],
+      "howItWorks": [
+        "Install the app from the Freshworks marketplace",
+        "Enter your Freshdesk URL and API key",
+        "Create a new scheduled ticket with your desired interval",
+        "Customize all ticket fields and content",
+        "The app automatically creates tickets on schedule"
+      ],
+      "relatedProducts": ["app/todo", "approval"],
       "description": [
-        "Maximize efficiency in your firm by implementing automated approval workflows in Freshdesk",
-        "The approval app is the ultimate game-changer for businesses that want to optimize their ticketing solutions like Freshdesk. Say goodbye to tedious, time-consuming manual approval processes, and hello to streamlined and automated approvals.",
-        "Our approval app is designed to revolutionize the way businesses handle their approval processes. With just a few clicks, you can set up approval rules based on ticket properties, assign approvers within the Freshdesk ecosystem, and sit back and relax. Our app sends email notifications to the approvers, allowing them to approve or reject requests quickly and efficiently.",
-        "We know that sometimes a single approver might not be enough. That's why our app lets you assign multiple approvers to a single rule, and you can choose whether all of them need to approve or just one. It's all up to you.",
-        "Give your business the competitive edge it deserves with our approval app."
+        "Never miss routine tasks again. Ticket Scheduler automatically generates tickets on daily, weekly, or monthly intervals—perfect for maintenance reminders, compliance checks, or recurring client requests.",
+        "Simply download the app, set your schedule, and let automation handle the rest. Streamline your ticket management and focus on what matters."
       ],
       "videolink": "https://youtu.be/ZgPGDql1bpg",
-      "appurl": "https://www.freshworks.com/apps/ticket_schedules_1/"
+      "appurl": "https://www.freshworks.com/apps/ticket_schedules_1/",
+      "installationprocedures": [
+        "Install the app from the Freshworks marketplace",
+        "Enter your Freshdesk URL and API key",
+        "Access the app from the left panel",
+        "Create scheduled tickets with daily, weekly, or monthly intervals",
+        "Customize ticket fields and content",
+        "Save and let automation take over"
+      ],
+      "features": [
+        "Daily, weekly, and monthly scheduling options",
+        "Fully customizable ticket fields",
+        "Automatic ticket generation",
+        "Easy setup with no coding required"
+      ]
     },
     {
       "id": "4",
       "key": "stickynotes",
-      "icon": "assets/apps/stickynotes.jpg",
+      "icon": "assets/apps/sticky.png",
       "name": "Sticky Notes",
+      "tagline": "Quick internal notes for faster collaboration",
       "platform": "Freshworks",
+      "platformCategory": "freshworks",
+      "targetUsers": ["Support Agents", "Team Leads", "Customer Service Teams"],
+      "problemStatement": "Important context about tickets gets lost in long conversation threads, and agents waste time searching for critical information or repeating questions to colleagues.",
+      "solution": "Sticky Notes adds persistent, visible notes to tickets that stay front and center for your team. Share context, flag important details, and collaborate without cluttering customer conversations.",
+      "benefits": [
+        "Improve internal communication on tickets",
+        "Highlight critical information at a glance",
+        "Keep customer replies clean and professional",
+        "Speed up ticket handoffs between agents"
+      ],
+      "howItWorks": [
+        "Install the app from the Freshworks marketplace",
+        "Open any ticket in Freshdesk",
+        "Add sticky notes visible only to your team",
+        "Notes persist and remain visible on the ticket",
+        "Collaborate efficiently without customer-facing clutter"
+      ],
+      "relatedProducts": ["app/todo", "approval"],
       "description": [
-        "Effortlessly schedule your tickets at regular intervals, making ticket management a breeze.",
-        "With the Ticket Schedules App designed for Freshdesk, you can effortlessly schedule your tickets at regular intervals, making ticket management a breeze.",
-        "Simply download the app from the marketplace and set it up effortlessly.",
-        "Enter your Freshdesk URL and API key during installation to get started.",
-        "Once installed, you'll find the app conveniently located in the left panel of your Freshdesk account.",
-        " Choose from daily, weekly, or monthly options to schedule your tickets with ease. Customize all ticket fields to create personalized and informative content.",
-        "Sit back and relax as the app automatically generates tickets based on your scheduled intervals.",
-        "Streamline your ticket management process and enhance your Freshdesk experience with the Fresh Desk Scheduler app. Get started today and stay on top of your ticketing game!"
+        "Add persistent notes to tickets that stay visible to your team. Sticky Notes helps agents share context, flag important details, and collaborate without cluttering the customer-facing conversation.",
+        "Perfect for complex tickets that require handoffs or escalations, ensuring important context is never lost."
       ],
       "videolink": "https://youtu.be/Ofex-tAZufU",
-      "appurl": "https://www.freshworks.com/apps/sticky_notes_1/"
+      "appurl": "https://www.freshworks.com/apps/sticky_notes_1/",
+      "installationprocedures": [
+        "Install the app from the Freshworks marketplace",
+        "Access the app from your Freshdesk ticket sidebar",
+        "Add notes to any ticket",
+        "Notes are visible to all agents on your team"
+      ],
+      "features": [
+        "Persistent ticket notes",
+        "Team-visible collaboration",
+        "Non-intrusive to customer conversations",
+        "Quick and easy note creation"
+      ]
     },
     {
       "id": "5",
       "key": "approval",
-      "icon": "assets/apps/approval.jpg",
+      "icon": "assets/apps/approval.png",
       "name": "Approval Automations",
+      "tagline": "Streamline multi-level approvals in Freshdesk",
       "platform": "Freshworks",
+      "platformCategory": "freshworks",
+      "targetUsers": [
+        "Support Managers",
+        "Compliance Teams",
+        "Finance Approvers"
+      ],
+      "problemStatement": "Manual approval processes are slow, error-prone, and create bottlenecks. Tracking who approved what and when is difficult without a proper system.",
+      "solution": "Approval Automations routes tickets through approval workflows automatically. Define rules based on ticket properties, assign approvers, and track status—all without leaving Freshdesk.",
+      "benefits": [
+        "Eliminate manual approval follow-ups",
+        "Support sequential or parallel approvals",
+        "Full audit trail for compliance",
+        "Automated email notifications to approvers"
+      ],
+      "howItWorks": [
+        "Install the app from the Freshworks marketplace",
+        "Create approval rules based on ticket properties",
+        "Assign one or multiple approvers to each rule",
+        "Choose between sequential or parallel approval",
+        "Approvers receive email notifications with approve/reject links",
+        "Track approval status directly in Freshdesk"
+      ],
+      "relatedProducts": ["app/todo", "scheduler"],
       "description": [
-        "Maximize efficiency in your firm by implementing automated approval workflows in Freshdesk",
-        "The approval app is the ultimate game-changer for businesses that want to optimize their ticketing solutions like Freshdesk. Say goodbye to tedious, time-consuming manual approval processes, and hello to streamlined and automated approvals.",
-        "Our approval app is designed to revolutionize the way businesses handle their approval processes. With just a few clicks, you can set up approval rules based on ticket properties, assign approvers within the Freshdesk ecosystem, and sit back and relax. Our app sends email notifications to the approvers, allowing them to approve or reject requests quickly and efficiently.",
-        "We know that sometimes a single approver might not be enough. That's why our app lets you assign multiple approvers to a single rule, and you can choose whether all of them need to approve or just one. It's all up to you.",
-        "Give your business the competitive edge it deserves with our approval app."
+        "Maximize efficiency by implementing automated approval workflows in Freshdesk. Say goodbye to tedious manual approval processes and hello to streamlined, automated approvals.",
+        "Set up approval rules based on ticket properties, assign multiple approvers, and let the system handle notifications and tracking. Give your business the competitive edge it deserves."
       ],
       "videolink": "https://www.youtube.com/watch?v=tmYUO4RrstA",
-      "appurl": "https://www.freshworks.com/apps/approval_automations/"
+      "appurl": "https://www.freshworks.com/apps/approval_automations/",
+      "installationprocedures": [
+        "Install the app from the Freshworks marketplace",
+        "Configure approval rules based on ticket properties",
+        "Assign approvers from your Freshdesk users",
+        "Set up email notification templates",
+        "Activate the workflow"
+      ],
+      "features": [
+        "Rule-based approval routing",
+        "Single or multiple approvers per rule",
+        "Sequential or parallel approval options",
+        "Email notifications with approve/reject links",
+        "Complete approval audit trail"
+      ]
     },
     {
       "id": "6",
       "key": "twilio",
-      "icon": "assets/apps/twilio.jpg",
-      "name": "Twilio",
-      "platform": "FreshDesk",
+      "icon": "assets/apps/twilio.png",
+      "name": "Twilio Pro",
+      "tagline": "SMS support directly from Freshdesk",
+      "platform": "Freshdesk",
+      "platformCategory": "freshworks",
+      "targetUsers": [
+        "Support Teams",
+        "Customer Success Managers",
+        "Field Service Teams"
+      ],
+      "problemStatement": "Customers expect fast responses on their preferred channels. Without SMS integration, you miss opportunities to engage customers who prefer text over email.",
+      "solution": "Twilio Integration brings SMS communication directly into Freshdesk. Convert incoming texts into tickets, send automated status updates, and respond via SMS—all from your helpdesk.",
+      "benefits": [
+        "Two-way SMS communication within Freshdesk",
+        "Auto-generate tickets from incoming messages",
+        "SMS templates for faster agent responses",
+        "Automated notifications on ticket status changes"
+      ],
+      "howItWorks": [
+        "Set up a Twilio account with a dedicated phone number",
+        "Install the app and connect your Twilio credentials",
+        "Configure incoming SMS to ticket conversion rules",
+        "Set up auto-response templates for common scenarios",
+        "Agents can send SMS directly from ticket sidebar"
+      ],
+      "relatedProducts": ["app/todo", "approval", "scheduler"],
       "description": [
-        "Enhance your Freshdesk experience by integrating SMS communication through Twilio.",
-        "This app empowers you to seamlessly manage customer interactions via SMS, providing a comprehensive support solution"
+        "Enhance your Freshdesk experience by integrating SMS communication through Twilio. This app empowers you to seamlessly manage customer interactions via SMS, providing a comprehensive support solution.",
+        "Convert incoming SMS to tickets, send status updates automatically, and use templates for quick responses—all without leaving Freshdesk."
       ],
       "videolink": "https://www.youtube.com/watch?v=qLThSFZjjF0",
       "appurl": "https://www.freshworks.com/apps/twilio_pro/",
-      "installationpprocedures": [
-        "1. Twilio Account Setup:",
-        "    Ensure you have a paid Twilio account.",
-        "    Purchase a Twilio Dedicated Number from this link: https://support.twilio.com/hc/en-us/articles/223135247-How-to-Search-for-and-Buy-a-Twilio-Phone-Number-from-Console.",
-
-        "2. Validate Twilio Account:",
-        "    Enter the following details to validate your Twilio account:",
-        "        Twilio Phone Number",
-        "        Twilio SID",
-        "        Twilio Auth Token",
-        "    Click 'Verify Twilio Account' to confirm validation.",
-
-        "3. Validate Freshdesk Account:",
-        "    Enter the following details to validate your Freshdesk account:",
-        "        Freshdesk Domain",
-        "        Freshdesk API Key",
-        "    Click 'Verify Freshdesk Account' to confirm validation.",
-
-        "4. Configure SMS Templates:",
-        "    Set up auto-response SMS for the following events:",
-        "        Status Change: Send SMS when a ticket status is updated.",
-        "        New Reply/Public Note: Send SMS when a reply or public note is added.",
-        "    Create reusable SMS templates for common customer queries.",
-
-        "5. Configure Incoming SMS Settings:",
-        "    Define when to generate tickets from incoming SMS messages:",
-        "        Automatically generate tickets for all incoming messages.",
-        "        Generate tickets based on a specific message format.",
-
-        "6. Setup Webhook URL:",
-        "    Copy the Webhook URL from the 'Incoming SMS Settings' tab.",
-        "    Paste it in your Twilio phone number’s webhook configuration.",
-        "    For detailed instructions, refer to this guide: https://www.twilio.com/docs/sms/tutorials/how-to-receive-and-reply-php#configure-your-twilio-number.",
-
-        "7. Final Step:",
-        "    Complete the installation and start using the app to enhance your Freshdesk support with SMS capabilities."
+      "installationprocedures": [
+        "Ensure you have a paid Twilio account with a dedicated number",
+        "Install the app from the Freshworks marketplace",
+        "Enter your Twilio Phone Number, SID, and Auth Token",
+        "Enter your Freshdesk domain and API key",
+        "Configure SMS templates for auto-responses",
+        "Set up webhook URL in Twilio for incoming messages",
+        "Start using SMS support in Freshdesk"
       ],
       "features": [
-        "Automatically convert incoming SMS messages into Freshdesk tickets using a Twilio number.",
-        "Notify customers about agent replies via SMS. Customers can respond directly by quoting ticket numbers.",
-        "Consolidate all customer messages within a specified timeframe into a single ticket.",
-        "Use customizable templates for customers to create tickets via SMS.",
-        "Freshdesk agents can send MMS attachments to customers.",
-        "Send frequently used SMS templates from the ticket sidebar for follow-ups, closures, or additional information requests.",
-        "Send automatic SMS notifications when ticket statuses change."
+        "Convert incoming SMS to Freshdesk tickets",
+        "Send SMS notifications on ticket status changes",
+        "Reusable SMS templates for common responses",
+        "MMS attachment support",
+        "Consolidate messages into single tickets",
+        "Two-way SMS conversation from ticket sidebar"
       ]
     },
     {
-      "id": "9",
+      "id": "7",
       "key": "intercom",
       "icon": "assets/apps/intercom.png",
-      "name": "Intercom",
+      "name": "Intercom For FreshSales",
+      "tagline": "Keep contacts in sync across platforms",
       "platform": "FreshSales",
+      "platformCategory": "freshworks",
+      "targetUsers": ["Sales Teams", "Marketing Ops", "CRM Administrators"],
+      "problemStatement": "Managing contacts across multiple platforms leads to duplicate data, inconsistent records, and wasted time on manual data entry. When contacts change in one system, the other falls out of sync.",
+      "solution": "Intercom Integration automatically synchronizes contacts between FreshSales and Intercom. When you create, update, or delete a contact in one system, the other stays current—eliminating duplicate data and manual entry.",
+      "benefits": [
+        "Real-time bidirectional contact sync",
+        "Automatic company association",
+        "Reduce CRM data inconsistencies",
+        "Eliminate manual data transfer between systems"
+      ],
+      "howItWorks": [
+        "Install the app in FreshSales",
+        "Connect your Intercom account with access token",
+        "Map fields between FreshSales and Intercom",
+        "Set up webhooks for real-time sync",
+        "Contacts sync automatically on create, update, and delete"
+      ],
+      "relatedProducts": ["simplepay"],
       "description": [
-        "The Freshsales and Intercom Integration App is designed to simplify customer management by automatically synchronizing contact data.",
-        "It ensures seamless updates, creation, and deletion of contacts between the two platforms, helping businesses maintain consistent and accurate customer information."
+        "The Freshsales and Intercom Integration App simplifies customer management by automatically synchronizing contact data between platforms.",
+        "It ensures seamless updates, creation, and deletion of contacts, helping businesses maintain consistent and accurate customer information across their sales and support tools."
       ],
       "videolink": "https://youtu.be/vHplfKYEBjI",
       "appurl": "https://www.freshworks.com/apps/freshsales_intercom_integration/",
-      "installationpprocedures": [
-        "1. Log in to Intercom:",
-        "Visit the Intercom website and log in with your credentials.",
-
-        "2. Access the Developer Hub:",
-        "After logging in, click on Settings, then go to Integrations. From there, navigate to the Developer Hub, where you can manage your Intercom apps.",
-
-        "3. Create or Select an App:",
-        "If you don’t already have an app, click on Create App, give it a name, and either create a new workspace or select an existing one. Then, click Create App to finalize the process.",
-        "If you already have an app, find your app in the list and click on it to proceed.",
-
-        "4. Locate the Test and Publish Option:",
-        "After creating the app or selecting an existing one, the system will usually redirect you to the app's page.",
-        "If the redirect doesn’t happen, simply find your app in the list and click on it to open the app’s settings page.",
-        "Once you're on the app’s page, look at the left-hand menu for the Test and Publish option.",
-
-        "5. Copy the Access Token:",
-        "In the Test and Publish section, you’ll find your workspace details, including the Access Token. Copy the token for use in your integration.",
-
-        "6.  Access Token Not Visible:",
-        "If the token is not visible, look for the Install App option next to the workspace name. Click on Install App, and once the app is installed, you will be able to see the workspace's Access Token. Copy this token for your integration.",
-        "7. Installation:",
-        "Log in to your Freshsales account, then go to the Freshsales Marketplace, find the Intercom Integration app, and click Install.",
-        "The app will ask for your Freshsales API key, Freshsales URL, and Intercom access token. Enter the credentials and click Verify Your Account. Your credentials will be secured.",
-        "Once you verify your account, the app will prompt you to map the fields between Freshsales and Intercom. Ensure that the Freshsales email is mapped to the Intercom email field, as this is mandatory.",
-        "Additionally, map fields such as phone, name, and company. After mapping the fields, click Install, and the app will be successfully installed in your Freshsales application.",
-        "Now, click on App Settings and then Edit Settings. The field mapping page will be displayed with the correct mapped values populated.",
-        "You will see an option to Click to Copy the Webhook near the Edit Credentials button at the top of the field mapping. Click on it to copy the webhook.",
-        "After that, make sure to click Save, otherwise, your app will not work.",
-
-        "8. Webhook Setup:",
-        "Once you copy the webhook, go to Intercom, find your app, and open it.",
-        "On the left side of the app, you will see the Configure option. Click on it, then click the Webhook button.",
-        "Paste the copied webhook into the Endpoint URL field. This webhook will be used to trigger events whenever you create, edit, update, or attach a company.",
-        "After pasting the webhook, you can assign permissions to the app, such as:",
-        "    company.contact.attached, company.contact.detached, company.created, company.deleted, contact.deleted, contact.email.updated, contact.lead.added_email, contact.lead.created, contact.lead.updated, contact.lead.tag.deleted, contact.user.tag.created, contact.user.created, contact.user.updated, contact.user.tag.deleted.",
-        "Once you select the topics, click Save.",
-        "Now, your app is ready for contact sync."
+      "installationprocedures": [
+        "Log in to Intercom and access the Developer Hub",
+        "Create or select an app and get the Access Token",
+        "Install the integration from FreshSales Marketplace",
+        "Enter your FreshSales API key and Intercom access token",
+        "Map contact fields between the two platforms",
+        "Configure webhooks in Intercom for real-time sync",
+        "Save settings and start syncing"
       ],
       "features": [
-        "Automatic Contact Creation: When a contact is created in Freshsales or Intercom, it is automatically added to the other platform.",
-        "Real-Time Updates: Changes to contact details, including names, emails, or phone numbers, are instantly synchronized.",
-        "Contact Deletion: Deleting a contact in one system removes it from the other to ensure data accuracy.",
-        "Company Attachment: Links contacts to their associated companies during synchronization, ensuring complete and structured data transfer.",
-        "Improved Data Management: Reduces manual effort, eliminates data duplication, and ensures smooth customer management workflows."
+        "Automatic contact creation across platforms",
+        "Real-time contact updates and sync",
+        "Contact deletion synchronization",
+        "Company attachment during sync",
+        "Field mapping customization"
+      ]
+    },
+    {
+      "id": "8",
+      "key": "simplepay",
+      "icon": "assets/apps/simplepay.png",
+      "name": "SimplePay for Zoho Books",
+      "tagline": "Payroll integration made simple",
+      "platform": "Zoho",
+      "platformCategory": "zoho",
+      "targetUsers": ["HR Teams", "Payroll Administrators", "Accountants"],
+      "problemStatement": "Manually transferring payroll data to your accounting system is time-consuming, error-prone, and creates reconciliation headaches at month-end.",
+      "solution": "SimplePay Integration connects your SimplePay payroll with Zoho Books to automate journal entries. Sync employee payment data, reduce manual accounting work, and ensure your books reflect accurate payroll liabilities.",
+      "benefits": [
+        "Automated journal entries from payroll",
+        "Accurate liability tracking in Zoho Books",
+        "Eliminate manual data transfer",
+        "Reduce month-end reconciliation time"
+      ],
+      "howItWorks": [
+        "Install the extension from Zoho Marketplace",
+        "Connect your SimplePay and Zoho Books accounts",
+        "Map payroll categories to Zoho Books accounts",
+        "Run payroll in SimplePay as usual",
+        "Journal entries are created automatically in Zoho Books"
+      ],
+      "relatedProducts": ["pdc", "payspace"],
+      "description": [
+        "The SimplePay Integration App for Zoho Books streamlines the payroll process by synchronizing payroll data and automating journal entries.",
+        "It ensures a smooth flow of payroll-related accounting, making it easier for businesses to manage employee payments and liabilities accurately."
+      ],
+      "videolink": "https://youtu.be/MHqqdiRyNDY",
+      "appurl": "https://marketplace.zoho.com/app/books/simplepay-for-zoho-books",
+      "installationprocedures": [
+        "Go to Zoho Books marketplace and search for 'SimplePay for Zoho Books'",
+        "Click 'Install Extension' for the 14-day free trial",
+        "Select your Zoho Books organization",
+        "Authorize the connection",
+        "Connect both Zoho Books and SimplePay accounts",
+        "Complete the installation and start syncing"
+      ],
+      "features": [
+        "Automatic payroll journal entries",
+        "Account mapping between systems",
+        "Real-time payroll data sync",
+        "Liability tracking automation",
+        "Seamless Zoho Books integration"
       ]
     },
     {
       "id": "10",
-      "key": "simplepay",
-      "icon": "assets/apps/simplepay.png",
-      "name": "Simplepay for Zoho Books",
-      "platform": "Zoho",
-      "description": [
-        " The SimplePay Integration App for Zoho Books is designed to streamline the payroll process by synchronizing payroll data and automating journal entries.",
-        "It ensures a smooth flow of payroll-related accounting, making it easier for businesses to manage employee payments and liabilities."
+      "key": "xero",
+      "icon": "assets/apps/hs-xero.png",
+      "name": "Xero Invoice Sync",
+      "tagline": "Sync contacts, products, and invoices between HubSpot and Xero",
+      "platform": "HubSpot",
+      "platformCategory": "hubspot",
+      "targetUsers": ["Finance Teams", "Sales Operations", "Accountants"],
+      "problemStatement": "Managing contacts, products, and invoices across HubSpot CRM and Xero separately leads to duplicate data entry, reconciliation errors, and wasted time switching between platforms.",
+      "solution": "Xero Invoice Sync connects HubSpot CRM with Xero to automatically sync contacts, products, and invoices—and lets you create, approve, and send Xero invoices directly from HubSpot Deal records without switching tools.",
+      "benefits": [
+        "Create and manage Xero invoices without leaving HubSpot",
+        "Bidirectional contact and product sync keeps both systems accurate",
+        "Full invoice lifecycle: draft, approve, send, clone, and void",
+        "Automatic webhook-based sync with echo-prevention to avoid loops"
       ],
-      "videolink": "https://youtu.be/MHqqdiRyNDY",
-      "appurl": "https://marketplace.zoho.com/app/books/post-dated-cheque-for-zoho-books",
-      "installationpprocedures": [
-        "1.Go to the Zoho Books marketplace and search for the application “Simplepay for Zoho Books”",
-        "2.Click on the application and full pager opens with all the application related information.",
-        "3.On the right top corner you will find the Buy Now button below which you will find the “Click here to install Extension” to install and experience the 14days free trial.",
-        "4.On click the link, a new page will open where you will be asked to select the organisation ion which you wish to install the application. This happens only if your Zoho Books account is logged in.",
-        "5.If your Zoho Books account is not logged in then you will be requested to login into the account.",
-        "6.Once the above step is completed you will have to agree to the terms and condition and click on the next button.",
-        "7.The next steps is to authorise the connection, in this new page the Authorisation happens and you can complete by clicking on connect.",
-        "8.Now you have to connect the both zoho books and simplepay accounts with necessary details.",
-        "9.Once the connection is completed, Click on the install button and you are good to go.",
-        "10.The installation is completed and you are good to use the our “Simplepay for Zoho Books” Seamlessly."
+      "howItWorks": [
+        "Install the app via the link provided by VTecknologies",
+        "Connect your HubSpot and Xero accounts in the Settings page",
+        "Configure sync direction for contacts, products, and invoices",
+        "Add the Xero Invoice card to Deal records and the Xero Sync card to Contact records",
+        "Create, approve, and send invoices directly from HubSpot Deals"
+      ],
+      "relatedProducts": ["simplepay", "payspace"],
+      "description": [
+        "Xero Invoice Sync is a HubSpot private app that eliminates the gap between your CRM and accounting. Contacts, products, and invoices stay in sync automatically—so your sales and finance teams always work from the same data.",
+        "Create Xero invoices directly from HubSpot Deal records, track invoice status in real time, and manage the full invoice lifecycle without ever leaving HubSpot."
+      ],
+      "videolink": "https://youtu.be/08uW7EclFts",
+      "appurl": "",
+      "installationprocedures": [
+        "Click the installation link provided by VTecknologies",
+        "On the HubSpot OAuth screen, review the requested permissions and click Connect app",
+        "Go to Settings → Integrations → Private Apps → Xero Invoice Sync → View settings",
+        "On the Connection tab, click Connect HubSpot API and authorize access",
+        "Click Connect to Xero, log in to Xero, select your organisation, and allow access",
+        "Configure sync settings for Contacts, Products, and Invoices on their respective tabs",
+        "Add the Xero Invoice card to Deal records and the Xero Sync card to Contact records"
+      ],
+      "features": [
+        "Contact sync with configurable direction (bidirectional, HubSpot→Xero, or Xero→HubSpot)",
+        "Bidirectional product sync between HubSpot Product Library and Xero Items",
+        "Invoice sync from Xero to HubSpot as Deals with line items",
+        "Create, edit, approve, send, clone, and void invoices from HubSpot Deal records",
+        "Deposit invoice support",
+        "Automatic webhook-based real-time sync",
+        "Sync logs and full audit trail"
+      ]
+    },
+    {
+      "id": "9",
+      "key": "payspace",
+      "icon": "assets/apps/payspace.png",
+      "name": "Payspace for Zoho Books",
+      "tagline": "Seamless payroll accounting integration",
+      "platform": "Zoho",
+      "platformCategory": "zoho",
+      "targetUsers": ["HR Teams", "Payroll Administrators", "Finance Teams"],
+      "problemStatement": "Disconnected payroll and accounting systems lead to manual data entry, reconciliation errors, and delayed financial reporting.",
+      "solution": "Payspace Integration connects your Payspace payroll system with Zoho Books for automated journal entries and expense recording. Keep your accounting accurate without manual intervention.",
+      "benefits": [
+        "Automated payroll journal entries",
+        "Accurate expense recording in Zoho Books",
+        "Reduced manual accounting effort",
+        "Faster month-end close"
+      ],
+      "howItWorks": [
+        "Install the extension from Zoho Marketplace",
+        "Connect your Payspace and Zoho Books accounts",
+        "Map payroll accounts to Zoho Books chart of accounts",
+        "Process payroll in Payspace normally",
+        "Journal entries sync automatically to Zoho Books"
+      ],
+      "relatedProducts": ["simplepay", "pdc"],
+      "description": [
+        "The Payspace Integration App for Zoho Books automates the flow of payroll data into your accounting system.",
+        "Sync payroll journals, map accounts, and eliminate the manual work of transferring payroll information between systems."
+      ],
+      "videolink": "https://youtu.be/example",
+      "appurl": "https://marketplace.zoho.com/app/books/payspace-for-zoho-books",
+      "installationprocedures": [
+        "Go to Zoho Books marketplace and search for 'Payspace for Zoho Books'",
+        "Click 'Install Extension' for the free trial",
+        "Select your Zoho Books organization",
+        "Authorize and connect Payspace credentials",
+        "Map accounts between systems",
+        "Complete installation"
+      ],
+      "features": [
+        "Automatic payroll journal creation",
+        "Account mapping customization",
+        "Expense recording automation",
+        "Seamless data synchronization",
+        "Zoho Books native integration"
       ]
     }
   ]
