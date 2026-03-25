@@ -123,6 +123,7 @@ const About = () => {
                 src={process.env.PUBLIC_URL + "/" + platform.logo}
                 alt={platform.name}
                 className="h-10 md:h-12 object-contain mx-auto grayscale hover:grayscale-0 transition-all duration-300"
+                loading="lazy"
               />
             </div>
           ))}

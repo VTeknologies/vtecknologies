@@ -390,7 +390,7 @@
     {
       "id": "10",
       "key": "xero",
-      "icon": "assets/apps/hs-xero.png",
+      "icon": "assets/apps/hs-xero.jpg",
       "name": "Xero Invoice Sync",
       "tagline": "Sync contacts, products, and invoices between HubSpot and Xero",
       "platform": "HubSpot",

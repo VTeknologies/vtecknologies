@@ -14,6 +14,7 @@ const Hero = () => {
           src={process.env.PUBLIC_URL + "/assets/hero-image.jpg"}
           alt="VTecknologies - SaaS Integration Solutions"
           className="object-cover w-full h-auto"
+          loading="lazy"
         />
       </div>
 
@@ -45,6 +46,7 @@ const Hero = () => {
           src={process.env.PUBLIC_URL + "/assets/hero-image.jpg"}
           alt="VTecknologies - SaaS Integration Solutions"
           className="object-contain w-full h-auto"
+          loading="lazy"
         />
       </div>
     </section>
