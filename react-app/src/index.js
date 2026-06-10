@@ -20,6 +20,7 @@ const ApprovalApp = lazy(() => import("./components/AllProducts/ApprovalAutomati
 const Scheduler = lazy(() => import("./components/AllProducts/Scheduler"));
 const StickyNotes = lazy(() => import("./components/About/StickyNotes"));
 const Xero = lazy(() => import("./components/AllProducts/Xero"));
+const RefundPolicy = lazy(() => import("./components/RefundPolicy"));
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -52,6 +53,7 @@ function AppRouter() {
             <Route path="scheduler" element={<Scheduler />} />
             <Route path="stickynotes" element={<StickyNotes />} />
             <Route path="xero" element={<Xero />} />
+            <Route path="app/refund-policy" element={<RefundPolicy />} />
             <Route path="*" element={<ErrorPage />} />
           </Route>
         </Routes>
