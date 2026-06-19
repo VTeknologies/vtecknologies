@@ -1,6 +1,14 @@
-import Wrapper from "../Wrapper/index";
+import useSEO from "../../hooks/useSEO";
 
 const Privacy = () => {
+  useSEO({
+    title: "Privacy Policy",
+    description:
+      "VTecknologies privacy policy explains how we collect, use, and protect your personal information across our SaaS integration apps and website.",
+    canonicalPath: "/app/privacy",
+    robots: "index, follow",
+  });
+
   return (
     // <Wrapper>
     <section
@@ -10,9 +18,9 @@ const Privacy = () => {
       id="privacy-policy"
     >
       <div className="col-span-12 text-left mt-8">
-        <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl mb-9 font-extrabold text-[#094067] leading-tight pt-1 text-center">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl mb-9 font-extrabold text-[#094067] leading-tight pt-1 text-center">
           Privacy Policy
-        </h3>
+        </h1>
         <div className="mb-6 text-base md:text-lg tracking-wide leading-8 font-medium text-[#5F6C7B] pr-0 md:pr-4 xl:pr-32">
           <div className="mb-4 mx-auto">
             Your privacy is important to us. It is Vtecknologies' policy to
@@ -29,7 +37,7 @@ const Privacy = () => {
             information, feel free to contact us.
           </div>
           <div className="mb-4">
-            <p className="text-3xl font-bold mb-4">Information you Provide :</p>
+            <h2 className="text-3xl font-bold mb-4">Information you Provide</h2>
             Our Services allow you to create connections or integrations between
             the third-party applications you use. When you utilize the Services,
             information or content is transferred from one application to
@@ -59,15 +67,15 @@ const Privacy = () => {
             storage.
           </div>
           <div className="mb-4">
-            <p className="text-3xl font-bold mb-4">Interactions :</p>
+            <h2 className="text-3xl font-bold mb-4">Interactions</h2>
             If you encounter any issues or have feature requests, you can email
             us, and we will assist you. These interactions are retained by us to
             provide better service to our customers.
           </div>
           <div className="mb-4">
-            <p className="text-3xl font-bold mb-4">
-              Publicly Available Informations :
-            </p>
+            <h2 className="text-3xl font-bold mb-4">
+              Publicly Available Information
+            </h2>
             Information from Social Media Sites and Other Publicly Available
             Sources When you provide feedback or reviews about our products, or
             interact with us on marketplaces, review sites, or social media
@@ -87,7 +95,7 @@ const Privacy = () => {
             even if you delete it from these sites.
           </div>
           <div className="mb-4">
-            <p className="text-3xl font-bold mb-4">Data Security:</p>V
+            <h2 className="text-3xl font-bold mb-4">Data Security</h2>V
             Tecknologies takes steps to protect your personal information from
             loss, misuse, and unauthorized access, considering the processing
             risks and nature of the data. However, no application, internet, or

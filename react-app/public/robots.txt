@@ -1,3 +1,8 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Allow: /
+
+# Block non-public utility paths
+Disallow: /static/
+Disallow: /*.json$
+
+Sitemap: https://www.vtecknologies.com/sitemap.xml

@@ -1,7 +1,7 @@
 import React, { Suspense, lazy, useEffect } from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import { Route, HashRouter, Routes, useLocation } from "react-router-dom";
+import { Route, BrowserRouter, Routes, useLocation } from "react-router-dom";
 import Wrapper from "./components/Wrapper";
 
 const Home = lazy(() => import("./components/Home/index"));
@@ -32,7 +32,7 @@ function ScrollToTop() {
 
 function AppRouter() {
   return (
-    <HashRouter basename="/">
+    <BrowserRouter>
       <ScrollToTop />
       <Suspense fallback={<div className="min-h-screen flex items-center justify-center"><div className="w-8 h-8 border-4 border-[#D687EB] border-t-transparent rounded-full animate-spin"></div></div>}>
         <Routes>
@@ -58,7 +58,7 @@ function AppRouter() {
           </Route>
         </Routes>
       </Suspense>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 

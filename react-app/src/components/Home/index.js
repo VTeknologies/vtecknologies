@@ -8,8 +8,10 @@ import useSEO from "../../hooks/useSEO";
 
 const Home = () => {
   useSEO({
-    title: "Home",
-    description: "VTecknologies builds powerful apps and integrations for Freshworks, Zoho, Zendesk, and other SaaS platforms. Automate workflows and improve team productivity."
+    title: null,
+    description:
+      "VTecknologies builds powerful apps and integrations for Freshworks, Zoho, Zendesk, and other SaaS platforms. Automate workflows and improve team productivity.",
+    canonicalPath: "/",
   });
 
   return (

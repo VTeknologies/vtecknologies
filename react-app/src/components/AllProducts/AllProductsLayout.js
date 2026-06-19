@@ -9,7 +9,9 @@ export default function AllProductsLayout() {
 
   useSEO({
     title: "All Products",
-    description: "Browse VTecknologies apps for Freshworks, Zoho, and other SaaS platforms. Find workflow automation, integrations, and productivity tools."
+    description:
+      "Browse VTecknologies apps for Freshworks, Zoho, and other SaaS platforms. Find workflow automation, integrations, and productivity tools.",
+    canonicalPath: "/all",
   });
 
   const filters = [

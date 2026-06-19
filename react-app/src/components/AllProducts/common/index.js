@@ -3,6 +3,7 @@ import { HashLink } from "react-router-hash-link";
 import PlatformBadge from "../../PlatformBadge";
 import RelatedProducts from "../../RelatedProducts";
 import useSEO from "../../../hooks/useSEO";
+import useStructuredData from "../../../hooks/useStructuredData";
 
 const ProductDetails = ({
   icon,
@@ -33,7 +34,31 @@ const ProductDetails = ({
 
   useSEO({
     title: name,
-    description: tagline || (descriptionArray[0] ? descriptionArray[0].substring(0, 155) : '')
+    description: tagline || (descriptionArray[0] ? descriptionArray[0].substring(0, 155) : ''),
+    canonicalPath: productKey ? `/${productKey}` : undefined,
+    type: 'website',
+  });
+
+  useStructuredData({
+    '@context': 'https://schema.org',
+    '@type': 'SoftwareApplication',
+    name: name,
+    applicationCategory: 'BusinessApplication',
+    operatingSystem: 'Web',
+    description: tagline || (descriptionArray[0] || ''),
+    url: appurl || `https://www.vtecknologies.com/${productKey || ''}`,
+    author: {
+      '@type': 'Organization',
+      name: 'VTecknologies',
+      url: 'https://www.vtecknologies.com',
+    },
+    ...(appurl && {
+      offers: {
+        '@type': 'Offer',
+        url: appurl,
+        availability: 'https://schema.org/InStock',
+      },
+    }),
   });
 
   return (

@@ -3,6 +3,6 @@
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/react-fontawesome": "^0.2.2",
     "aos": "^2.3.4",
-    "zcatalyst-cli": "^1.25.0"
+    "zcatalyst-cli": "^1.26.1"
   }
 }

@@ -1,4 +1,14 @@
+import useSEO from "../../hooks/useSEO";
+
 const RefundPolicy = () => {
+  useSEO({
+    title: "Return, Refund & Cancellation Policy",
+    description:
+      "VTecknologies refund and cancellation policy for PDC Tracker and other SaaS subscription products. Understand eligibility, timelines, and how to request a refund.",
+    canonicalPath: "/app/refund-policy",
+    robots: "index, follow",
+  });
+
   return (
     <section
       data-aos="fade-up"
@@ -7,9 +17,9 @@ const RefundPolicy = () => {
       id="refund-policy"
     >
       <div className="flex-col justify-center col-span-8 text-left mt-8 mx-auto">
-        <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl mb-9 font-extrabold text-[#094067] leading-tight pt-8 text-center">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl mb-9 font-extrabold text-[#094067] leading-tight pt-8 text-center">
           Return, Refund & Cancellation Policy
-        </h3>
+        </h1>
 
         <div className="mb-6 text-base md:text-lg tracking-wide leading-8 font-medium text-[#5F6C7B] pr-0 md:pr-4 xl:pr-32 justify-center mx-auto">
           <div className="mb-4">
@@ -17,12 +27,12 @@ const RefundPolicy = () => {
           </div>
 
           <div className="mb-4">
-            <p className="mb-3 font-bold">Nature of Service</p>
+            <h2 className="mb-3 font-bold">Nature of Service</h2>
             PDC Tracker is a cloud-based software solution that enables businesses to manage, track, and monitor post-dated cheques, payment schedules, collections, reminders, and related financial workflows. As our services are digital in nature, no physical products are shipped to customers.
           </div>
 
           <div className="mb-4">
-            <p className="mb-3 font-bold">Subscription Cancellation</p>
+            <h2 className="mb-3 font-bold">Subscription Cancellation</h2>
             Customers may cancel their subscription at any time through their account settings or by contacting our support team. Upon cancellation:
             <ul className="mt-3 space-y-2 list-disc list-inside">
               <li>The subscription will remain active until the end of the current billing period.</li>
@@ -33,12 +43,12 @@ const RefundPolicy = () => {
           </div>
 
           <div className="mb-4">
-            <p className="mb-3 font-bold">Refund Policy</p>
+            <h2 className="mb-3 font-bold">Refund Policy</h2>
             We strive to provide a reliable and high-quality service. If you are dissatisfied with your purchase, you may request a refund under the following conditions.
           </div>
 
           <div className="mb-4">
-            <p className="mb-3 font-bold">Eligible Refund Requests</p>
+            <h2 className="mb-3 font-bold">Eligible Refund Requests</h2>
             Refund requests may be considered if:
             <ul className="mt-3 space-y-2 list-disc list-inside">
               <li>The service cannot be accessed due to a verified technical issue.</li>
@@ -48,7 +58,7 @@ const RefundPolicy = () => {
           </div>
 
           <div className="mb-4">
-            <p className="mb-3 font-bold">Non-Refundable Situations</p>
+            <h2 className="mb-3 font-bold">Non-Refundable Situations</h2>
             Refunds will not be provided for:
             <ul className="mt-3 space-y-2 list-disc list-inside">
               <li>Change of mind after purchase.</li>
@@ -61,20 +71,22 @@ const RefundPolicy = () => {
           </div>
 
           <div className="mb-4">
-            <p className="mb-3 font-bold">Refund Processing</p>
+            <h2 className="mb-3 font-bold">Refund Processing</h2>
             Approved refunds will be processed through the original payment method used during purchase. Refunds are generally processed within 7 to 14 business days, depending on the payment provider and banking institution.
           </div>
 
           <div className="mb-4">
-            <p className="mb-3 font-bold">Chargebacks</p>
+            <h2 className="mb-3 font-bold">Chargebacks</h2>
             Customers are encouraged to contact us before initiating a chargeback. Unauthorized or fraudulent chargebacks may result in account suspension while the matter is investigated.
           </div>
 
           <div className="mb-4">
-            <p className="mb-3 font-bold">Contact for Refunds and Cancellations</p>
+            <h2 className="mb-3 font-bold">Contact for Refunds and Cancellations</h2>
             To request a refund or cancel your subscription, please reach out to our support team:
             <br /><br />
-            <span className="font-bold">V Tecknologies</span>
+            <span className="font-bold">Vijayashree B</span>
+            <br />
+            Trading as: VTecknologies
             <br />
             Email: <a href="mailto:support@vtecknologies.com" className="text-[#094067] underline">support@vtecknologies.com</a>
             <br />

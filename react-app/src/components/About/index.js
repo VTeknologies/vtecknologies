@@ -5,7 +5,9 @@ import useSEO from "../../hooks/useSEO";
 const About = () => {
   useSEO({
     title: "About Us",
-    description: "Learn about VTecknologies - a software company building apps and integrations for Freshworks, Zoho, Zendesk, and other SaaS platforms."
+    description:
+      "Learn about VTecknologies — a software company building apps and integrations for Freshworks, Zoho, Zendesk, and other SaaS platforms.",
+    canonicalPath: "/app/about",
   });
 
   const whatWeDo = [

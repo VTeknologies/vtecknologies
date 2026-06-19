@@ -1,5 +1,14 @@
-import Wrapper from "../Wrapper";
+import useSEO from "../../hooks/useSEO";
+
 const Terms = () => {
+  useSEO({
+    title: "Terms of Service",
+    description:
+      "Read VTecknologies Terms of Service governing the use of our SaaS integration apps and website, including accounts, termination, and governing law.",
+    canonicalPath: "/app/terms",
+    robots: "index, follow",
+  });
+
   return (
     <section
       data-aos="fade-up"
@@ -8,15 +17,15 @@ const Terms = () => {
       id="terms"
     >
       <div className="flex-col justify-center col-span-8 text-left mt-8 mx-auto">
-        <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl mb-9 font-extrabold text-[#094067] leading-tight pt-8 text-center">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl mb-9 font-extrabold text-[#094067] leading-tight pt-8 text-center">
           Terms of Service
-        </h3>
+        </h1>
 
         <div className="mb-6 text-base md:text-lg tracking-wide leading-8 font-medium text-[#5F6C7B] pr-0 md:pr-4 xl:pr-32 justify-center mx-auto">
           <div className="mb-4">
             Please read these Terms of Service ("Terms", "Terms of Service")
             carefully before using the https://www.vtecknologies.com website
-            (the "Service") operated by VTecknologies ("us", "we", or "our").
+            (the "Service") operated by Vijayashree B, trading as VTecknologies ("us", "we", or "our").
             Your access to and use of the Service is conditioned on your
             acceptance of and compliance with these Terms. These Terms apply to
             all visitors, users and others who access or use the Service. By
@@ -25,7 +34,7 @@ const Terms = () => {
             the Service.
           </div>
           <div className="mb-4">
-            <p className="mb-3 font-bold">Accounts</p>
+            <h2 className="mb-3 font-bold">Accounts</h2>
             When you create an account with us, you must provide us information
             that is accurate, complete, and current at all times. Failure to do
             so constitutes a breach of the Terms, which may result in immediate
@@ -39,7 +48,7 @@ const Terms = () => {
           </div>
 
           <div className="mb-4">
-            <p className="mb-3 font-bold">Links To Other Web Sites</p>
+            <h2 className="mb-3 font-bold">Links To Other Web Sites</h2>
             Our Service may contain links to third-party web sites or services
             that are not owned or controlled by Vtecknologies. Vtecknologies has
             no control over, and assumes no responsibility for, the content,
@@ -54,7 +63,7 @@ const Terms = () => {
           </div>
 
           <div className="mb-4">
-            <p className="mb-3 font-bold">Termination</p>
+            <h2 className="mb-3 font-bold">Termination</h2>
             We may terminate or suspend access to our Service immediately,
             without prior notice or liability, for any reason whatsoever,
             including without limitation if you breach the Terms. All provisions
@@ -73,7 +82,7 @@ const Terms = () => {
           </div>
 
           <div className="mb-4">
-            <p className="mb-3 font-bold">Governing Law</p>
+            <h2 className="mb-3 font-bold">Governing Law</h2>
             These Terms shall be governed and construed in accordance with the
             laws of Tamil Nadu, India, without regard to its conflict of law
             provisions. Our failure to enforce any right or provision of these
@@ -86,7 +95,7 @@ const Terms = () => {
           </div>
 
           <div className="mb-4">
-            <p className="mb-3 font-bold">Changes</p>
+            <h2 className="mb-3 font-bold">Changes</h2>
             We reserve the right, at our sole discretion, to modify or replace
             these Terms at any time. If a revision is material we will try to
             provide at least 15 days notice prior to any new terms taking
@@ -98,7 +107,7 @@ const Terms = () => {
           </div>
 
           <div className="mb-4">
-            <p className="mb-3 font-bold">Contact Us</p>
+            <h2 className="mb-3 font-bold">Contact Us</h2>
             If you have any questions about these Terms, please contact us.
           </div>
         </div>
